@@ -1,0 +1,587 @@
+:root {
+  --fg: #f4f1ff;
+  --muted: #a9a4cf;
+  --card: #2a2748;
+  --card-2: #34305a;
+  --border: #4a4579;
+  --shadow: #15132a;
+  --accent: #ffc23d;
+  font-family: 'Fredoka', 'Baloo 2', system-ui, sans-serif;
+  color: var(--fg);
+}
+
+* { box-sizing: border-box; }
+html, body { margin: 0; height: 100%; overflow: hidden; background: #1b1a33; }
+#app { position: fixed; inset: 0; }
+#app canvas { display: block; }
+
+/* --- Étiquettes des planètes --- */
+.labels { position: absolute; inset: 0; pointer-events: none; }
+.label {
+  pointer-events: auto;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 3px 11px 4px 8px;
+  border-radius: 999px;
+  color: var(--fg);
+  background: rgba(42, 39, 72, 0.85);
+  border: 2px solid var(--border);
+  box-shadow: 0 3px 0 var(--shadow);
+  white-space: nowrap;
+  transition: opacity 0.3s, transform 0.15s, border-color 0.15s;
+  user-select: none;
+}
+.label::before {
+  content: '';
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: var(--dot);
+}
+.label.hover, .label.selected {
+  border-color: var(--dot);
+  transform: translateY(-2px) scale(1.06);
+}
+
+/* --- Barre du haut --- */
+.hud {
+  position: fixed;
+  top: 16px;
+  left: 16px;
+  right: 16px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  pointer-events: none;
+}
+.hud > * { pointer-events: auto; }
+#map { position: fixed; inset: 0; width: 100%; height: 100%; display: block; touch-action: none; }
+#map[hidden], #app[hidden] { display: none; }
+.fade-in { animation: fade-in 0.45s ease-out; }
+@keyframes fade-in { from { opacity: 0; } to { opacity: 1; } }
+
+.brand,
+.brand:hover,
+.brand:active {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 0;
+  font-weight: 700;
+  font-size: 24px;
+  letter-spacing: 0.04em;
+  color: #fff;
+  text-shadow: 0 3px 0 #5b3a9e;
+  background: none;
+  border: none;
+  box-shadow: none;
+  transform: none;
+}
+.brand span { color: var(--accent); text-shadow: 0 3px 0 #b5561e; }
+.brand small {
+  font-size: 13px;
+  letter-spacing: 0;
+  text-shadow: none;
+  color: #1b1a33;
+  background: var(--accent);
+  padding: 2px 9px;
+  border-radius: 999px;
+  box-shadow: 0 3px 0 #b5561e;
+  transition: transform 0.15s;
+}
+.brand:hover small { transform: rotate(-8deg) scale(1.1); }
+
+.search-wrap { position: relative; flex: 1; max-width: 420px; margin: 0 auto; }
+#search {
+  width: 100%;
+  padding: 11px 18px;
+  font: inherit;
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--fg);
+  background: var(--card);
+  border: 3px solid var(--border);
+  border-radius: 999px;
+  box-shadow: 0 4px 0 var(--shadow);
+  outline: none;
+}
+#search:focus { border-color: var(--accent); }
+#search::placeholder { color: var(--muted); }
+#results {
+  position: absolute;
+  top: calc(100% + 10px);
+  left: 0;
+  right: 0;
+  margin: 0;
+  padding: 6px;
+  list-style: none;
+  background: var(--card);
+  border: 3px solid var(--border);
+  border-radius: 20px;
+  box-shadow: 0 5px 0 var(--shadow);
+}
+#results li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 9px 12px;
+  font-weight: 500;
+  border-radius: 14px;
+  cursor: pointer;
+}
+#results li.active, #results li:hover { background: var(--card-2); }
+#results li.empty { color: var(--muted); cursor: default; }
+.swatch { width: 14px; height: 14px; border-radius: 50%; border: 2px solid rgba(255, 255, 255, 0.5); }
+
+button {
+  font: inherit;
+  font-weight: 600;
+  color: var(--fg);
+  background: var(--card);
+  border: 3px solid var(--border);
+  border-radius: 999px;
+  padding: 9px 18px;
+  box-shadow: 0 4px 0 var(--shadow);
+  cursor: pointer;
+  transition: transform 0.1s, box-shadow 0.1s;
+}
+button:hover { border-color: var(--accent); }
+button:active { transform: translateY(3px); box-shadow: 0 1px 0 var(--shadow); }
+
+/* --- Fiche du rappeur --- */
+.panel {
+  position: fixed;
+  top: 88px;
+  right: 16px;
+  width: min(340px, calc(100vw - 32px));
+  padding: 22px;
+  background: var(--card);
+  border: 3px solid var(--border);
+  border-radius: 26px;
+  box-shadow: 0 6px 0 var(--shadow);
+  transform: translateX(calc(100% + 40px)) rotate(4deg);
+  transition: transform 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+.panel.open { transform: none; }
+#panel-close {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  width: 36px;
+  height: 36px;
+  padding: 0;
+  font-size: 20px;
+  line-height: 1;
+}
+.panel-type {
+  display: inline-block;
+  margin: 0;
+  padding: 3px 12px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #1b1a33;
+  background: var(--accent);
+  border-radius: 999px;
+}
+#panel-name { margin: 10px 0 10px; font-size: 32px; font-weight: 700; }
+#panel-desc { margin: 0 0 14px; line-height: 1.5; }
+#panel-desc.muted { color: var(--muted); font-size: 14px; }
+.tags { display: flex; flex-wrap: wrap; gap: 6px; margin: 0; padding: 0; list-style: none; }
+.tags li { padding: 4px 12px; font-size: 13px; background: var(--card-2); border-radius: 999px; }
+.panel-link {
+  display: block;
+  margin-top: 18px;
+  padding: 10px 16px;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+  color: #1b1a33;
+  background: var(--accent);
+  border-radius: 999px;
+  box-shadow: 0 4px 0 var(--shadow);
+  transition: transform 0.1s;
+}
+.panel-link:hover { transform: translateY(-2px); }
+
+.hint {
+  position: fixed;
+  bottom: 14px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: var(--muted);
+  font-size: 13px;
+  text-align: center;
+  pointer-events: none;
+  width: calc(100% - 32px);
+}
+
+@media (max-width: 640px) {
+  .brand { display: none; }
+  #overview { padding: 9px 12px; font-size: 14px; }
+  .panel { top: auto; bottom: 44px; }
+}
+
+/* --- Badges (coup de cœur, nouveau, …) --- */
+.label-badges { margin-left: 4px; font-size: 12px; letter-spacing: 1px; }
+.badges { display: flex; flex-wrap: wrap; gap: 6px; margin: 8px 0 0; padding: 0; list-style: none; }
+.badges:empty { display: none; }
+.badges li {
+  padding: 3px 10px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--badge);
+  background: color-mix(in srgb, var(--badge) 16%, transparent);
+  border: 2px solid var(--badge);
+  border-radius: 999px;
+}
+
+/* --- Filtre par badge --- */
+.filters { display: flex; flex-wrap: wrap; justify-content: center; gap: 6px; margin-top: 10px; }
+.chip,
+.chip:active {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 6px 4px 12px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--fg);
+  background: var(--card);
+  border: 2px solid var(--border);
+  border-radius: 999px;
+  box-shadow: 0 3px 0 var(--shadow);
+  transform: none;
+}
+.chip:hover:not(:disabled) { border-color: var(--chip); }
+.chip.on { color: #1b1a33; background: var(--chip); border-color: var(--chip); }
+.chip:disabled { opacity: 0.4; cursor: default; }
+.chip-count {
+  min-width: 22px;
+  padding: 1px 6px;
+  font-size: 12px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.12);
+  border-radius: 999px;
+}
+.chip.on .chip-count { background: rgba(0, 0, 0, 0.15); }
+#results { max-height: 55vh; overflow-y: auto; }
+.result-badges { margin-left: auto; font-size: 13px; }
+@media (max-width: 640px) {
+  .filters { flex-wrap: nowrap; justify-content: flex-start; overflow-x: auto; padding-bottom: 6px; }
+  .chip { flex: none; }
+}
+
+/* --- Menu « Styles » (tags) --- */
+.chip-styles.open { border-color: var(--chip); }
+.styles-panel {
+  position: absolute;
+  top: calc(100% + 10px);
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 20;
+  width: min(460px, calc(100vw - 32px));
+  padding: 12px;
+  background: var(--card);
+  border: 3px solid var(--border);
+  border-radius: 20px;
+  box-shadow: 0 6px 0 var(--shadow);
+}
+.styles-panel[hidden] { display: none; }
+.styles-search {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 8px 14px;
+  font: inherit;
+  font-size: 14px;
+  color: var(--fg);
+  background: var(--card-2);
+  border: 2px solid var(--border);
+  border-radius: 999px;
+  outline: none;
+}
+.styles-search:focus { border-color: #a9a4cf; }
+.styles-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  max-height: min(260px, 45vh);
+  overflow-y: auto;
+  padding: 2px 2px 6px;
+}
+.styles-empty { margin: 6px; color: var(--muted); font-size: 14px; }
+@media (max-width: 640px) {
+  .styles-list { flex-wrap: wrap; }
+}
+
+/* --- Ma galaxie : bouton, fenêtre de connexion, tiroir --- */
+.hud-right { display: flex; gap: 10px; align-items: center; }
+.moi-btn { display: inline-flex; align-items: center; gap: 8px; white-space: nowrap; }
+.moi-avatar { width: 24px; height: 24px; border-radius: 50%; object-fit: cover; }
+
+.connect-dialog {
+  width: min(480px, calc(100vw - 32px));
+  padding: 24px;
+  color: var(--fg);
+  background: var(--card);
+  border: 3px solid var(--border);
+  border-radius: 26px;
+  box-shadow: 0 8px 0 var(--shadow);
+}
+.connect-dialog::backdrop { background: rgba(10, 8, 25, 0.6); backdrop-filter: blur(3px); }
+.connect-dialog h2 { margin: 0 0 8px; }
+.connect-help { margin: 0 0 10px; line-height: 1.5; }
+.connect-how { margin-bottom: 14px; color: var(--muted); font-size: 14px; }
+.connect-how summary { cursor: pointer; color: var(--fg); }
+.connect-how ol { margin: 8px 0 0; padding-left: 20px; line-height: 1.6; }
+.connect-input {
+  width: 100%;
+  padding: 11px 16px;
+  font: inherit;
+  color: var(--fg);
+  background: var(--card-2);
+  border: 3px solid var(--border);
+  border-radius: 999px;
+  outline: none;
+}
+.connect-input:focus { border-color: #a238ff; }
+.connect-status { min-height: 1.4em; margin: 10px 4px; font-size: 14px; color: var(--muted); }
+.connect-status.error { color: #ff8fa3; }
+.connect-actions { display: flex; justify-content: flex-end; gap: 10px; }
+.connect-go { background: #a238ff; border-color: #a238ff; color: #fff; }
+.connect-go:disabled { opacity: 0.6; cursor: progress; }
+.connect-note { margin: 14px 0 0; font-size: 12px; color: var(--muted); }
+
+.galaxie {
+  position: fixed;
+  top: 84px;
+  left: 16px;
+  bottom: 44px;
+  z-index: 15;
+  width: min(380px, calc(100vw - 32px));
+  overflow-y: auto;
+  padding: 22px;
+  background: var(--card);
+  border: 3px solid var(--border);
+  border-radius: 26px;
+  box-shadow: 0 6px 0 var(--shadow);
+  transform: translateX(calc(-100% - 40px)) rotate(-3deg);
+  transition: transform 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+.galaxie.open { transform: none; }
+.gx-close { position: absolute; top: 12px; right: 12px; width: 36px; height: 36px; padding: 0; font-size: 20px; }
+.gx-head { display: flex; gap: 12px; align-items: center; margin-bottom: 14px; }
+.gx-head h2 { margin: 0; font-size: 26px; }
+.gx-head p { margin: 2px 0 0; font-size: 13px; }
+.gx-avatar { width: 52px; height: 52px; border-radius: 50%; border: 3px solid var(--border); }
+.gx-stats { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-bottom: 8px; }
+.gx-stats div { padding: 10px 12px; background: var(--card-2); border-radius: 16px; }
+.gx-stats strong { display: block; font-size: 24px; }
+.gx-stats span { font-size: 12px; color: var(--muted); }
+.gx-section { margin-top: 18px; }
+.gx-section h3 { margin: 0 0 10px; font-size: 17px; }
+.gx-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  margin-bottom: 6px;
+  padding: 8px 10px;
+  text-align: left;
+  background: var(--card-2);
+  border: 2px solid transparent;
+  border-radius: 14px;
+  box-shadow: none;
+}
+.gx-row:hover { border-color: #c6f06a; }
+.gx-row:active { transform: none; }
+.gx-dot {
+  flex: none;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: radial-gradient(circle at 35% 35%, var(--c2), var(--c1));
+}
+.gx-row-text { display: grid; min-width: 0; }
+.gx-row-text small { color: var(--muted); font-weight: 400; font-size: 12px; line-height: 1.35; }
+.gx-chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.gx-chip { padding: 4px 12px; font-size: 13px; box-shadow: none; border-width: 2px; }
+.gx-top { margin: 0; padding: 0; list-style: none; display: grid; gap: 6px; counter-reset: gx; }
+.gx-top li { display: flex; align-items: center; gap: 10px; counter-increment: gx; }
+.gx-top li::before { content: counter(gx); width: 18px; color: var(--muted); font-size: 13px; text-align: right; }
+.gx-top img, .gx-noimg { width: 32px; height: 32px; border-radius: 50%; object-fit: cover; background: var(--card-2); }
+.gx-albums { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
+.gx-album { display: grid; gap: 4px; color: var(--fg); text-decoration: none; font-size: 12px; }
+.gx-album img { width: 100%; aspect-ratio: 1; border-radius: 12px; object-fit: cover; }
+.gx-album span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.gx-actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 20px; }
+.gx-logout { color: var(--muted); }
+.small { font-size: 12px; }
+.muted { color: var(--muted); }
+
+.panel-perso {
+  margin: 0 0 12px;
+  padding: 8px 12px;
+  font-size: 14px;
+  line-height: 1.45;
+  background: rgba(198, 240, 106, 0.1);
+  border: 2px solid rgba(198, 240, 106, 0.45);
+  border-radius: 14px;
+}
+@media (max-width: 640px) {
+  .moi-btn { padding: 9px 12px; font-size: 14px; }
+  .galaxie { top: 128px; }
+}
+
+/* --- Ma galaxie : vue plein écran (système solaire) --- */
+.ma-galaxie { position: fixed; inset: 0; z-index: 30; background: #1b1a33; }
+.ma-galaxie[hidden] { display: none; }
+.mg-scene { position: absolute; inset: 0; }
+.mg-scene canvas { display: block; }
+.mg-top {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  right: 16px;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  pointer-events: none;
+}
+.mg-top > * { pointer-events: auto; }
+.mg-title { margin: 0; font-size: 26px; text-shadow: 0 3px 0 #5b3a9e; }
+.mg-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin: 0 auto;
+  padding: 6px 16px;
+  font-size: 13px;
+  background: rgba(42, 39, 72, 0.85);
+  border: 2px solid var(--border);
+  border-radius: 999px;
+}
+.mg-legend span { display: inline-flex; align-items: center; gap: 6px; }
+.mg-legend i { width: 18px; height: 0; border-top: 3px solid; border-radius: 2px; }
+.lg-ecoute { border-color: #8fd8a8; }
+.lg-reco { border-color: #c6f06a; border-top-style: dashed !important; }
+.lg-fav { border-color: #8f86c8; }
+.mg-close { white-space: nowrap; }
+
+/* la carte d'infos (ancien tiroir) devient un panneau fixe à gauche, repliable */
+.ma-galaxie .galaxie {
+  position: absolute;
+  top: 76px;
+  left: 16px;
+  bottom: 16px;
+  z-index: 2;
+  width: min(340px, calc(100vw - 32px));
+  transform: none;
+  transition: transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1), opacity 0.3s;
+}
+.ma-galaxie.card-collapsed .galaxie { transform: translateX(calc(-100% - 40px)); opacity: 0; pointer-events: none; }
+.mg-card-toggle {
+  position: absolute;
+  left: 16px;
+  bottom: 16px;
+  z-index: 3;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  font-size: 18px;
+  display: none;
+}
+.ma-galaxie.card-collapsed .mg-card-toggle { display: block; }
+.ma-galaxie:not(.card-collapsed) .galaxie .gx-head { padding-right: 40px; }
+
+.mg-hint {
+  position: absolute;
+  bottom: 14px;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0;
+  color: var(--muted);
+  font-size: 13px;
+  pointer-events: none;
+}
+
+.mg-pick {
+  position: absolute;
+  right: 16px;
+  bottom: 16px;
+  z-index: 3;
+  width: min(340px, calc(100vw - 32px));
+  padding: 20px;
+  background: var(--card);
+  border: 3px solid var(--border);
+  border-top: 4px solid var(--accent);
+  border-radius: 24px;
+  box-shadow: 0 6px 0 var(--shadow);
+}
+.mg-pick[hidden] { display: none; }
+.mg-pick h3 { margin: 6px 0 8px; font-size: 26px; }
+.mg-pick-kind { margin: 0; font-size: 13px; font-weight: 600; color: var(--accent); }
+.mg-pick-why { margin: 0 0 8px; color: #c6f06a; font-size: 14px; }
+.mg-pick-desc { margin: 0 0 12px; font-size: 14px; line-height: 1.5; color: var(--muted); }
+.mg-pick-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; }
+.mg-pick-link { color: var(--fg); font-weight: 600; }
+
+/* Étiquettes du système solaire */
+.mg-labels { z-index: 1; }
+.mg-label { font-size: 13px; }
+.mg-label.mg-reco { border-color: #c6f06a; border-style: dashed; }
+.mg-label.mg-ecoute { border-color: #8fd8a8; }
+.mg-me {
+  display: grid;
+  justify-items: center;
+  gap: 4px;
+  pointer-events: none;
+  font-weight: 700;
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.8);
+}
+.mg-me img {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #f2d6ff;
+  box-shadow: 0 0 24px #a238ff;
+}
+.mg-fav {
+  display: grid;
+  justify-items: center;
+  gap: 2px;
+  color: var(--muted);
+  text-decoration: none;
+  font-size: 11px;
+  max-width: 90px;
+  text-align: center;
+  pointer-events: auto;
+}
+.mg-fav img {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #8f86c8;
+  transition: transform 0.15s;
+}
+.mg-fav:hover img { transform: scale(1.25); }
+.mg-fav span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; max-width: 90px; }
+
+@media (max-width: 760px) {
+  .mg-legend { display: none; }
+  .ma-galaxie .galaxie { top: 70px; bottom: auto; max-height: 45vh; }
+  .mg-title { font-size: 20px; }
+}
+.mg-label .label-badges { display: none; }
+.mg-legend i.lg-dot { width: 10px; height: 10px; border: 0; border-radius: 50%; background: #8fd8a8; }
+.mg-pick-go { display: inline-block; padding: 10px 20px; font-weight: 600; text-decoration: none; border-radius: 999px; border: 3px solid #a238ff; box-shadow: 0 4px 0 var(--shadow); }
+
+/* Carte 2D : couches fond + planètes 3D sous le canvas des étiquettes */
+.map-layer { position: fixed; inset: 0; width: 100%; height: 100%; display: block; pointer-events: none; }
+.map-layer[hidden] { display: none; }

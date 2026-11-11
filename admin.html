@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin · UnderSpace</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  </head>
+  <body class="admin-page">
+    <header class="ad-top">
+      <a class="brand" href="/">UNDER<span>SPACE</span><small>ADMIN</small></a>
+      <span id="ad-server" class="ad-pill">…</span>
+      <div class="ad-top-actions">
+        <button id="ad-add" type="button">+ Ajouter un artiste</button>
+        <button id="ad-undo" type="button" disabled>Annuler les modifications</button>
+        <button id="ad-save" type="button" class="ad-primary" disabled>Enregistrer</button>
+      </div>
+    </header>
+
+    <main class="ad-main">
+      <aside class="ad-side card">
+        <input id="ad-search" type="search" placeholder="Rechercher un artiste…" autocomplete="off" />
+        <div class="ad-side-tools">
+          <span id="ad-count" class="muted"></span>
+          <button id="ad-clear-new" type="button" class="ad-small" title="Retire le badge « Nouveau » de tous les artistes">✨ Retirer tous les « Nouveau »</button>
+        </div>
+        <ul id="ad-list" class="ad-list"></ul>
+      </aside>
+
+      <section id="ad-editor" class="ad-editor"></section>
+    </main>
+
+    <dialog id="ad-add-dialog" class="connect-dialog"></dialog>
+    <div id="ad-toast" class="ad-toast" hidden></div>
+
+    <script type="module" src="/src/admin.js"></script>
+  </body>
+</html>

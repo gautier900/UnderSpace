@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UnderSpace</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="app"></div>
+    <canvas id="map" hidden></canvas>
+
+    <header class="hud">
+      <button id="brand" class="brand" title="Changer de mode (2D / 3D)">UNDER<span>SPACE</span><small id="mode-badge">3D</small></button>
+      <div class="search-wrap">
+        <input id="search" type="text" placeholder="Rechercher un rappeur…   ( / )" autocomplete="off" spellcheck="false" />
+        <div id="filters" class="filters" aria-label="Filtrer par badge"></div>
+        <ul id="results" hidden></ul>
+      </div>
+      <div class="hud-right">
+        <button id="moi-btn" class="moi-btn">🎧 Relier Deezer</button>
+        <button id="overview">Vue d'ensemble</button>
+      </div>
+    </header>
+
+    <!-- Ma galaxie : vue plein écran (système solaire 3D + carte d'infos), remplie par src/moi-ui.js -->
+    <div id="ma-galaxie" class="ma-galaxie" hidden>
+      <div id="mg-scene" class="mg-scene"></div>
+      <div class="mg-top">
+        <h2 class="mg-title">🪐 Ma galaxie</h2>
+        <div class="mg-legend">
+          <span><i class="lg-dot"></i> Tes 10 plus écoutés (plus proche = plus écouté)</span>
+          <span><i class="lg-reco"></i> Recommandés</span>
+        </div>
+        <button id="mg-close" class="mg-close" type="button">Retour à UnderSpace ✕</button>
+      </div>
+      <aside id="galaxie" class="galaxie">
+      </aside>
+      <button id="mg-card-toggle" class="mg-card-toggle" type="button" title="Afficher / masquer les détails">☰</button>
+      <div id="mg-pick" class="mg-pick" hidden></div>
+      <p class="mg-hint">Glisse pour tourner · molette pour zoomer · clique une planète</p>
+    </div>
+
+    <!-- Fenêtre « Relier mon Deezer » -->
+    <dialog id="connect-dialog" class="connect-dialog"></dialog>
+
+    <aside id="panel" class="panel" aria-hidden="true">
+      <button id="panel-close" aria-label="Fermer">×</button>
+      <p id="panel-type" class="panel-type"></p>
+      <ul id="panel-badges" class="badges"></ul>
+      <h2 id="panel-name"></h2>
+      <p id="panel-desc"></p>
+      <ul id="panel-tags" class="tags"></ul>
+      <p id="panel-perso" class="panel-perso" hidden></p> 
+      <a id="panel-link" class="panel-link" href="#">Voir la page de l'artiste →</a>
+    </aside>
+
+    <div id="hint" class="hint"></div>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
