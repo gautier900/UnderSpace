@@ -60,7 +60,7 @@ if (!artiste) {
         { class: "muted" },
         "Cette planète n'existe pas (encore) dans la galaxie.",
       ),
-      h("a", { class: "btn", href: "/" }, "Retour à la galaxie"),
+      h("a", { class: "btn", href: "./" }, "Retour à la galaxie"),
     ),
   );
 } else {
@@ -74,7 +74,7 @@ function render(a) {
   document.body.style.setProperty("--c2", c2);
   document.body.style.setProperty("--accent", c3);
   if (a.id !== "exemple")
-    document.getElementById("back").href = `/#${encodeURIComponent(a.id)}`;
+    document.getElementById("back").href = `./#${encodeURIComponent(a.id)}`;
 
   const projets = [...(a.projets ?? [])].sort(byDateDesc);
   const singles = [...(a.singles ?? [])].sort(byDateDesc);
