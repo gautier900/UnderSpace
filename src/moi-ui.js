@@ -1,4 +1,5 @@
 // Interface « Ma galaxie » : relier son profil Deezer, voir ses recommandations et ses favoris.
+import { icon } from './icons.js';
 import { rappeurs } from './data/rappeurs.js';
 import { perso, NB_RECOS } from './perso.js';
 import { parseProfile, fetchProfile, saveProfile, clearProfile } from './deezer.js';
@@ -35,12 +36,12 @@ export function setupMoi({ onSelect, onPause = () => {} }) {
   // --- Bouton du haut ---------------------------------------------------------
   if (perso.connecte) {
     btn.replaceChildren(
-      perso.profil.user.image ? h('img', { class: 'moi-avatar', src: perso.profil.user.image, alt: '' }) : '🎧',
-      ' Ma galaxie',
+      h('span', { class: 'hb-ico' }, perso.profil.user.image ? h('img', { class: 'moi-avatar', src: perso.profil.user.image, alt: '' }) : icon('planet')),
+      h('span', { class: 'hb-txt' }, 'Ma galaxie'),
     );
     btn.title = `Profil Deezer : ${perso.profil.user.nom}`;
   } else if (perso.ecoutes.size) {
-    btn.textContent = '🪐 Ma galaxie';
+    btn.querySelector('.hb-txt').textContent = 'Ma galaxie';
   }
   btn.addEventListener('click', () => (perso.connecte || perso.ecoutes.size ? toggleDrawer() : openDialog()));
 
@@ -159,7 +160,7 @@ export function setupMoi({ onSelect, onPause = () => {} }) {
     pick.style.setProperty('--accent', r.planete.couleurs[2]);
     pick.replaceChildren(...[
       h('button', { class: 'gx-close', type: 'button', 'aria-label': 'Fermer', onclick: () => (pick.hidden = true) }, '×'),
-      h('p', { class: 'mg-pick-kind' }, kind === 'reco' ? '🧭 Recommandé pour toi' : perso.ecoutes.get(rid) === 'manuel' ? '✅ Coché comme écouté' : '✅ Dans tes favoris Deezer'),
+      h('p', { class: 'mg-pick-kind' }, kind === 'reco' ? 'Recommandé pour toi' : perso.ecoutes.get(rid) === 'manuel' ? 'Coché comme écouté' : 'Dans tes favoris Deezer'),
       h('h3', {}, r.nom),
       kind === 'reco' && reco ? h('p', { class: 'mg-pick-why' }, reco.raisons.join(' · ')) : null,
       r.description ? h('p', { class: 'mg-pick-desc' }, r.description.length > 180 ? r.description.slice(0, 177) + '…' : r.description) : null,
@@ -213,7 +214,7 @@ export function setupMoi({ onSelect, onPause = () => {} }) {
     const recoSection = h(
       'section',
       { class: 'gx-section' },
-      h('h3', {}, '🧭 Recommandés pour toi'),
+      h('h3', {}, 'Recommandés pour toi'),
       recos.length
         ? recos.map((reco) => planetRow(byId.get(reco.id), reco.raisons.join(' · ')))
         : h('p', { class: 'muted' }, 'Pas encore assez d’infos : ajoute des favoris sur Deezer ou coche des artistes que tu connais.'),
@@ -222,7 +223,7 @@ export function setupMoi({ onSelect, onPause = () => {} }) {
     const ecouteSection = h(
       'section',
       { class: 'gx-section' },
-      h('h3', {}, '✅ Tes artistes UnderSpace'),
+      h('h3', {}, 'Tes artistes UnderSpace'),
       ecoutes.length
         ? h(
             'div',
@@ -232,7 +233,7 @@ export function setupMoi({ onSelect, onPause = () => {} }) {
                 'button',
                 { class: 'gx-chip', type: 'button', onclick: () => (toggleDrawer(false), onSelect(r.id)) },
                 r.nom,
-                perso.ecoutes.get(r.id) === 'manuel' ? h('small', {}, ' ✋') : null,
+                perso.ecoutes.get(r.id) === 'manuel' ? h('small', { class: 'muted' }, ' · coché') : null,
               ),
             ),
           )
@@ -243,7 +244,7 @@ export function setupMoi({ onSelect, onPause = () => {} }) {
       ? h(
           'section',
           { class: 'gx-section' },
-          h('h3', {}, '🎧 Tes artistes favoris'),
+          h('h3', {}, 'Tes artistes favoris'),
           h('p', { class: 'muted small' }, 'Classés selon tes favoris Deezer (artistes, albums, titres, playlists). Deezer ne partage pas le nombre d’écoutes.'),
           h(
             'ol',
@@ -260,7 +261,7 @@ export function setupMoi({ onSelect, onPause = () => {} }) {
         ? h(
             'section',
             { class: 'gx-section' },
-            h('h3', {}, '💿 Tes albums favoris'),
+            h('h3', {}, 'Tes albums favoris'),
             h(
               'div',
               { class: 'gx-albums' },
@@ -297,7 +298,7 @@ export function setupMoi({ onSelect, onPause = () => {} }) {
             },
             '↻ Actualiser',
           )
-        : h('button', { type: 'button', onclick: () => (toggleDrawer(false), openDialog()) }, '🎧 Relier Deezer'),
+        : h('button', { type: 'button', onclick: () => (toggleDrawer(false), openDialog()) }, icon('headphones'), ' Relier Deezer'),
       p
         ? h(
             'button',

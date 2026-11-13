@@ -7,7 +7,7 @@ const API = 'https://api.deezer.com/';
 export const STORAGE_KEY = 'underspace-deezer';
 
 let n = 0;
-function jsonp(path, params = {}) {
+export function jsonp(path, params = {}) {
   return new Promise((resolve, reject) => {
     const cb = `__dz${Date.now()}_${n++}`;
     const qs = new URLSearchParams({ ...params, output: 'jsonp', callback: cb });

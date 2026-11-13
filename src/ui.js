@@ -1,6 +1,7 @@
 import { TYPE_LABELS } from "./planet.js";
 import { BADGES, badgesOf } from "./data/badges.js";
 import { perso } from "./perso.js";
+import { collaborations, byId as artistes } from "./graphe.js";
 
 const norm = (s) =>
   s
@@ -14,6 +15,9 @@ export function setupUI({ rappeurs, onSelect, onOverview, onClose, onFilter }) {
   const input = document.getElementById("search");
   const list = document.getElementById("results");
   const filtersEl = document.getElementById("filters");
+  const filtersBtn = document.getElementById("filters-btn");
+  const filtersPop = document.getElementById("filters-pop");
+  const activeEl = document.getElementById("active-filter");
   const panel = document.getElementById("panel");
   let current = [];
   let active = 0;
@@ -115,6 +119,25 @@ export function setupUI({ rappeurs, onSelect, onOverview, onClose, onFilter }) {
     if (!stylesPanel.hidden && !stylesPanel.contains(e.target) && !filtersEl.contains(e.target)) closeStyles();
   });
 
+  // Menu « Filtres » : replié par défaut pour laisser la vue sur les planètes.
+  function openPop() {
+    list.hidden = true;
+    filtersPop.hidden = false;
+    filtersBtn.setAttribute("aria-expanded", "true");
+    filtersBtn.classList.add("open");
+  }
+  function closePop() {
+    closeStyles();
+    filtersPop.hidden = true;
+    filtersBtn.setAttribute("aria-expanded", "false");
+    filtersBtn.classList.remove("open");
+  }
+  filtersBtn.addEventListener("click", () => (filtersPop.hidden ? openPop() : closePop()));
+  document.addEventListener("pointerdown", (e) => {
+    if (!filtersPop.hidden && !filtersPop.contains(e.target) && !filtersBtn.contains(e.target)) closePop();
+  });
+  document.addEventListener("keydown", (e) => e.key === "Escape" && !filtersPop.hidden && closePop());
+
   function buildFilters() {
     const badges = Object.entries(BADGES)
       .filter(([, b]) => !b.perso || perso.connecte || perso.ecoutes.size)
@@ -151,10 +174,28 @@ export function setupUI({ rappeurs, onSelect, onOverview, onClose, onFilter }) {
       children.push(toggle);
     }
     filtersEl.replaceChildren(...children);
+
+    // filtre actif : une seule pastille sous la recherche
+    filtersBtn.classList.toggle("on", !!filter);
+    activeEl.hidden = !filter;
+    if (filter) {
+      const pill = document.createElement("button");
+      pill.type = "button";
+      pill.className = "chip on";
+      pill.style.setProperty("--chip", filter.couleur);
+      pill.title = "Retirer ce filtre";
+      pill.append(
+        filter.label,
+        Object.assign(document.createElement("span"), { className: "chip-count", textContent: `${countFor(filter)} ✕` }),
+      );
+      pill.addEventListener("click", () => setFilter(null));
+      activeEl.replaceChildren(pill);
+    }
   }
 
   function setFilter(f) {
     filter = f;
+    if (f) closePop();
     buildFilters();
     onFilter?.(
       filter ? new Set(rappeurs.filter(matches).map((r) => r.id)) : null,
@@ -304,12 +345,58 @@ export function setupUI({ rappeurs, onSelect, onOverview, onClose, onFilter }) {
     const ecoute = perso.ecoutes.get(r.id);
     // (l'info « déjà écouté » est déjà donnée par le badge ✅, pas besoin de capsule)
     persoEl.hidden = !reco || !!ecoute;
-    persoEl.textContent = reco && !ecoute ? `🧭 Pour toi : ${reco.raisons.join(" · ")}` : "";
+    persoEl.textContent = reco && !ecoute ? `Pour toi : ${reco.raisons.join(" · ")}` : "";
+    renderCollabs(r);
     document.getElementById("panel-link").href =
       `artiste.html?id=${encodeURIComponent(r.id)}`;
     panel.style.setProperty("--accent", r.planete.couleurs[2]);
     panel.classList.add("open");
     panel.setAttribute("aria-hidden", "false");
+  }
+
+  // Constellation : la liste des artistes avec qui il a collaboré (cliquables)
+  const COLLABS_VISIBLES = 8;
+  function renderCollabs(r) {
+    const el = document.getElementById("panel-collabs");
+    const list = collaborations(r.id);
+    el.hidden = !list.length;
+    if (!list.length) return el.replaceChildren();
+    const item = ({ id, morceaux }) => {
+      const a = artistes.get(id);
+      const li = document.createElement("li");
+      const btn = document.createElement("button");
+      btn.type = "button";
+      btn.className = "collab";
+      btn.title = morceaux.map((m) => `« ${m.titre} »${m.annee ? ` (${m.annee})` : ""}`).join("\n");
+      const dot = document.createElement("span");
+      dot.className = "collab-dot";
+      dot.style.background = a.planete.couleurs[2];
+      const n = document.createElement("small");
+      n.textContent = `${morceaux.length} son${morceaux.length > 1 ? "s" : ""}`;
+      btn.append(dot, a.nom, n);
+      btn.addEventListener("click", () => onSelect(id));
+      li.append(btn);
+      return li;
+    };
+    const ul = document.createElement("ul");
+    ul.className = "collab-list";
+    ul.append(...list.slice(0, COLLABS_VISIBLES).map(item));
+    const title = document.createElement("p");
+    title.className = "pop-title";
+    title.textContent = `Constellation · ${list.length} collaboration${list.length > 1 ? "s" : ""}`;
+    const parts = [title, ul];
+    if (list.length > COLLABS_VISIBLES) {
+      const more = document.createElement("button");
+      more.type = "button";
+      more.className = "collab-more";
+      more.textContent = `Voir les ${list.length - COLLABS_VISIBLES} autres`;
+      more.addEventListener("click", () => {
+        ul.append(...list.slice(COLLABS_VISIBLES).map(item));
+        more.remove();
+      });
+      parts.push(more);
+    }
+    el.replaceChildren(...parts);
   }
 
   function hidePanel() {

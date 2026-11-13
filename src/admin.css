@@ -8,9 +8,9 @@ body.admin-page {
 body.admin-page { background: #1b1a33; }
 .card {
   background: var(--card);
-  border: 3px solid var(--border);
-  border-radius: 22px;
-  box-shadow: 0 5px 0 var(--shadow);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.35);
 }
 .muted { color: var(--muted); }
 .small { font-size: 13px; }
@@ -33,11 +33,11 @@ body.admin-page { background: #1b1a33; }
   font-size: 12px;
   color: #1b1a33;
   background: #ff6b9a;
-  border-radius: 999px;
+  border-radius: 6px;
   text-shadow: none;
   letter-spacing: 0.05em;
 }
-.ad-pill { padding: 4px 12px; font-size: 13px; color: #ffb38a; background: var(--card); border: 2px solid var(--border); border-radius: 999px; }
+.ad-pill { padding: 4px 12px; font-size: 13px; color: #ffb38a; background: var(--card); border: 1px solid var(--border); border-radius: 6px; }
 .ad-pill.ok { color: #8fd8a8; }
 .ad-top-actions { display: flex; flex-wrap: wrap; gap: 10px; margin-left: auto; }
 .ad-primary { color: #1b1a33; background: #c6f06a; border-color: #c6f06a; }
@@ -60,8 +60,8 @@ button:disabled { opacity: 0.6; cursor: default; }
   font: inherit;
   color: var(--fg);
   background: var(--card-2);
-  border: 2px solid var(--border);
-  border-radius: 999px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
   outline: none;
 }
 .ad-side-tools { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; justify-content: space-between; font-size: 13px; }
@@ -76,8 +76,8 @@ button:disabled { opacity: 0.6; cursor: default; }
   text-align: left;
   font-weight: 500;
   background: transparent;
-  border: 2px solid transparent;
-  border-radius: 12px;
+  border: 1px solid transparent;
+  border-radius: 6px;
   box-shadow: none;
 }
 .ad-item:hover { background: var(--card-2); }
@@ -92,7 +92,7 @@ button:disabled { opacity: 0.6; cursor: default; }
 .ad-editor { display: grid; gap: 18px; }
 .ad-editor-head { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
 .ad-editor-head h1 { margin: 0; font-size: 34px; }
-.ad-editor-head .btn { color: var(--fg); text-decoration: none; padding: 8px 16px; border: 3px solid var(--border); border-radius: 999px; background: var(--card); }
+.ad-editor-head .btn { color: var(--fg); text-decoration: none; padding: 8px 16px; border: 1px solid var(--border); border-radius: 6px; background: var(--card); }
 .ad-card { padding: 20px 22px; }
 .ad-card h2 { margin: 0 0 14px; font-size: 20px; }
 .ad-empty { padding: 40px; text-align: center; }
@@ -110,8 +110,8 @@ button:disabled { opacity: 0.6; cursor: default; }
   font-weight: 400;
   color: var(--fg);
   background: var(--card-2);
-  border: 2px solid var(--border);
-  border-radius: 12px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
   outline: none;
 }
 .ad-nouveau input[type='date'] { width: auto; padding: 3px 8px; }
@@ -121,7 +121,7 @@ button:disabled { opacity: 0.6; cursor: default; }
 .ad-field input:disabled { opacity: 0.6; }
 .ad-field textarea { resize: vertical; line-height: 1.5; }
 .ad-colors { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; }
-.ad-colors input[type='color'] { width: 46px; height: 34px; padding: 0; border: 2px solid var(--border); border-radius: 10px; background: none; cursor: pointer; }
+.ad-colors input[type='color'] { width: 46px; height: 34px; padding: 0; border: 1px solid var(--border); border-radius: 6px; background: none; cursor: pointer; }
 .ad-range { display: flex; align-items: center; gap: 10px; }
 .ad-range input { flex: 1; accent-color: #c6f06a; }
 .ad-range output { min-width: 64px; font-size: 13px; color: var(--muted); text-align: right; }
@@ -136,7 +136,7 @@ button:disabled { opacity: 0.6; cursor: default; }
   display: block;
   width: 100%;
   aspect-ratio: 1;
-  border-radius: 20px;
+  border-radius: 10px;
   background: radial-gradient(circle, #2a2748, #15132a 70%);
 }
 
@@ -156,8 +156,8 @@ button:disabled { opacity: 0.6; cursor: default; }
   font-weight: 600;
   color: #1b1a33;
   background: #8fd8a8;
-  border-radius: 999px;
-  box-shadow: 0 4px 0 var(--shadow);
+  border-radius: 6px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
 }
 .ad-toast.warn { background: #ffc23d; }
 .ad-toast.error { background: #ff8fa3; }

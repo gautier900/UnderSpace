@@ -1,10 +1,13 @@
-# Publie UnderSpace sur GitHub Pages à chaque envoi (push) sur la branche main.
+# Publie UnderSpace sur GitHub Pages à chaque envoi (push) sur la branche main,
+# et chaque vendredi matin avec les nouvelles sorties des artistes (les sorties tombent dans la nuit de jeudi à vendredi).
 # Activation (une seule fois) : GitHub → Settings → Pages → Source : « GitHub Actions ».
 name: Publier sur GitHub Pages
 
 on:
   push:
     branches: [main]
+  schedule:
+    - cron: '0 5 * * 5' # chaque vendredi à 5 h UTC = 6 h à Paris en hiver (7 h en été) : nouvelles sorties puis republication
   workflow_dispatch: # permet aussi de lancer la publication à la main (onglet Actions)
 
 permissions:
@@ -26,6 +29,15 @@ jobs:
           node-version: 22
           cache: npm
       - run: npm ci
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      # Nouvelles sorties (API publique Deezer). Seule la version publiée est mise à jour :
+      # le dépôt n'est pas modifié (lance « npm run maj » en local pour mettre à jour ton fichier).
+      - name: Mettre à jour les sorties
+        run: python3 scripts/update-sorties.py || echo "Mise à jour Deezer impossible, on publie les données actuelles"
+      - name: Featurings des nouveaux albums (Six degrés)
+        run: python3 scripts/build-feats.py || echo "Lecture des featurings impossible, on garde les données actuelles"
       - run: npm run build
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3

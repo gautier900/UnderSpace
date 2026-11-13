@@ -29,6 +29,8 @@
 // singles     : [{ titre, annee, date, featurings: ['Nom'], lien: 'https://...' }]
 //   → un featuring dont le nom correspond à un artiste de cette liste devient un lien vers sa page.
 // badges      : ['coup-de-coeur', 'pepite']  → badges choisis à la main (liste et noms dans src/data/badges.js)
+// sortiesIgnorees : ['Titre', ...]  → titres que la mise à jour automatique ne doit jamais ajouter
+//   (quand le profil Deezer de l'artiste mélange un homonyme)
 // ajouteLe    : 'AAAA-MM-JJ'  → date d'ajout ; affiche le badge « Nouveau » pendant 30 jours
 //   (le badge « Nouvelle sortie » s'affiche tout seul si un projet/single a une « date » de moins de 30 jours)
 // Exemple complet : src/data/artiste-exemple.js (visible sur /artiste.html?id=exemple)

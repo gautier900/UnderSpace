@@ -1,3 +1,4 @@
+import { hasFeat } from "./graphe.js";
 import * as THREE from "three";
 import { badgesOf } from "./data/badges.js";
 import { createPlanet, setPlanetDim } from "./planet.js";
@@ -197,6 +198,8 @@ export function createMap2D({ planets, onSelect }) {
   let selected = null;
   let hovered = null;
   let filterOn = false;
+  let pathItems = null; // Six degrés : chemin à tracer
+  let constel = null; // collaborations de la planète sélectionnée { center, items, pairs, born }
   let flight = null;
   let active = false;
   let started = false;
@@ -320,7 +323,7 @@ export function createMap2D({ planets, onSelect }) {
 
   function drawLabel(it, sx, sy, rr, alpha) {
     ctx.globalAlpha = alpha;
-    ctx.font = "600 13px Fredoka, system-ui, sans-serif";
+    ctx.font = "500 13px Futura, 'Futura PT', Jost, system-ui, sans-serif";
     const text = it.icons ? `${it.nom}  ${it.icons}` : it.nom;
     const tw = ctx.measureText(text).width;
     const pw = tw + 30;
@@ -331,8 +334,8 @@ export function createMap2D({ planets, onSelect }) {
     ctx.beginPath();
     ctx.roundRect(x0, y0 + 3, pw, ph, 12);
     ctx.fill();
-    ctx.fillStyle = "rgba(42, 39, 72, 0.92)";
-    ctx.strokeStyle = it === hovered || it === selected ? it.dot : "#4a4579";
+    ctx.fillStyle = "rgba(0, 0, 0, 0.85)";
+    ctx.strokeStyle = it === hovered || it === selected ? it.dot : "#2e2e33";
     ctx.lineWidth = 2;
     ctx.beginPath();
     ctx.roundRect(x0, y0, pw, ph, 12);
@@ -391,10 +394,85 @@ export function createMap2D({ planets, onSelect }) {
     camera.updateProjectionMatrix();
     renderer.render(scene, camera);
 
+    // Six degrés : trait lumineux en pointillés animés entre les planètes du chemin
+    if (pathItems) {
+      ctx.save();
+      ctx.strokeStyle = "#d8ff7a";
+      ctx.lineWidth = 3;
+      ctx.shadowColor = "#d8ff7a";
+      ctx.shadowBlur = 12;
+      ctx.setLineDash([10, 8]);
+      ctx.lineDashOffset = -t * 30;
+      ctx.beginPath();
+      pathItems.forEach((it, i) => {
+        const [x, y] = toScreen(it.x + it.ox, it.y + it.oy);
+        i ? ctx.lineTo(x, y) : ctx.moveTo(x, y);
+      });
+      ctx.stroke();
+      ctx.restore();
+    }
+
+    // Constellation : rayons dorés vers chaque collaboration, fils bleutés entre collaborateurs
+    if (constel) {
+      const age = (performance.now() - constel.born) / 1000;
+      const grow = Math.min(age / 0.8, 1);
+      const ease3 = 1 - Math.pow(1 - grow, 3);
+      const twinkle = 0.85 + 0.15 * Math.sin(t * 2.2);
+      const pos = (it) => toScreen(it.x + it.ox, it.y + it.oy);
+      const [cx, cy] = pos(constel.center);
+      ctx.save();
+      ctx.lineCap = "round";
+      if (constel.pairs.length && age > 0.5) {
+        ctx.globalAlpha = Math.min((age - 0.5) / 0.8, 1) * 0.45;
+        ctx.strokeStyle = "#8fa8ff";
+        ctx.lineWidth = 1;
+        ctx.beginPath();
+        for (const [a, b] of constel.pairs) {
+          const [ax, ay] = pos(a);
+          const [bx, by] = pos(b);
+          ctx.moveTo(ax, ay);
+          ctx.lineTo(bx, by);
+        }
+        ctx.stroke();
+      }
+      ctx.globalAlpha = twinkle;
+      ctx.strokeStyle = "rgba(255, 217, 138, 0.8)";
+      ctx.shadowColor = "#ffd98a";
+      ctx.shadowBlur = 10;
+      ctx.lineWidth = 1.5;
+      ctx.beginPath();
+      for (const it of constel.items) {
+        const [x, y] = pos(it);
+        ctx.moveTo(cx, cy);
+        ctx.lineTo(cx + (x - cx) * ease3, cy + (y - cy) * ease3);
+      }
+      ctx.stroke();
+      // petites étoiles au bout de chaque rayon
+      ctx.fillStyle = "#fff4d6";
+      for (const it of constel.items) {
+        const [x, y] = pos(it);
+        const ex = cx + (x - cx) * ease3;
+        const ey = cy + (y - cy) * ease3;
+        const s = 2.2 + Math.sin(t * 3 + it.ph * 5) * 0.8;
+        ctx.beginPath();
+        ctx.moveTo(ex, ey - s * 2);
+        ctx.lineTo(ex + s * 0.5, ey - s * 0.5);
+        ctx.lineTo(ex + s * 2, ey);
+        ctx.lineTo(ex + s * 0.5, ey + s * 0.5);
+        ctx.lineTo(ex, ey + s * 2);
+        ctx.lineTo(ex - s * 0.5, ey + s * 0.5);
+        ctx.lineTo(ex - s * 2, ey);
+        ctx.lineTo(ex - s * 0.5, ey - s * 0.5);
+        ctx.closePath();
+        ctx.fill();
+      }
+      ctx.restore();
+    }
+
     for (const [it, sx, sy, rr] of visible) {
       let a =
-        it === selected || it === hovered ? 1 : clamp((rr - 9) / 14, 0, 1);
-      if (filterOn) a = it.lit || it === selected || it === hovered ? 1 : 0;
+        it === selected || it === hovered || it.collab ? 1 : clamp((rr - 9) / 14, 0, 1);
+      if (filterOn) a = it.lit || it.collab || it === selected || it === hovered ? 1 : 0;
       if (a > 0.02) drawLabel(it, sx, sy, rr, a);
     }
   }
@@ -543,7 +621,19 @@ export function createMap2D({ planets, onSelect }) {
       const it = byId.get(id);
       if (!it) return;
       selected = it;
-      flyToView(it.x, it.y, focusZoom(it));
+      if (constel?.center !== it) return flyToView(it.x, it.y, focusZoom(it));
+      // constellation : on cadre la planète et toutes ses collaborations, à gauche de la fiche
+      const pts = [it, ...constel.items];
+      const xs = pts.map((p) => p.x);
+      const ys = pts.map((p) => p.y);
+      const [x0, x1, y0, y1] = [Math.min(...xs), Math.max(...xs), Math.min(...ys), Math.max(...ys)];
+      const panelPx = w > 640 ? Math.min(380, w - 32) : 0;
+      const zoom = clamp(
+        Math.min((w - panelPx - 80) / (x1 - x0 + 180), (h - 200) / (y1 - y0 + 180)),
+        overviewZoom() * 0.6,
+        focusZoom(it),
+      );
+      flyToView((x0 + x1) / 2 + panelPx / 2 / zoom, (y0 + y1) / 2, zoom);
     },
     clearSelection() {
       selected = null;
@@ -555,6 +645,32 @@ export function createMap2D({ planets, onSelect }) {
         it.lit = !!ids && ids.has(it.id);
         it.dimTarget = ids && !it.lit ? 1 : 0;
       }
+    },
+    // id = artiste sélectionné, ids = ses collaborateurs (null pour effacer)
+    setConstellation(id, ids = []) {
+      for (const it of items) it.collab = false;
+      const center = id ? byId.get(id) : null;
+      if (!center || !ids.length) {
+        constel = null;
+        return;
+      }
+      const list = ids.map((x) => byId.get(x)).filter(Boolean);
+      list.forEach((it) => (it.collab = true));
+      const pairs = [];
+      for (let i = 0; i < list.length; i++)
+        for (let j = i + 1; j < list.length; j++) if (hasFeat(list[i].id, list[j].id)) pairs.push([list[i], list[j]]);
+      constel = { center, items: list, pairs, born: performance.now() };
+    },
+    setPath(ids) {
+      pathItems = ids ? ids.map((id) => byId.get(id)).filter(Boolean) : null;
+    },
+    fitPath() {
+      if (!pathItems?.length) return;
+      const xs = pathItems.map((i) => i.x);
+      const ys = pathItems.map((i) => i.y);
+      const [x0, x1, y0, y1] = [Math.min(...xs), Math.max(...xs), Math.min(...ys), Math.max(...ys)];
+      const zoom = clamp(Math.min((w - 520) / (x1 - x0 + 200), (h - 220) / (y1 - y0 + 200)), overviewZoom() * 0.6, 2);
+      flyToView((x0 + x1) / 2, (y0 + y1) / 2, zoom);
     },
     overview() {
       selected = null;

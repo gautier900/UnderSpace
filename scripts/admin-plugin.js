@@ -73,7 +73,8 @@ export function adminPlugin(root) {
             // Nouveaux artistes : on calcule leurs « artistes proches » (Deezer) en arrière-plan.
             const nouveaux = list.filter((r) => !before.has(r.id)).map((r) => r.id);
             if (nouveaux.length) {
-              const p = spawn('python3', [path.join(root, 'scripts/build-liens.py')], { cwd: root, stdio: 'ignore', detached: true });
+              // artistes proches (Deezer), puis feats déjà connus du cache (sans appel Deezer)
+              const p = spawn('sh', ['-c', 'python3 scripts/build-liens.py && python3 scripts/build-feats.py --local'], { cwd: root, stdio: 'ignore', detached: true });
               p.on('error', () => {});
               p.unref();
             }

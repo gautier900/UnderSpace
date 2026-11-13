@@ -9,12 +9,13 @@
 ## ✨ Fonctionnalités
 
 ### La galaxie
-- **115 artistes** représentés par des planètes dessinées en temps réel, en style cartoon (shaders WebGL) : planètes à cratères, géantes gazeuses, lave, glace, étoiles, toxiques, astéroïdes, continents…
+- **151 artistes** représentés par des planètes dessinées en temps réel, en style cartoon (shaders WebGL) : planètes à cratères, géantes gazeuses, lave, glace, étoiles, toxiques, astéroïdes, continents…
 - **Deux modes**, en cliquant sur le logo UnderSpace :
   - **3D** : on tourne, on zoome, on vole jusqu'aux planètes ;
   - **2D** : une carte vue de face, plus lisible.
 - Les planètes **tournent sur elles-mêmes et flottent** doucement autour de leur place.
 - **Recherche** instantanée (touche `/`) : la caméra s'envole vers la planète choisie.
+- **Constellation** : un clic sur une planète trace des rayons vers tous les artistes avec qui elle a collaboré (et relie ceux qui ont collaboré entre eux) ; la liste des collaborations s'affiche dans la fiche.
 - **Filtres** par badge (❤️ Coup de cœur, ✨ Nouveau, 🔥 Nouvelle sortie, 💎 Pépite) et par style (`# trap`, `# drill`, `# rap suisse`…).
 
 ### Les pages artistes
@@ -22,6 +23,20 @@
 - **Lecteur intégré** : les titres les plus écoutés de l'artiste, mis à jour automatiquement par Spotify.
 - **Projets** (avec pochettes) et **singles** ; les featurings avec d'autres artistes d'UnderSpace sont cliquables.
 - La planète de l'artiste en 3D, qu'on peut faire tourner.
+
+### 🗓️ La galaxie des sorties
+- Les artistes qui ont sorti un projet ou un single sur les **7 ou 30 derniers jours** gravitent autour d'une étoile, avec leurs **pochettes en lunes** (le plus récent au plus près).
+- Liste des sorties jour par jour, section **« Bientôt »** pour les sorties annoncées, et bouton ▶ pour écouter.
+
+### 🔗 Six degrés
+- **Relier deux artistes** : le site trouve la plus courte chaîne de featurings entre eux (singles, morceaux d'albums et d'EP, apparitions chez d'autres artistes, y compris entre deux invités d'un même son) (« Slimka → thaHomey → 63OG → TH ») et la trace dans la galaxie.
+- **Défi** : deux artistes tirés au sort, à toi de les relier en enchaînant des featurings, avec indice et solution.
+- Si aucun featuring ne les relie, le chemin passe par les « artistes proches » de Deezer.
+
+### 🎧 Blind test
+- **10 manches** : un extrait de 30 s d'un artiste de la galaxie, 4 planètes au choix, 15 secondes pour trouver.
+- Points selon la rapidité, **bonus de série**, record gardé dans le navigateur, récap final avec un lien vers chaque planète.
+- Mode **difficile** (les mauvaises réponses sont des artistes proches) et mode **« Mes artistes »** (si ton Deezer est relié).
 
 ### Ma galaxie (Deezer)
 - On relie son **profil Deezer public** en collant son lien (aucun mot de passe : tout reste dans le navigateur).
@@ -54,6 +69,9 @@ Puis ouvrir **http://localhost:5173**.
 | `npm run dev` | Lance le site en local (avec rechargement automatique et le menu admin) |
 | `npm run build` | Génère la version publiable du site dans `dist/` |
 | `npm run preview` | Affiche la version générée, pour la vérifier avant publication |
+| `npm run maj` | Récupère les nouvelles sorties de tous les artistes (Deezer) et complète les dates manquantes. `npm run maj -- keeqaid sean` ne traite que ces artistes |
+| `npm run feats` | Lit les featurings morceau par morceau : albums et EP des artistes, et leurs apparitions chez d'autres (Six degrés, constellations). Ne traite que les nouvelles sorties |
+| `npm run liens` | Recalcule les « artistes proches » (recommandations, Six degrés) |
 
 ---
 
@@ -75,6 +93,10 @@ Après avoir ajouté des artistes, recalculer leurs « artistes proches » (util
 python3 scripts/build-liens.py
 ```
 
+Puis récupérer leur discographie depuis Deezer : `npm run maj -- <identifiant> <identifiant>…`
+
+Si Deezer mélange un homonyme dans le profil d'un artiste, impose le bon identifiant Deezer dans `DEEZER_ID` (`scripts/build-liens.py`) et liste les titres à ne jamais ajouter dans le champ `sortiesIgnorees` de l'artiste.
+
 ---
 
 ## 🗂️ Organisation du code
@@ -92,6 +114,10 @@ src/
   artiste.js          page artiste
   player.js           lecteur intégré (Spotify, Deezer, YouTube, SoundCloud)
   deezer.js           lecture d'un profil Deezer public
+  graphe.js           graphe des featurings + plus court chemin (Six degrés)
+  six-degres.js       le jeu Six degrés
+  sorties.js          la galaxie des sorties
+  blind-test.js       le blind test (extraits Deezer)
   perso.js            déjà écoutés + calcul des recommandations
   moi-ui.js           connexion Deezer et « Ma galaxie »
   ma-galaxie-3d.js    le système solaire personnel
@@ -102,6 +128,9 @@ src/
     badges.js         la liste des badges
 scripts/
   build-liens.py      calcule les artistes proches via l'API Deezer
+  update-sorties.py   ajoute les nouvelles sorties via l'API Deezer
+  build-feats.py      lit les featurings morceau par morceau (cache complet : scripts/feats-cache.json,
+                      version allégée pour le site : src/data/feats.json)
   admin-plugin.js     enregistrement des modifications du menu admin
 ```
 
@@ -112,6 +141,8 @@ Technologies : [Vite](https://vitejs.dev), [Three.js](https://threejs.org), Java
 ## 🌍 Publication
 
 Le site est publié automatiquement sur **GitHub Pages** à chaque `git push` sur la branche `main`, grâce à `.github/workflows/deploy.yml`.
+
+**Mise à jour automatique :** chaque vendredi vers 6 h (heure de Paris), juste après les sorties de la nuit de jeudi à vendredi, GitHub récupère aussi les nouvelles sorties (`scripts/update-sorties.py`) et les featurings des nouveaux albums (`scripts/build-feats.py`), puis republie le site. Seule la version en ligne est mise à jour : pour mettre à jour ton fichier `rappeurs.json` en local, lance `npm run maj`.
 
 ---
 

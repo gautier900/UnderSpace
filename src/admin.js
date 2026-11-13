@@ -1,6 +1,7 @@
 // Menu administrateur (local) : modifier, ajouter et supprimer des artistes et leurs planètes.
 // Les modifications sont enregistrées dans src/data/rappeurs.json via le petit serveur
 // de scripts/admin-plugin.js, qui n'existe que pendant `npm run dev`.
+import { icon } from './icons.js';
 import * as THREE from 'three';
 import { createPlanet, TYPE_LABELS } from './planet.js';
 import './style.css';
@@ -238,7 +239,7 @@ function renderEditor() {
       h('label', { class: 'ad-check' }, h('input', { type: 'checkbox', checked: badges.has('pepite'), onchange: (e) => toggleBadge('pepite', e.target.checked) }), '💎 Pépite'),
       nouveau,
     ),
-    h('p', { class: 'muted small' }, '🔥 « Nouvelle sortie » s’affiche tout seul selon la date des sorties.'),
+    h('p', { class: 'muted small' }, '« Nouvelle sortie » s’affiche tout seul selon la date des sorties.'),
   );
 
   // --- Planète ---
@@ -313,7 +314,7 @@ function renderEditor() {
           toast(`« ${r.nom} » supprimé — pense à enregistrer.`, 'warn');
         },
       },
-      '🗑 Supprimer cet artiste',
+      icon('trash'), ' Supprimer cet artiste',
     ),
   );
 

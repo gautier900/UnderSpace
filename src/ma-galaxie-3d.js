@@ -2,6 +2,7 @@
 //   - au centre : l'étoile de l'utilisateur (photo Deezer) ;
 //   - ses 10 artistes UnderSpace les plus écoutés (plus il les écoute, plus ils sont proches) ;
 //   - orbite lointaine : les artistes recommandés ;
+import { icon } from './icons.js';
 import * as THREE from 'three';
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
 import { CSS2DRenderer, CSS2DObject } from 'three/examples/jsm/renderers/CSS2DRenderer.js';
@@ -76,7 +77,7 @@ export function createMaGalaxie({ container, onPick }) {
     img.alt = '';
     avatar.append(img);
   } else {
-    avatar.textContent = '🪐';
+    avatar.append(icon('planet'));
   }
   const meName = document.createElement('span');
   meName.textContent = perso.profil?.user.nom ?? 'Toi';

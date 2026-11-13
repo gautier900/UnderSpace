@@ -22,7 +22,45 @@ ALIAS = {
 
 # Identifiant Deezer imposé quand la recherche par nom ne suffit pas (homonymes).
 DEEZER_ID = {
+    # ajouts du 12/11/2026 (homonymes écartés à la main)
+    'tedax-max': 83162262,
+    'jeune-lion': 138959612,
+    'keeqaid': 144228682,
+    'babysolo33': 57754602,
+    'sheldon': 173048,
+    'oni-kira': 188551177,
+    'sean': 59474172,
+    'r100r': 158962562,
+    'wit': 500574,
+    'advm': 5463376,
+    'nosnow': 5816092,
+    'jaymee': 1705266,
+    'artr': 66413892,
+    'huitballe': 269879742,
+    'dayarga': 65312292,
+    'lushe': 264878232,
+    'kamo-le-7': 317747671,
+    'ry-s': 14146941,
+    'a6el': 247939962,
+    'seizar': 109942912,
+    'yzaa': 255578152,
+    'shayne': 1247851,
+    '2l': 190007357,
+    'gemen': 1056523,
+    'stanislas': 243001621,
+    'maladelta': 370183762,
+    'mercureb101': 197573937,
+    'dnd': 174649227,
+    'godson': 1281159,
+    'jwles': 13715731,
+    'teyma': 187968797,
+    'theodorepourdevrai': 138432432,
+    'seizma': 283132831,
+    'sabd': 86480502,
+    'may': 276357701,
+    'ingmar': 5310652,
     'jade': 78534732,  # Jäde (Lyon) — retrouvée via l'album « Les Malheurs de Jäde »
+    'reallo': 14415029,  # Realo (ALLUME, LIFE…) — un homonyme « Reallo » existe sur Deezer
 }
 
 

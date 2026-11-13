@@ -11,9 +11,14 @@ import { createStarfield, createDust, createNebula } from "./space.js";
 import { setupUI } from "./ui.js";
 import { createMap2D } from "./map2d.js";
 import { setupMoi } from "./moi-ui.js";
+import { setupSixDegres } from "./six-degres.js";
+import { setupSorties } from "./sorties.js";
+import { setupBlindTest } from "./blind-test.js";
+import { collaborations, hasFeat } from "./graphe.js";
 import "./style.css";
 
 let mode = "3d"; // '3d' ou '2d'
+let map = null; // carte 2D (créée plus bas)
 let paused = false; // vrai pendant que « Ma galaxie » est affichée (économise le GPU)
   
 // --- Scène -----------------------------------------------------------------
@@ -131,17 +136,33 @@ function flyToPoint(camTo, targetTo) {
   controls.enabled = false;
 }
 
-function flyToPlanet(group) {
+function flyToPlanet(group, constellation = null) {
   const target = group.position.clone();
   const dir = camera.position.clone().sub(target);
   if (dir.lengthSq() < 1e-6) dir.set(0, 0.3, 1);
   dir.normalize();
   dir.y += 0.2;
   dir.normalize();
-  flyToPoint(
-    target.clone().add(dir.multiplyScalar(group.userData.radius * 4.5)),
-    target,
-  );
+  const dist = group.userData.radius * 4.5;
+  if (!constellation?.ids.length) {
+    flyToPoint(target.clone().add(dir.multiplyScalar(dist)), target);
+    return;
+  }
+  // Avec une constellation : on cadre l'ensemble (la planète + ses collaborations)…
+  const pts = [target, ...constellation.ids.map((x) => byId.get(x).position)];
+  const c = pts.reduce((acc, p) => acc.add(p), new THREE.Vector3()).divideScalar(pts.length);
+  const reach = Math.max(...pts.map((p) => p.distanceTo(c)));
+  const halfFov = THREE.MathUtils.degToRad(camera.fov / 2);
+  const fit = reach / Math.tan(halfFov) / Math.min(1, camera.aspect) * 1.15;
+  const d = THREE.MathUtils.clamp(fit, dist * 1.5, 520);
+  // …en décalant la vue vers la gauche quand la fiche occupe la droite de l'écran
+  const w = window.innerWidth;
+  const panelPx = w > 640 ? Math.min(380, w - 32) : 0;
+  const visibleW = 2 * d * Math.tan(halfFov) * camera.aspect;
+  const right = new THREE.Vector3().crossVectors(dir.clone().negate(), camera.up).normalize();
+  const shift = right.multiplyScalar(((panelPx / 2) / w) * visibleW);
+  const look = c.clone().add(shift);
+  flyToPoint(look.clone().add(dir.multiplyScalar(d)), look);
 }
 
 // --- Sélection -------------------------------------------------------------
@@ -177,6 +198,52 @@ function setSelected(group) {
   selected?.userData.label.classList.remove("selected");
   selected = group;
   group?.userData.label.classList.add("selected");
+  showConstellation(group?.userData.rappeur.id ?? null);
+}
+
+// --- Constellation : les collaborations de la planète sélectionnée ----------------
+// Des rayons dorés relient la planète à chaque artiste avec qui elle a fait un feat,
+// et des fils bleutés plus discrets relient ces artistes entre eux quand ils ont collaboré.
+let constel = null;
+function makeSegments(n, color) {
+  const geo = new THREE.BufferGeometry();
+  geo.setAttribute("position", new THREE.BufferAttribute(new Float32Array(n * 6), 3));
+  const line = new THREE.LineSegments(
+    geo,
+    new THREE.LineBasicMaterial({ color, transparent: true, opacity: 0, depthWrite: false, blending: THREE.AdditiveBlending }),
+  );
+  line.frustumCulled = false;
+  scene.add(line);
+  return line;
+}
+function clearConstellation() {
+  if (!constel) return;
+  for (const l of [constel.rays, constel.web]) {
+    if (!l) continue;
+    scene.remove(l);
+    l.geometry.dispose();
+    l.material.dispose();
+  }
+  for (const id of constel.ids) byId.get(id).userData.collab = false;
+  constel = null;
+}
+function showConstellation(id) {
+  clearConstellation();
+  const ids = id ? collaborations(id).map((c) => c.id).filter((x) => byId.has(x)) : [];
+  map?.setConstellation(id, ids);
+  if (!ids.length) return;
+  const pairs = [];
+  for (let i = 0; i < ids.length; i++)
+    for (let j = i + 1; j < ids.length; j++) if (hasFeat(ids[i], ids[j])) pairs.push([ids[i], ids[j]]);
+  for (const x of ids) byId.get(x).userData.collab = true;
+  constel = {
+    id,
+    ids,
+    pairs,
+    rays: makeSegments(ids.length, 0xffd98a),
+    web: pairs.length ? makeSegments(pairs.length, 0x8fa8ff) : null,
+    age: 0,
+  };
 }
 
 function select(id) {
@@ -184,7 +251,7 @@ function select(id) {
   if (!g) return;
   setSelected(g);
   if (mode === "2d") map.select(id);
-  else flyToPlanet(g);
+  else flyToPlanet(g, constel);
   ui.showPanel(g.userData.rappeur);
 }
 
@@ -196,6 +263,38 @@ for (const p of planets) {
 
 // « Ma galaxie » : profil Deezer relié, recommandations, favoris.
 setupMoi({ onSelect: select, onPause: (v) => (paused = v) });
+
+// --- Six degrés : chemin de featurings tracé entre des planètes ------------------
+let pathLine = null;
+let pathIds = null;
+function showPath(ids) {
+  if (pathLine) {
+    scene.remove(pathLine);
+    pathLine.geometry.dispose();
+    pathLine = null;
+  }
+  pathIds = ids && ids.length > 1 ? ids : null;
+  applyFilter(ids && ids.length ? new Set(ids) : null);
+  map.setPath(pathIds);
+  if (!pathIds) return;
+  const geo = new THREE.BufferGeometry();
+  geo.setAttribute("position", new THREE.BufferAttribute(new Float32Array(pathIds.length * 3), 3));
+  pathLine = new THREE.Line(geo, new THREE.LineBasicMaterial({ color: 0xd8ff7a, transparent: true, opacity: 0.95 }));
+  pathLine.frustumCulled = false;
+  scene.add(pathLine);
+  // cadrage : on recule pour voir tout le chemin
+  if (mode === "3d") {
+    const box = new THREE.Box3();
+    for (const id of pathIds) box.expandByPoint(byId.get(id).position);
+    const c = box.getCenter(new THREE.Vector3());
+    const size = box.getSize(new THREE.Vector3()).length();
+    const dir = camera.position.clone().sub(controls.target).normalize();
+    flyToPoint(c.clone().add(dir.multiplyScalar(Math.max(size * 1.15, 70))), c);
+  } else map.fitPath();
+}
+setupSixDegres({ onShowPath: showPath, onSelect: select });
+setupSorties({ onSelect: select, onPause: (v) => (paused = v) });
+setupBlindTest({ onSelect: select });
 
 // --- Survol / clic sur une planète -----------------------------------------
 const raycaster = new THREE.Raycaster();
@@ -296,8 +395,9 @@ function tick() {
       p === selected || p === hovered
         ? 1
         : THREE.MathUtils.clamp(1.8 - d / 380, 0.3, 1);
+    if (p.userData.collab) o = Math.max(o, 0.95);
     if (filterIds)
-      o = p.userData.highlight || p === selected || p === hovered ? 1 : 0;
+      o = p.userData.highlight || p.userData.collab || p === selected || p === hovered ? 1 : 0;
     // Cache l'étiquette si une autre planète est devant.
     occluder.set(
       camera.position,
@@ -315,6 +415,35 @@ function tick() {
   }
   starfield.material.uniforms.uTime.value = time;
   dust.material.uniforms.uTime.value = time;
+  if (pathLine) {
+    const pos = pathLine.geometry.attributes.position;
+    pathIds.forEach((id, i) => pos.setXYZ(i, ...byId.get(id).position.toArray()));
+    pos.needsUpdate = true;
+  }
+  if (constel) {
+    constel.age += dt;
+    const fade = Math.min(constel.age / 0.8, 1);
+    const twinkle = 0.85 + 0.15 * Math.sin(time * 2.2);
+    const c = byId.get(constel.id).position;
+    const rp = constel.rays.geometry.attributes.position;
+    constel.ids.forEach((x, i) => {
+      // le rayon « pousse » depuis la planète sélectionnée pendant l'apparition
+      const q = byId.get(x).position;
+      rp.setXYZ(i * 2, c.x, c.y, c.z);
+      rp.setXYZ(i * 2 + 1, c.x + (q.x - c.x) * fade, c.y + (q.y - c.y) * fade, c.z + (q.z - c.z) * fade);
+    });
+    rp.needsUpdate = true;
+    constel.rays.material.opacity = 0.75 * fade * twinkle;
+    if (constel.web) {
+      const wp = constel.web.geometry.attributes.position;
+      constel.pairs.forEach(([a, b], i) => {
+        wp.setXYZ(i * 2, ...byId.get(a).position.toArray());
+        wp.setXYZ(i * 2 + 1, ...byId.get(b).position.toArray());
+      });
+      wp.needsUpdate = true;
+      constel.web.material.opacity = 0.3 * Math.max(0, (constel.age - 0.5) / 0.8 > 1 ? 1 : (constel.age - 0.5) / 0.8);
+    }
+  }
   starfield.position.copy(camera.position);
   nebula.position.copy(camera.position);
 
@@ -344,7 +473,7 @@ window.addEventListener("resize", () => {
 });
 
 // --- Bascule 2D / 3D (clic sur le logo UnderSpace) --------------------------
-const map = createMap2D({ planets, onSelect: select });
+map = createMap2D({ planets, onSelect: select });
 const mapCanvas = document.getElementById("map");
 const badge = document.getElementById("mode-badge");
 const hint = document.getElementById("hint");

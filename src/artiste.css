@@ -39,9 +39,9 @@ a { color: var(--accent); }
   text-decoration: none;
   padding: 8px 16px;
   background: var(--card);
-  border: 3px solid var(--border);
-  border-radius: 999px;
-  box-shadow: 0 4px 0 var(--shadow);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
 }
 .back:hover { border-color: var(--accent); }
 
@@ -55,9 +55,9 @@ a { color: var(--accent); }
 
 .card {
   background: var(--card);
-  border: 3px solid var(--border);
-  border-radius: 26px;
-  box-shadow: 0 6px 0 var(--shadow);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.35);
 }
 .muted { color: var(--muted); }
 
@@ -68,13 +68,13 @@ a { color: var(--accent); }
   text-decoration: none;
   padding: 8px 16px;
   background: var(--card-2);
-  border: 3px solid var(--border);
-  border-radius: 999px;
-  box-shadow: 0 4px 0 var(--shadow);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
   transition: transform 0.1s, box-shadow 0.1s, border-color 0.15s;
 }
 .btn:hover { border-color: var(--accent); }
-.btn:active { transform: translateY(3px); box-shadow: 0 1px 0 var(--shadow); }
+.btn:active { transform: translateY(3px); box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25); }
 .btn-small { padding: 4px 12px; font-size: 14px; }
 
 /* --- En-tête --- */
@@ -103,24 +103,24 @@ a { color: var(--accent); }
   font-weight: 600;
   color: #1b1a33;
   background: var(--accent);
-  border-radius: 999px;
+  border-radius: 6px;
 }
 .hero h1 {
   margin: 0;
   font-size: clamp(38px, 7vw, 64px);
   line-height: 1;
-  text-shadow: 0 5px 0 var(--c1);
+  text-shadow: none;
 }
 .meta { margin: 0; font-size: 17px; }
 .links { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 4px; }
 .tags { display: flex; flex-wrap: wrap; gap: 6px; margin: 0; padding: 0; list-style: none; }
-.tags li { padding: 4px 12px; font-size: 13px; background: var(--card-2); border-radius: 999px; }
+.tags li { padding: 4px 12px; font-size: 13px; background: var(--card-2); border-radius: 6px; }
 
 .hero-badges { display: flex; flex-wrap: wrap; gap: 8px; }
 .badge-special {
   color: var(--badge);
   background: color-mix(in srgb, var(--badge) 16%, transparent);
-  border: 2px solid var(--badge);
+  border: 1px solid var(--badge);
 }
 
 /* --- Chiffres clés --- */
@@ -138,15 +138,15 @@ a { color: var(--accent); }
   margin: 0;
   padding: 18px;
   border: 2px dashed var(--border);
-  border-radius: 18px;
+  border-radius: 10px;
   text-align: center;
 }
 
 /* --- Lecteur --- */
 .player-wrap {
-  border-radius: 18px;
+  border-radius: 10px;
   overflow: hidden;
-  border: 3px solid var(--border);
+  border: 1px solid var(--border);
   background: #15132a;
 }
 .player { display: block; width: 100%; border: 0; }
@@ -163,13 +163,13 @@ html { scroll-behavior: smooth; scroll-padding-top: 80px; }
   color: var(--fg);
   text-decoration: none;
   background: var(--card-2);
-  border: 3px solid var(--border);
-  border-radius: 20px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
   overflow: hidden;
-  box-shadow: 0 4px 0 var(--shadow);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
   transition: transform 0.15s, border-color 0.15s;
 }
-a.project:hover { transform: translateY(-4px) rotate(-1deg); border-color: var(--accent); }
+a.project:hover { transform: translateY(-2px); border-color: var(--accent); }
 .cover { width: 100%; aspect-ratio: 1; object-fit: cover; display: block; }
 .cover-fallback {
   display: grid;
@@ -182,7 +182,7 @@ a.project:hover { transform: translateY(-4px) rotate(-1deg); border-color: var(-
   font-size: 44px;
   font-weight: 700;
   color: #fff;
-  text-shadow: 0 4px 0 rgba(0, 0, 0, 0.35);
+  text-shadow: none;
 }
 .project-body { padding: 12px 14px 14px; }
 .project-body h3 { margin: 0 0 4px; font-size: 18px; }
@@ -197,7 +197,7 @@ a.project:hover { transform: translateY(-4px) rotate(-1deg); border-color: var(-
   gap: 12px;
   padding: 10px 14px;
   background: var(--card-2);
-  border-radius: 16px;
+  border-radius: 10px;
 }
 .year { font-weight: 600; color: var(--accent); }
 .single-title { font-weight: 500; }

@@ -6,7 +6,10 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "maj": "python3 scripts/update-sorties.py",
+    "feats": "python3 scripts/build-feats.py",
+    "liens": "python3 scripts/build-liens.py"
   },
   "dependencies": {
     "three": "0.170.0"

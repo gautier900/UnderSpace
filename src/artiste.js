@@ -1,3 +1,4 @@
+import { icon } from "./icons.js";
 import * as THREE from "three";
 import { rappeurs } from "./data/rappeurs.js";
 import { exemple } from "./data/artiste-exemple.js";
@@ -140,7 +141,7 @@ function render(a) {
                 ? h(
                     "a",
                     { class: "btn btn-play", href: "#ecouter" },
-                    "▶ Écouter",
+                    icon("play"), " Écouter",
                   )
                 : null,
               liens.map(([k, url]) =>
@@ -401,9 +402,9 @@ function persoBlock(a) {
     btn.disabled = state === "deezer";
     btn.textContent =
       state === "deezer"
-        ? "✅ Dans tes favoris Deezer"
+        ? "✓ Dans tes favoris Deezer"
         : state
-          ? "✅ Déjà écouté"
+          ? "✓ Déjà écouté"
           : "☐ Je connais déjà";
     btn.title =
       state === "deezer"
@@ -417,7 +418,7 @@ function persoBlock(a) {
     { class: "perso-block" },
     btn,
     !src && reco
-      ? h("p", { class: "perso-reco" }, `🧭 Recommandé pour toi : ${reco.raisons.join(" · ")}`)
+      ? h("p", { class: "perso-reco" }, `Recommandé pour toi : ${reco.raisons.join(" · ")}`)
       : null,
   );
 }
