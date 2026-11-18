@@ -5,6 +5,7 @@ import { rappeurs } from './data/rappeurs.js';
 import { liens } from './data/liens.js';
 import { jsonp } from './deezer.js';
 import { perso } from './perso.js';
+import { idByDeezer } from './graphe.js';
 
 const MANCHES = 10;
 const DUREE = 15; // secondes pour répondre (l'extrait dure 30 s)
@@ -12,7 +13,6 @@ const RECORD_KEY = 'underspace-blindtest-record';
 const EXCLURE_RE = /\bnigg/i;
 
 const byId = new Map(rappeurs.map((r) => [r.id, r]));
-const idByDeezer = new Map(Object.entries(liens).map(([rid, l]) => [l.deezerId, rid]));
 const jouables = rappeurs.filter((r) => liens[r.id]?.deezerId).map((r) => r.id);
 
 function h(tag, attrs = {}, ...children) {

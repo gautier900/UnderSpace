@@ -1,0 +1,1 @@
+{"excludes": [".claude/skills", "skills-lock.json", "src/data/rappeurs.json", "src/data/feats.json", "scripts/feats-cache.json", "dist", "graphify-out"]}

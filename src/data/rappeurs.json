@@ -77,6 +77,12 @@
     ],
     "singles": [
       {
+        "titre": "Loli Rock",
+        "annee": 2026,
+        "date": "2026-11-12",
+        "lien": "https://www.deezer.com/album/1134911421"
+      },
+      {
         "titre": "Remember / Platine",
         "annee": 2026,
         "date": "2026-08-28",
@@ -282,6 +288,15 @@
         "date": "2024-07-12"
       },
       {
+        "titre": "Pérennité",
+        "type": "Album",
+        "annee": 2023,
+        "date": "2023-10-18",
+        "titres": 13,
+        "cover": "https://cdn-images.dzcdn.net/images/cover/4acbb6288cdaf3ce9ef2175382b45de4/250x250-000000-80-0-0.jpg",
+        "lien": "https://www.deezer.com/album/771488111"
+      },
+      {
         "titre": "PRETTYBOYMUZIK",
         "type": "Album",
         "annee": 2023,
@@ -317,15 +332,6 @@
     ],
     "singles": [
       {
-        "titre": "YOLO",
-        "annee": 2026,
-        "featurings": [
-          "Ateyaba"
-        ],
-        "lien": "https://open.spotify.com/album/61UQsLJw1i76m64haqEBoX",
-        "date": "2026-10-15"
-      },
-      {
         "titre": "positif",
         "annee": 2026,
         "lien": "https://open.spotify.com/album/5G43OuGUS3r34pZ1HhdlRa",
@@ -350,49 +356,12 @@
         "date": "2026-04-17"
       },
       {
-        "titre": "papier",
-        "annee": 2026,
-        "featurings": [
-          "HLD"
-        ],
-        "lien": "https://open.spotify.com/album/7DZq1LfIZKLRfX3jYTTvzA",
-        "date": "2026-04-16"
-      },
-      {
-        "titre": "westside",
-        "annee": 2026,
-        "featurings": [
-          "Southsidesilhouette",
-          "Pz'"
-        ],
-        "lien": "https://open.spotify.com/album/1jdN45LIy2jOu3At0eeyVa",
-        "date": "2026-04-16"
-      },
-      {
-        "titre": "again",
-        "annee": 2026,
-        "featurings": [
-          "OBOY"
-        ],
-        "lien": "https://open.spotify.com/album/2Mrf07yBpAQ5f7zeclOPFW",
-        "date": "2026-04-16"
-      },
-      {
         "titre": "ahlalala",
         "annee": 2026,
         "featurings": [
           "Didi B"
         ],
         "lien": "https://open.spotify.com/album/5SL7UH2ukXyS8ffWMXRXz9",
-        "date": "2026-04-16"
-      },
-      {
-        "titre": "la tourelle",
-        "annee": 2026,
-        "featurings": [
-          "Minz"
-        ],
-        "lien": "https://open.spotify.com/album/5BrT77fMdnG5YeOan1x6s0",
         "date": "2026-04-16"
       },
       {
@@ -535,18 +504,34 @@
         "lien": "https://open.spotify.com/album/4UY0LiMT5gKARaH82sC1uc"
       },
       {
-        "titre": "Wrong Nigga",
-        "annee": 2024,
-        "featurings": [
-          "S5"
-        ],
-        "lien": "https://open.spotify.com/album/5xcAeHFNAT3PcEeBN3fsMr"
+        "titre": "Illogique",
+        "annee": 2023,
+        "date": "2023-05-18",
+        "lien": "https://www.deezer.com/album/443467805"
       },
       {
-        "titre": "Pérennité",
-        "annee": 2023,
-        "lien": "https://open.spotify.com/album/0ki3mdQ53QEm64pzOZh9ia",
-        "date": "2023-10-18"
+        "titre": "Crying Inside",
+        "annee": 2022,
+        "date": "2022-12-22",
+        "lien": "https://www.deezer.com/album/389264567"
+      },
+      {
+        "titre": "WW3",
+        "annee": 2022,
+        "date": "2022-10-03",
+        "lien": "https://www.deezer.com/album/766868381"
+      },
+      {
+        "titre": "Make it",
+        "annee": 2022,
+        "date": "2022-09-04",
+        "lien": "https://www.deezer.com/album/353397537"
+      },
+      {
+        "titre": "6figures",
+        "annee": 2022,
+        "date": "2022-06-26",
+        "lien": "https://www.deezer.com/album/330690287"
       }
     ],
     "liens": {
@@ -580,15 +565,6 @@
       }
     ],
     "singles": [
-      {
-        "titre": "3 Feuilles",
-        "annee": 2026,
-        "featurings": [
-          "Sherifflazone"
-        ],
-        "lien": "https://open.spotify.com/album/4cyVevMcI2KTwbkM2wgh2f",
-        "date": "2026-10-08"
-      },
       {
         "titre": "Davidbowie",
         "annee": 2026,
@@ -759,52 +735,6 @@
       }
     ],
     "singles": [
-      {
-        "titre": "APPELLE LA POLICE",
-        "annee": 2026,
-        "date": "2026-10-22",
-        "featurings": [
-          "Theodora"
-        ],
-        "lien": "https://open.spotify.com/album/1K8INSckfNLaLTFkgQlTQs"
-      },
-      {
-        "titre": "NAN!",
-        "annee": 2026,
-        "date": "2026-10-22",
-        "featurings": [
-          "Bedry",
-          "63KLUF"
-        ],
-        "lien": "https://open.spotify.com/album/5KW8OGZoVsfAfMWblndBej"
-      },
-      {
-        "titre": "VILLE",
-        "annee": 2026,
-        "date": "2026-10-22",
-        "featurings": [
-          "Rim'K"
-        ],
-        "lien": "https://open.spotify.com/album/1nVElb1NATTqjSKFPq4xPy"
-      },
-      {
-        "titre": "RS CARBON",
-        "annee": 2026,
-        "date": "2026-10-22",
-        "featurings": [
-          "1PLIKÉ140"
-        ],
-        "lien": "https://open.spotify.com/album/6S9zr3buMnSgrMGCGh47IE"
-      },
-      {
-        "titre": "RR",
-        "annee": 2026,
-        "date": "2026-10-22",
-        "featurings": [
-          "Flacko cram"
-        ],
-        "lien": "https://open.spotify.com/album/5zBUKT8cTNsITAiNh1Sfzk"
-      },
       {
         "titre": "BOOSKA FINITION",
         "annee": 2026,
@@ -1375,66 +1305,10 @@
         "lien": "https://open.spotify.com/album/5sLPWqvk9ggDncUpDTJX6n"
       },
       {
-        "titre": "Belly",
-        "annee": 2023,
-        "featurings": [
-          "Dinos"
-        ],
-        "lien": "https://open.spotify.com/album/6WGWnlpnF7ccCf0c7CbdfK",
-        "date": "2023-12-14"
-      },
-      {
-        "titre": "Âme soeur",
-        "annee": 2023,
-        "featurings": [
-          "Enchantée Julia"
-        ],
-        "lien": "https://open.spotify.com/album/3m1webZKFDo572cWW5q50y",
-        "date": "2023-12-14"
-      },
-      {
         "titre": "Charm el-Cheikh",
         "annee": 2023,
         "date": "2023-12-07",
         "lien": "https://open.spotify.com/album/29D5GQ44ekuOZmxhfuJlsR"
-      },
-      {
-        "titre": "Balotelli",
-        "annee": 2022,
-        "featurings": [
-          "Freeze Corleone"
-        ],
-        "lien": "https://open.spotify.com/album/6QCSe0CehUsRRQYG7E89wr",
-        "date": "2022-09-29"
-      },
-      {
-        "titre": "Problème",
-        "annee": 2022,
-        "featurings": [
-          "Luidji",
-          "Makala"
-        ],
-        "lien": "https://open.spotify.com/album/3AwRyBsU50NSwzQ1W51t1v",
-        "date": "2022-09-29"
-      },
-      {
-        "titre": "Cra$h",
-        "annee": 2022,
-        "featurings": [
-          "Enchantée Julia",
-          "Jazzy Bazz"
-        ],
-        "lien": "https://open.spotify.com/album/4YbPvlFFhHtOETijzl6pUR",
-        "date": "2022-09-29"
-      },
-      {
-        "titre": "Bleu",
-        "annee": 2022,
-        "featurings": [
-          "Feu! Chatterton"
-        ],
-        "lien": "https://open.spotify.com/album/1aOMIxgKq1nEOl5o7uXTEs",
-        "date": "2022-09-29"
       },
       {
         "titre": "Broke / Miroir - A COLORS SHOW",
@@ -1552,15 +1426,6 @@
         "date": "2026-06-18"
       },
       {
-        "titre": "JOLAF",
-        "annee": 2026,
-        "featurings": [
-          "La Fève"
-        ],
-        "lien": "https://open.spotify.com/album/5Ml5P4IMaY81p6hx1bRaKT",
-        "date": "2026-03-12"
-      },
-      {
         "titre": "LOCKED UP",
         "annee": 2026,
         "featurings": [
@@ -1574,33 +1439,6 @@
         "annee": 2026,
         "lien": "https://open.spotify.com/album/49wLO762LoVHSkoXdsq0HC",
         "date": "2026-01-30"
-      },
-      {
-        "titre": "1.2.3 (2023VERSION)",
-        "annee": 2024,
-        "featurings": [
-          "Adèle Castillon"
-        ],
-        "lien": "https://open.spotify.com/album/3Nk9REfkW8Zg1CmlLfyQrW",
-        "date": "2024-11-07"
-      },
-      {
-        "titre": "LONGLIFE NICKY LARSON",
-        "annee": 2024,
-        "featurings": [
-          "Green Montana"
-        ],
-        "lien": "https://open.spotify.com/album/2Y6u8ThG90WbOwh92ZitMh",
-        "date": "2024-11-07"
-      },
-      {
-        "titre": "PLUS LE MÊME",
-        "annee": 2024,
-        "featurings": [
-          "Lesram"
-        ],
-        "lien": "https://open.spotify.com/album/2W8rVYQMoAcTXX1nd0UKHc",
-        "date": "2024-11-07"
       },
       {
         "titre": "HELLCAT OU CAMARO",
@@ -1681,12 +1519,6 @@
         "date": "2023-04-14"
       },
       {
-        "titre": "727BOEING",
-        "annee": 2023,
-        "lien": "https://open.spotify.com/album/6YBLdGRiYuPPff8Aj9CHnW",
-        "date": "2023-03-22"
-      },
-      {
         "titre": "SIKORSKY",
         "annee": 2023,
         "lien": "https://open.spotify.com/album/2v5ggbYSChG52QjuhVkdbY",
@@ -1731,6 +1563,15 @@
     "ville": "Albi",
     "collectif": "Diamond League",
     "projets": [
+      {
+        "titre": "3ème Mouvement",
+        "type": "Album",
+        "annee": 2026,
+        "date": "2026-11-12",
+        "titres": 8,
+        "cover": "https://cdn-images.dzcdn.net/images/cover/3cf36b3580023b89286a92e78e475055/250x250-000000-80-0-0.jpg",
+        "lien": "https://www.deezer.com/album/1139844401"
+      },
       {
         "titre": "2ème Mouvement",
         "type": "EP",
@@ -1781,12 +1622,6 @@
       }
     ],
     "singles": [
-      {
-        "titre": "Dope musique",
-        "annee": 2026,
-        "date": "2026-11-10",
-        "lien": "https://www.deezer.com/album/1137852571"
-      },
       {
         "titre": "Freestyle 3ème Mouvement",
         "annee": 2026,
@@ -2495,15 +2330,6 @@
         "date": "2026-02-04"
       },
       {
-        "titre": "TITAN",
-        "annee": 2025,
-        "featurings": [
-          "BBP"
-        ],
-        "lien": "https://open.spotify.com/album/63QgJLc6YBVVXLcoF0f02i",
-        "date": "2025-11-19"
-      },
-      {
         "titre": "BLIZZARD",
         "annee": 2025,
         "featurings": [
@@ -2751,22 +2577,6 @@
         "date": "2026-04-24"
       },
       {
-        "titre": "TROIS SOLEILS",
-        "annee": 2025,
-        "featurings": [
-          "Alpha Wann",
-          "Veust"
-        ],
-        "lien": "https://open.spotify.com/album/2cZs2ib6N9cX07zw22w0yV",
-        "date": "2025-11-27"
-      },
-      {
-        "titre": "Gucci EN 2010",
-        "annee": 2025,
-        "lien": "https://open.spotify.com/album/6U3YnvHhN6XskO1uFUtayx",
-        "date": "2025-11-26"
-      },
-      {
         "titre": "ANTICAPITALISTE",
         "annee": 2025,
         "lien": "https://open.spotify.com/album/3jl6WuRzQs7tnO31NZqltd",
@@ -2799,15 +2609,6 @@
         "annee": 2022,
         "lien": "https://open.spotify.com/album/3oleBpmGzWDXYb9AarfbjS",
         "date": "2022-12-08"
-      },
-      {
-        "titre": "zigZag.",
-        "annee": 2022,
-        "featurings": [
-          "Ratu$"
-        ],
-        "lien": "https://open.spotify.com/album/7JZLSLTg0jQMN153TkO0H7",
-        "date": "2022-06-23"
       },
       {
         "titre": "amiri.",
@@ -2916,15 +2717,6 @@
         "date": "2025-09-10"
       },
       {
-        "titre": "HENNESSY",
-        "annee": 2025,
-        "featurings": [
-          "Oldpee"
-        ],
-        "lien": "https://open.spotify.com/album/0WqrQK4apvDo7QFldyUoav",
-        "date": "2025-06-05"
-      },
-      {
         "titre": "ANTI-JEU",
         "annee": 2025,
         "lien": "https://open.spotify.com/album/46x8BVVlV14eiotL8YKnRM",
@@ -2956,24 +2748,6 @@
         "annee": 2024,
         "lien": "https://open.spotify.com/album/6Bc3hPmHhBVLPjYNaYCQg7",
         "date": "2024-08-09"
-      },
-      {
-        "titre": "Debout sur les affaires",
-        "annee": 2024,
-        "featurings": [
-          "Caballero"
-        ],
-        "lien": "https://open.spotify.com/album/6Y2l5I93rNuCQpsDxtONlG",
-        "date": "2024-05-02"
-      },
-      {
-        "titre": "Dirty Sprite Zero",
-        "annee": 2024,
-        "featurings": [
-          "EXOSLAYER"
-        ],
-        "lien": "https://open.spotify.com/album/2Ldn6fJ8AjgW8SD96dO6HM",
-        "date": "2024-05-02"
       },
       {
         "titre": "Copernic",
@@ -3188,15 +2962,6 @@
         "date": "2025-10-30"
       },
       {
-        "titre": "#BG",
-        "annee": 2025,
-        "featurings": [
-          "La Fève"
-        ],
-        "lien": "https://open.spotify.com/album/6xGNwl4m3ac8gUVWilPYl4",
-        "date": "2025-03-06"
-      },
-      {
         "titre": "JE NE PLEURE MEME PLUS",
         "annee": 2025,
         "featurings": [
@@ -3227,37 +2992,10 @@
         "date": "2024-12-18"
       },
       {
-        "titre": "SHE LIT",
-        "annee": 2024,
-        "featurings": [
-          "Green Montana"
-        ],
-        "lien": "https://open.spotify.com/album/3IYFhRvpsnXg2K7m5Jkf7B",
-        "date": "2024-04-24"
-      },
-      {
         "titre": "WDTA",
         "annee": 2023,
         "lien": "https://open.spotify.com/album/2Wj27X3JQKwH8OsTWS95uc",
         "date": "2023-07-21"
-      },
-      {
-        "titre": "LES SERPENTS",
-        "annee": 2023,
-        "featurings": [
-          "Rounhaa"
-        ],
-        "lien": "https://open.spotify.com/album/6ymir1HsBeaSh2EfH9UAqJ",
-        "date": "2023-03-09"
-      },
-      {
-        "titre": "DESIRE",
-        "annee": 2023,
-        "featurings": [
-          "Ashbeck"
-        ],
-        "lien": "https://open.spotify.com/album/73Di7jRlmYUSYaR1dQSEFU",
-        "date": "2023-03-09"
       },
       {
         "titre": "DIAMANT",
@@ -3390,24 +3128,6 @@
         "date": "2026-07-08"
       },
       {
-        "titre": "MAL AIMÉS",
-        "annee": 2025,
-        "featurings": [
-          "So La Lune"
-        ],
-        "lien": "https://open.spotify.com/album/6ADjWzVmPP2PLNarcJapYK",
-        "date": "2025-10-09"
-      },
-      {
-        "titre": "OUBLIÉ",
-        "annee": 2025,
-        "featurings": [
-          "J9ueve"
-        ],
-        "lien": "https://open.spotify.com/album/0wPnNzOu1iAtrrNhU54gtB",
-        "date": "2025-10-09"
-      },
-      {
         "titre": "BREAK",
         "annee": 2025,
         "featurings": [
@@ -3442,12 +3162,6 @@
         "annee": 2024,
         "lien": "https://open.spotify.com/album/2XtGRC7wsl2ITz9zZMDwHq",
         "date": "2024-09-25"
-      },
-      {
-        "titre": "LE PIÈGE",
-        "annee": 2024,
-        "lien": "https://open.spotify.com/album/4SfmPrvW4A8SYHNmsZ0iCb",
-        "date": "2024-01-10"
       },
       {
         "titre": "GARE DU NORD",
@@ -3600,15 +3314,6 @@
           "amne"
         ],
         "lien": "https://open.spotify.com/album/23TDkhQVjntUeqVZMneEd5"
-      },
-      {
-        "titre": "inaudible",
-        "annee": 2023,
-        "featurings": [
-          "LUCASV"
-        ],
-        "lien": "https://open.spotify.com/album/0r6NzVkVyq1FfhWoyHQ0JN",
-        "date": "2023-03-28"
       },
       {
         "titre": "LESSGUI",
@@ -3851,33 +3556,6 @@
         "date": "2026-10-02"
       },
       {
-        "titre": "Un Peu Beaucoup",
-        "annee": 2026,
-        "featurings": [
-          "Ninho"
-        ],
-        "lien": "https://open.spotify.com/album/25i4VcFXPYtqTii82RWWFX",
-        "date": "2026-05-21"
-      },
-      {
-        "titre": "Vaisseau Mer",
-        "annee": 2026,
-        "featurings": [
-          "Moha MMZ"
-        ],
-        "lien": "https://open.spotify.com/album/50Z46YWLyGKcSI55KOesVd",
-        "date": "2026-05-21"
-      },
-      {
-        "titre": "Zodiac",
-        "annee": 2026,
-        "featurings": [
-          "Green Montana"
-        ],
-        "lien": "https://open.spotify.com/album/424pO2Uda1CdJ9SGlqDNXg",
-        "date": "2026-05-21"
-      },
-      {
         "titre": "Plus Pareil",
         "annee": 2026,
         "lien": "https://open.spotify.com/album/2PgorVYQPBQ7K8ozAQjfoM",
@@ -3909,52 +3587,6 @@
         "annee": 2025,
         "lien": "https://open.spotify.com/album/1L1hgwYqiWoJRUqrkNkGgk",
         "date": "2025-12-12"
-      },
-      {
-        "titre": "Full Piège",
-        "annee": 2025,
-        "featurings": [
-          "Guizmo"
-        ],
-        "lien": "https://open.spotify.com/album/77aYSFoA76vHgSqW4lJino",
-        "date": "2025-05-15"
-      },
-      {
-        "titre": "Bendo Toute La Nuit",
-        "annee": 2025,
-        "featurings": [
-          "Jolagreen23"
-        ],
-        "lien": "https://open.spotify.com/album/3zW6JGkCCrKSkscdlOIId3",
-        "date": "2025-05-15"
-      },
-      {
-        "titre": "Luc Besson",
-        "annee": 2025,
-        "featurings": [
-          "Lujipeka"
-        ],
-        "lien": "https://open.spotify.com/album/1VfZKzl6FnSB1ZpkSr3Tyy",
-        "date": "2025-05-15"
-      },
-      {
-        "titre": "Ça ira",
-        "annee": 2025,
-        "featurings": [
-          "UZI"
-        ],
-        "lien": "https://open.spotify.com/album/3fxCF9omTYhuHF5U0ojrWw",
-        "date": "2025-05-15"
-      },
-      {
-        "titre": "Tout le temps",
-        "annee": 2025,
-        "featurings": [
-          "Rim'K",
-          "Soprano"
-        ],
-        "lien": "https://open.spotify.com/album/684HKl7DB3mzvVMjQgG9nw",
-        "date": "2025-05-15"
       },
       {
         "titre": "30 secondes/Motor",
@@ -4006,39 +3638,12 @@
         "date": "2023-01-18"
       },
       {
-        "titre": "Retour de Flamme",
-        "annee": 2022,
-        "featurings": [
-          "Amine Farsi"
-        ],
-        "lien": "https://open.spotify.com/album/0YwQEe8jHJQOFTCHKiwdEV",
-        "date": "2022-12-20"
-      },
-      {
         "titre": "Freestyle Raplune",
         "annee": 2022,
         "featurings": [
           "Shades"
         ],
         "lien": "https://open.spotify.com/album/0hM7urQfMQhCHCAXCwup3c",
-        "date": "2022-05-26"
-      },
-      {
-        "titre": "Nouveaux pirates",
-        "annee": 2022,
-        "featurings": [
-          "Roshi"
-        ],
-        "lien": "https://open.spotify.com/album/53sUrTvPy3ukKhAV2HBj4y",
-        "date": "2022-05-26"
-      },
-      {
-        "titre": "En bas",
-        "annee": 2022,
-        "featurings": [
-          "DA Uzi"
-        ],
-        "lien": "https://open.spotify.com/album/7n3O90UAE1PZqbyxuPPv3d",
         "date": "2022-05-26"
       },
       {
@@ -4075,6 +3680,75 @@
         "annee": 2021,
         "lien": "https://open.spotify.com/album/4MK2YSIBhsBleNBCNNSEQZ",
         "date": "2021-11-16"
+      },
+      {
+        "titre": "Freestyle 1ère faille",
+        "annee": 2021,
+        "date": "2021-10-12",
+        "lien": "https://www.deezer.com/album/264433702"
+      },
+      {
+        "titre": "Freestyle Apollo 11",
+        "annee": 2021,
+        "date": "2021-07-07",
+        "lien": "https://www.deezer.com/album/261150912"
+      },
+      {
+        "titre": "Freestyle Theia",
+        "annee": 2021,
+        "date": "2021-03-17",
+        "lien": "https://www.deezer.com/album/215430182"
+      },
+      {
+        "titre": "Lune city",
+        "annee": 2021,
+        "date": "2021-02-26",
+        "lien": "https://www.deezer.com/album/207846012"
+      },
+      {
+        "titre": "Un tour",
+        "annee": 2019,
+        "date": "2019-12-13",
+        "lien": "https://www.deezer.com/album/121319152"
+      },
+      {
+        "titre": "Billy",
+        "annee": 2019,
+        "date": "2019-10-30",
+        "lien": "https://www.deezer.com/album/115479232"
+      },
+      {
+        "titre": "Sirène 18",
+        "annee": 2019,
+        "date": "2019-10-04",
+        "featurings": [
+          "Rouge Carmin"
+        ],
+        "lien": "https://www.deezer.com/album/112437302"
+      },
+      {
+        "titre": "Yah 09",
+        "annee": 2019,
+        "date": "2019-09-14",
+        "lien": "https://www.deezer.com/album/109835432"
+      },
+      {
+        "titre": "Abeille 20",
+        "annee": 2019,
+        "date": "2019-08-23",
+        "lien": "https://www.deezer.com/album/107166302"
+      },
+      {
+        "titre": "Aqua 15",
+        "annee": 2019,
+        "date": "2019-08-03",
+        "lien": "https://www.deezer.com/album/104907422"
+      },
+      {
+        "titre": "Fissure de vie 23",
+        "annee": 2019,
+        "date": "2019-07-12",
+        "lien": "https://www.deezer.com/album/101867582"
       }
     ],
     "liens": {
@@ -4206,15 +3880,6 @@
         ],
         "lien": "https://open.spotify.com/album/5KLRrK41qhmaUsJbZodVZp",
         "date": "2025-01-31"
-      },
-      {
-        "titre": "VENDREDI À LONDRES",
-        "annee": 2024,
-        "featurings": [
-          "BU$HI"
-        ],
-        "lien": "https://open.spotify.com/album/5GQz2O9IUXNuGyuyBJkLdI",
-        "date": "2024-10-24"
       },
       {
         "titre": "VIVEMENT",
@@ -4381,51 +4046,6 @@
         "date": "2026-08-12"
       },
       {
-        "titre": "ya dig!",
-        "annee": 2026,
-        "featurings": [
-          "Abugat"
-        ],
-        "lien": "https://open.spotify.com/album/65QRicpmxwSRSj5mWMoTNn",
-        "date": "2026-06-25"
-      },
-      {
-        "titre": "tell em",
-        "annee": 2026,
-        "featurings": [
-          "Gola Gianni"
-        ],
-        "lien": "https://open.spotify.com/album/61jk0Q65JzHhfEAaHjy4ft",
-        "date": "2026-06-25"
-      },
-      {
-        "titre": "okay!!",
-        "annee": 2026,
-        "featurings": [
-          "Fourfive"
-        ],
-        "lien": "https://open.spotify.com/album/0abQvMVX9RpgN3LqgABSvk",
-        "date": "2026-06-25"
-      },
-      {
-        "titre": "y sait",
-        "annee": 2026,
-        "featurings": [
-          "Vlonedelinquente"
-        ],
-        "lien": "https://open.spotify.com/album/45QkvcOS0PNI4oD21Cc6N5",
-        "date": "2026-06-25"
-      },
-      {
-        "titre": "kesi kajma gang",
-        "annee": 2026,
-        "featurings": [
-          "VALVENITVARIS"
-        ],
-        "lien": "https://open.spotify.com/album/6fORwXeg0od1frqfty7tK4",
-        "date": "2026-06-25"
-      },
-      {
         "titre": "johnny dang",
         "annee": 2026,
         "lien": "https://open.spotify.com/album/2W6yFCo0LQEjtxHEM9Owa1",
@@ -4551,40 +4171,73 @@
         "date": "2024-04-17"
       },
       {
-        "titre": "OH LAla!!",
+        "titre": "OK LET's go!!",
         "annee": 2024,
-        "featurings": [
-          "Mister V"
-        ],
-        "lien": "https://open.spotify.com/album/28qJOQVkphIOmWXT5vMZoj",
-        "date": "2024-01-18"
+        "date": "2024-01-10",
+        "lien": "https://www.deezer.com/album/520316462"
       },
       {
-        "titre": "ANDREW TATE!!",
-        "annee": 2024,
-        "featurings": [
-          "thaHomey"
-        ],
-        "lien": "https://open.spotify.com/album/1FJc0oGcgsSMJfqUpXvxig",
-        "date": "2024-01-18"
+        "titre": "OUh!! (SPICE BOMB)",
+        "annee": 2023,
+        "date": "2023-12-13",
+        "lien": "https://www.deezer.com/album/518149112"
       },
       {
-        "titre": "VAris//PIENna",
-        "annee": 2024,
-        "featurings": [
-          "Gola Gianni"
-        ],
-        "lien": "https://open.spotify.com/album/4bNBfwpfGcI6ngX90rF6WV",
-        "date": "2024-01-18"
+        "titre": "NO C.A.B",
+        "annee": 2023,
+        "date": "2023-11-15",
+        "lien": "https://www.deezer.com/album/507218881"
       },
       {
-        "titre": "23+10!!",
-        "annee": 2024,
+        "titre": "33 Carats",
+        "annee": 2023,
+        "date": "2023-07-06",
         "featurings": [
-          "Jolagreen23"
+          "Flee"
         ],
-        "lien": "https://open.spotify.com/album/5vteJGzxqLaBNAhHtXFHFd",
-        "date": "2024-01-18"
+        "lien": "https://www.deezer.com/album/457783695"
+      },
+      {
+        "titre": "Nou Ja Sav Sa",
+        "annee": 2023,
+        "date": "2023-06-29",
+        "lien": "https://www.deezer.com/album/455294215"
+      },
+      {
+        "titre": "MANY MANE",
+        "annee": 2022,
+        "date": "2022-12-14",
+        "featurings": [
+          "Binks Beatz"
+        ],
+        "lien": "https://www.deezer.com/album/382508937"
+      },
+      {
+        "titre": "PADERYL",
+        "annee": 2022,
+        "date": "2022-11-17",
+        "featurings": [
+          "Binks Beatz"
+        ],
+        "lien": "https://www.deezer.com/album/373686047"
+      },
+      {
+        "titre": "33010",
+        "annee": 2022,
+        "date": "2022-05-05",
+        "featurings": [
+          "3010"
+        ],
+        "lien": "https://www.deezer.com/album/312919737"
+      },
+      {
+        "titre": "Paris to London",
+        "annee": 2022,
+        "date": "2022-05-05",
+        "featurings": [
+          "5EB"
+        ],
+        "lien": "https://www.deezer.com/album/312919857"
       }
     ],
     "liens": {
@@ -4822,15 +4475,6 @@
         "annee": 2026,
         "lien": "https://open.spotify.com/album/0UgL4fdan7u9OZjDpzWyja",
         "date": "2026-10-28"
-      },
-      {
-        "titre": "SLO' JAM",
-        "annee": 2026,
-        "featurings": [
-          "La Fève"
-        ],
-        "lien": "https://open.spotify.com/album/35NhNpRvHyxSYnhgpfphvE",
-        "date": "2026-01-22"
       },
       {
         "titre": "TRIBUS DISPARUES",
@@ -5159,44 +4803,6 @@
         "date": "2025-12-19"
       },
       {
-        "titre": "Aléatoire",
-        "annee": 2025,
-        "featurings": [
-          "niketaz",
-          "Cameliro"
-        ],
-        "lien": "https://open.spotify.com/album/7kvad0WF7GmGuls9mud1xS",
-        "date": "2025-05-30"
-      },
-      {
-        "titre": "Anty Ana",
-        "annee": 2025,
-        "featurings": [
-          "Pablo Rochat"
-        ],
-        "lien": "https://open.spotify.com/album/157joAykCMfnVGZEjcFAE3",
-        "date": "2025-05-30"
-      },
-      {
-        "titre": "Batata",
-        "annee": 2025,
-        "featurings": [
-          "Gros Mo"
-        ],
-        "lien": "https://open.spotify.com/album/0TrT0YFYG6fPh8zOs7pqbi",
-        "date": "2025-05-30"
-      },
-      {
-        "titre": "Papele",
-        "annee": 2025,
-        "featurings": [
-          "kezo",
-          "Pibé"
-        ],
-        "lien": "https://open.spotify.com/album/3iRnpgiSujrtMs5nw4cdrB",
-        "date": "2025-05-30"
-      },
-      {
         "titre": "Andale",
         "annee": 2025,
         "featurings": [
@@ -5353,6 +4959,33 @@
           "Mister V"
         ],
         "lien": "https://open.spotify.com/album/1QBfJReczohgdnLUdZilvE"
+      },
+      {
+        "titre": "Denzel",
+        "annee": 2020,
+        "date": "2020-05-10",
+        "lien": "https://www.deezer.com/album/146657032"
+      },
+      {
+        "titre": "Règlement Statham Freestyle",
+        "annee": 2020,
+        "date": "2020-04-23",
+        "lien": "https://www.deezer.com/album/140314032"
+      },
+      {
+        "titre": "Big Foot",
+        "annee": 2019,
+        "date": "2019-05-07",
+        "featurings": [
+          "Daej Phantom"
+        ],
+        "lien": "https://www.deezer.com/album/96042962"
+      },
+      {
+        "titre": "Faut pas bader",
+        "annee": 2019,
+        "date": "2019-05-07",
+        "lien": "https://www.deezer.com/album/317555767"
       }
     ],
     "liens": {
@@ -5438,26 +5071,6 @@
       }
     ],
     "singles": [
-      {
-        "titre": "H1",
-        "annee": 2026,
-        "featurings": [
-          "Makala",
-          "Daej Phantom",
-          "VL"
-        ],
-        "lien": "https://open.spotify.com/album/1l4o16qYjEcVM688ojxqJ2",
-        "date": "2026-10-15"
-      },
-      {
-        "titre": "L'AIGLE ET LA CLÉ",
-        "annee": 2026,
-        "featurings": [
-          "Al-Walid"
-        ],
-        "lien": "https://open.spotify.com/album/3V75XRegnwYYuXPeHpkMkf",
-        "date": "2026-10-15"
-      },
       {
         "titre": "STEP",
         "annee": 2026,
@@ -5738,26 +5351,6 @@
     ],
     "singles": [
       {
-        "titre": "minuit",
-        "annee": 2025,
-        "featurings": [
-          "Hopital",
-          "Niels Schack"
-        ],
-        "lien": "https://open.spotify.com/album/3Ywd10fKJ1snl8LtVHZkCA",
-        "date": "2025-02-20"
-      },
-      {
-        "titre": "la patte brisée",
-        "annee": 2025,
-        "featurings": [
-          "Hopital",
-          "Ike Ortiz"
-        ],
-        "lien": "https://open.spotify.com/album/6JV7Ws6SDL3dSxmeWxsZGN",
-        "date": "2025-02-20"
-      },
-      {
         "titre": "dope",
         "annee": 2025,
         "featurings": [
@@ -5847,16 +5440,6 @@
         "date": "2023-12-28"
       },
       {
-        "titre": "Déjeuner en guerre",
-        "annee": 2023,
-        "featurings": [
-          "JeanJass",
-          "Caballero"
-        ],
-        "lien": "https://open.spotify.com/album/7muEX8WfgKP0jPA3ty4dVc",
-        "date": "2023-09-21"
-      },
-      {
         "titre": "Cléopâtre",
         "annee": 2023,
         "featurings": [
@@ -5874,24 +5457,6 @@
         ],
         "lien": "https://open.spotify.com/album/5sUJVoHaz0RiZVLFNEccE9",
         "date": "2023-07-21"
-      },
-      {
-        "titre": "merci bonne journée",
-        "annee": 2023,
-        "featurings": [
-          "H JeuneCrack"
-        ],
-        "lien": "https://open.spotify.com/album/3NDDgYgEbZJsvE4l1Xk0m7",
-        "date": "2023-05-18"
-      },
-      {
-        "titre": "2 jackets",
-        "annee": 2023,
-        "featurings": [
-          "Implaccable"
-        ],
-        "lien": "https://open.spotify.com/album/0Y00oN6sQPMPGYzESxCCda",
-        "date": "2023-05-18"
       },
       {
         "titre": "nouvelle écriture",
@@ -5948,18 +5513,6 @@
         "titres": 4,
         "lien": "https://open.spotify.com/album/67jIGiKlIM1Te46HgzbqBn",
         "date": "2026-04-22"
-      }
-    ],
-    "singles": [
-      {
-        "titre": "ON Y VA!",
-        "annee": 2026,
-        "featurings": [
-          "Al-Walid",
-          "Sid Spada"
-        ],
-        "lien": "https://open.spotify.com/album/3nu578i7IIyBAHepyrZwXP",
-        "date": "2026-10-23"
       }
     ],
     "liens": {
@@ -6021,24 +5574,6 @@
     ],
     "singles": [
       {
-        "titre": "PAPA CASA",
-        "annee": 2026,
-        "featurings": [
-          "Naïka"
-        ],
-        "lien": "https://open.spotify.com/album/4rTi2jwhK4oSQLudIydgjs",
-        "date": "2026-10-22"
-      },
-      {
-        "titre": "PANAFRI",
-        "annee": 2026,
-        "featurings": [
-          "Supremnova"
-        ],
-        "lien": "https://open.spotify.com/album/0yQ3Y6VG6FMXsbg2GBi1Uh",
-        "date": "2026-10-22"
-      },
-      {
         "titre": "BUENA ONDA",
         "annee": 2026,
         "lien": "https://open.spotify.com/album/0l2Rjrl8uem6Dm5J9BT8K6",
@@ -6052,24 +5587,6 @@
         ],
         "lien": "https://open.spotify.com/album/4QVtj3Qj0WpwwgmF00r1cu",
         "date": "2026-09-28"
-      },
-      {
-        "titre": "MOULA SOLITUDE",
-        "annee": 2025,
-        "featurings": [
-          "Draganov"
-        ],
-        "lien": "https://open.spotify.com/album/5iBBWFFLL6MPoJwxkKWnWa",
-        "date": "2025-10-09"
-      },
-      {
-        "titre": "BLICKY",
-        "annee": 2025,
-        "featurings": [
-          "LinLin"
-        ],
-        "lien": "https://open.spotify.com/album/6UYcXlY1VuozugyGewd2N6",
-        "date": "2025-10-09"
       },
       {
         "titre": "DIMA RAVE",
@@ -6205,15 +5722,6 @@
         "annee": 2025,
         "lien": "https://open.spotify.com/album/0FG0ZzcflFAAmGxfMkr8W6",
         "date": "2025-05-13"
-      },
-      {
-        "titre": "PAY!",
-        "annee": 2025,
-        "featurings": [
-          "Guy2Bezbar"
-        ],
-        "lien": "https://open.spotify.com/album/4V0w5wniprh3z99zFbMPnI",
-        "date": "2025-04-24"
       },
       {
         "titre": "Ils me rient tous au nez (live version)",
@@ -6515,12 +6023,6 @@
         ],
         "lien": "https://open.spotify.com/album/0UKIMRLZuccBsveC4TwQBI",
         "date": "2026-04-24"
-      },
-      {
-        "titre": "MON AMOUR",
-        "annee": 2025,
-        "lien": "https://open.spotify.com/album/5YTk0f07Za3RBabsPlXWv1",
-        "date": "2025-10-10"
       },
       {
         "titre": "AMOR",
@@ -6926,25 +6428,6 @@
         "date": "2023-06-08"
       },
       {
-        "titre": "Guerriers",
-        "annee": 2023,
-        "featurings": [
-          "Jey Brownie"
-        ],
-        "lien": "https://open.spotify.com/album/00Bhmsob9LpgEQrIMEH6o5",
-        "date": "2023-02-22"
-      },
-      {
-        "titre": "Laisse parler",
-        "annee": 2023,
-        "featurings": [
-          "Afro S",
-          "Doc OVG"
-        ],
-        "lien": "https://open.spotify.com/album/1RjKxZYXWwxN1Awn0ePF0f",
-        "date": "2023-02-22"
-      },
-      {
         "titre": "Sahara",
         "annee": 2022,
         "featurings": [
@@ -7045,6 +6528,21 @@
         "annee": 2020,
         "lien": "https://open.spotify.com/album/54NSZsvhyxNeL4HapQxyWO",
         "date": "2020-04-12"
+      },
+      {
+        "titre": "Karma",
+        "annee": 2020,
+        "date": "2020-03-06",
+        "featurings": [
+          "Double Cup Kase"
+        ],
+        "lien": "https://www.deezer.com/album/135024462"
+      },
+      {
+        "titre": "5G",
+        "annee": 2019,
+        "date": "2019-12-05",
+        "lien": "https://www.deezer.com/album/121622872"
       }
     ],
     "liens": {
@@ -8815,15 +8313,6 @@
         "date": "2026-08-26"
       },
       {
-        "titre": "MAP",
-        "annee": 2026,
-        "featurings": [
-          "Kodes"
-        ],
-        "lien": "https://open.spotify.com/album/4Wdm0mxgqeQY0c2DESkHvt",
-        "date": "2026-07-07"
-      },
-      {
         "titre": "BLUETOOTH",
         "annee": 2026,
         "lien": "https://open.spotify.com/album/29ZpOTuS0ylc3Of5c8uZFa",
@@ -9205,15 +8694,6 @@
     ],
     "singles": [
       {
-        "titre": "MARCHONS",
-        "annee": 2026,
-        "featurings": [
-          "Darlingchouchou"
-        ],
-        "lien": "https://open.spotify.com/album/7DAa6Vky6xj3QTELQsTbN5",
-        "date": "2026-10-14"
-      },
-      {
         "titre": "god bless",
         "annee": 2026,
         "lien": "https://open.spotify.com/album/5pDLmDXJ1diNd2HSmxTHme",
@@ -9394,61 +8874,16 @@
         "lien": "https://www.deezer.com/album/989697281"
       },
       {
-        "titre": "49.3 COUP DE CROSS",
-        "annee": 2026,
-        "date": "2026-04-02",
-        "featurings": [
-          "Freeze Corleone"
-        ],
-        "lien": "https://www.deezer.com/album/950590831"
-      },
-      {
         "titre": "TU VAS TE FAIRE DRIVE-BY UN VENDREDI",
         "annee": 2026,
         "date": "2026-02-13",
         "lien": "https://www.deezer.com/album/911008351"
       },
       {
-        "titre": "MODE SPORT",
-        "annee": 2025,
-        "date": "2025-07-17",
-        "featurings": [
-          "Kekra"
-        ],
-        "lien": "https://www.deezer.com/album/789690691"
-      },
-      {
-        "titre": "42 BIS BOULEVARD MAGELLAN",
-        "annee": 2025,
-        "date": "2025-07-16",
-        "featurings": [
-          "Zed"
-        ],
-        "lien": "https://www.deezer.com/album/782501821"
-      },
-      {
         "titre": "METRO STATION",
         "annee": 2025,
         "date": "2025-02-14",
         "lien": "https://www.deezer.com/album/706114951"
-      },
-      {
-        "titre": "DÉLINQUANCE JUVENILE",
-        "annee": 2024,
-        "date": "2024-06-06",
-        "featurings": [
-          "Stavo"
-        ],
-        "lien": "https://www.deezer.com/album/589519152"
-      },
-      {
-        "titre": "ISUZU",
-        "annee": 2024,
-        "date": "2024-06-06",
-        "featurings": [
-          "Alpha Wann"
-        ],
-        "lien": "https://www.deezer.com/album/591726382"
       },
       {
         "titre": "AB***KA***",
@@ -9569,6 +9004,30 @@
         "annee": 2020,
         "date": "2020-08-20",
         "lien": "https://www.deezer.com/album/168089732"
+      },
+      {
+        "titre": "TAGA",
+        "annee": 2020,
+        "date": "2020-08-20",
+        "lien": "https://www.deezer.com/album/606749512"
+      },
+      {
+        "titre": "CHEVAL",
+        "annee": 2020,
+        "date": "2020-08-20",
+        "lien": "https://www.deezer.com/album/606749602"
+      },
+      {
+        "titre": "24H",
+        "annee": 2020,
+        "date": "2020-06-14",
+        "lien": "https://www.deezer.com/album/606749532"
+      },
+      {
+        "titre": "24 H Du Mans",
+        "annee": 2020,
+        "date": "2020-06-13",
+        "lien": "https://www.deezer.com/album/154416362"
       }
     ],
     "planete": {
@@ -9774,15 +9233,6 @@
       }
     ],
     "singles": [
-      {
-        "titre": "TOTAL 90",
-        "annee": 2026,
-        "date": "2026-05-29",
-        "featurings": [
-          "ISHA"
-        ],
-        "lien": "https://www.deezer.com/album/983454871"
-      },
       {
         "titre": "TA MAIN",
         "annee": 2026,
@@ -10600,38 +10050,10 @@
         "lien": "https://www.deezer.com/album/1103415182"
       },
       {
-        "titre": "Raz de marée",
-        "annee": 2025,
-        "date": "2025-06-12",
-        "featurings": [
-          "Green Montana"
-        ],
-        "lien": "https://www.deezer.com/album/767873901"
-      },
-      {
-        "titre": "La vie à Brenda",
-        "annee": 2025,
-        "date": "2025-06-12",
-        "featurings": [
-          "Dinos"
-        ],
-        "lien": "https://www.deezer.com/album/767873931"
-      },
-      {
         "titre": "Drôle d'oiseau",
         "annee": 2025,
         "date": "2025-06-05",
         "lien": "https://www.deezer.com/album/765084631"
-      },
-      {
-        "titre": "Flûtes recyclables",
-        "annee": 2023,
-        "date": "2023-12-01",
-        "featurings": [
-          "Limsa d'Aulnay",
-          "Caballero & JeanJass"
-        ],
-        "lien": "https://www.deezer.com/album/507725691"
       },
       {
         "titre": "Inna di Club",
@@ -10934,24 +10356,6 @@
         "lien": "https://www.deezer.com/album/569613671"
       },
       {
-        "titre": "TOP SHOOTER",
-        "annee": 2023,
-        "date": "2023-09-29",
-        "featurings": [
-          "gapman"
-        ],
-        "lien": "https://www.deezer.com/album/569303941"
-      },
-      {
-        "titre": "YOUNG THUG",
-        "annee": 2023,
-        "date": "2023-09-29",
-        "featurings": [
-          "Dafliky"
-        ],
-        "lien": "https://www.deezer.com/album/570825401"
-      },
-      {
         "titre": "PROMIS",
         "annee": 2023,
         "date": "2023-09-04",
@@ -11107,15 +10511,6 @@
           "Oxmo Puccino"
         ],
         "lien": "https://www.deezer.com/album/488422865"
-      },
-      {
-        "titre": "ZANDVOORT PALACE",
-        "annee": 2022,
-        "date": "2022-12-01",
-        "featurings": [
-          "Sofiane Pamart"
-        ],
-        "lien": "https://www.deezer.com/album/381825687"
       },
       {
         "titre": "NDSM & INTÉRIEUR SCANDINAVE",
@@ -11314,15 +10709,6 @@
       }
     ],
     "singles": [
-      {
-        "titre": "Si tu pars",
-        "annee": 2026,
-        "date": "2026-10-01",
-        "featurings": [
-          "Camille Yembe"
-        ],
-        "lien": "https://www.deezer.com/album/1080857152"
-      },
       {
         "titre": "Mentir au psy",
         "annee": 2026,
@@ -11566,56 +10952,10 @@
         "lien": "https://www.deezer.com/album/742370441"
       },
       {
-        "titre": "WISCONSIN",
-        "annee": 2025,
-        "date": "2025-02-20",
-        "featurings": [
-          "Deen Burbigo"
-        ],
-        "lien": "https://www.deezer.com/album/708485841"
-      },
-      {
-        "titre": "NOUVELLE ADRESSE",
-        "annee": 2025,
-        "date": "2025-02-20",
-        "featurings": [
-          "OG L'Enf"
-        ],
-        "lien": "https://www.deezer.com/album/712632971"
-      },
-      {
-        "titre": "SCANNER",
-        "annee": 2025,
-        "date": "2025-02-20",
-        "featurings": [
-          "Zequin"
-        ],
-        "lien": "https://www.deezer.com/album/712633561"
-      },
-      {
-        "titre": "20M³",
-        "annee": 2025,
-        "date": "2025-02-19",
-        "featurings": [
-          "Limsa d'Aulnay"
-        ],
-        "lien": "https://www.deezer.com/album/713338151"
-      },
-      {
         "titre": "TOP 3",
         "annee": 2025,
         "date": "2025-01-31",
         "lien": "https://www.deezer.com/album/697996181"
-      },
-      {
-        "titre": "Mc Gregor",
-        "annee": 2024,
-        "date": "2024-02-14",
-        "featurings": [
-          "Alpha Wann",
-          "Rim'K"
-        ],
-        "lien": "https://www.deezer.com/album/544534942"
       },
       {
         "titre": "888 FREESTYLE",
@@ -11944,15 +11284,6 @@
     ],
     "singles": [
       {
-        "titre": "SUPERMOTOR",
-        "annee": 2026,
-        "date": "2026-06-09",
-        "featurings": [
-          "SDM"
-        ],
-        "lien": "https://www.deezer.com/album/988362081"
-      },
-      {
         "titre": "BFC EZA KOYA",
         "annee": 2026,
         "date": "2026-06-04",
@@ -11987,15 +11318,6 @@
         "annee": 2023,
         "date": "2023-04-26",
         "lien": "https://www.deezer.com/album/432263897"
-      },
-      {
-        "titre": "NEYMAR JR",
-        "annee": 2022,
-        "date": "2022-04-14",
-        "featurings": [
-          "SDM"
-        ],
-        "lien": "https://www.deezer.com/album/310105127"
       },
       {
         "titre": "PARFUM",
@@ -12147,16 +11469,6 @@
         "lien": "https://www.deezer.com/album/1110430242"
       },
       {
-        "titre": "Jeune Scorsese",
-        "annee": 2026,
-        "date": "2026-02-20",
-        "featurings": [
-          "Caballero",
-          "JeanJass"
-        ],
-        "lien": "https://www.deezer.com/album/905321292"
-      },
-      {
         "titre": "92100",
         "annee": 2026,
         "date": "2026-02-11",
@@ -12167,15 +11479,6 @@
         "annee": 2025,
         "date": "2025-11-07",
         "lien": "https://www.deezer.com/album/842595822"
-      },
-      {
-        "titre": "Jack Martin",
-        "annee": 2025,
-        "date": "2025-04-25",
-        "featurings": [
-          "Jungle Jack"
-        ],
-        "lien": "https://www.deezer.com/album/739148311"
       },
       {
         "titre": "C'est Martin",
@@ -12499,48 +11802,6 @@
     ],
     "singles": [
       {
-        "titre": "SHARP SHOOTER",
-        "annee": 2026,
-        "date": "2026-06-04",
-        "lien": "https://www.deezer.com/album/991414331"
-      },
-      {
-        "titre": "RUBY ERRYDAY",
-        "annee": 2026,
-        "date": "2026-06-04",
-        "featurings": [
-          "BKRBABYBOY"
-        ],
-        "lien": "https://www.deezer.com/album/991416501"
-      },
-      {
-        "titre": "LE PÉTROLE",
-        "annee": 2026,
-        "date": "2026-06-04",
-        "featurings": [
-          "Malo"
-        ],
-        "lien": "https://www.deezer.com/album/991416521"
-      },
-      {
-        "titre": "RATCHET BOOKS CLUB",
-        "annee": 2026,
-        "date": "2026-06-04",
-        "featurings": [
-          "Giuseppe"
-        ],
-        "lien": "https://www.deezer.com/album/991418431"
-      },
-      {
-        "titre": "RAMIREZ&LISANDRO",
-        "annee": 2026,
-        "date": "2026-06-04",
-        "featurings": [
-          "LUVBFK"
-        ],
-        "lien": "https://www.deezer.com/album/991421691"
-      },
-      {
         "titre": "ISF TYPE SHI",
         "annee": 2026,
         "date": "2026-04-08",
@@ -12697,15 +11958,6 @@
         "lien": "https://www.deezer.com/album/827453521"
       },
       {
-        "titre": "PLUS RIEN",
-        "annee": 2025,
-        "date": "2025-01-30",
-        "featurings": [
-          "Tuerie"
-        ],
-        "lien": "https://www.deezer.com/album/686173881"
-      },
-      {
         "titre": "COMME LA ROUE",
         "annee": 2025,
         "date": "2025-01-17",
@@ -12724,12 +11976,6 @@
         "lien": "https://www.deezer.com/album/669203451"
       },
       {
-        "titre": "Marado",
-        "annee": 2024,
-        "date": "2024-02-22",
-        "lien": "https://www.deezer.com/album/545884812"
-      },
-      {
         "titre": "Polaire",
         "annee": 2024,
         "date": "2024-02-16",
@@ -12740,12 +11986,6 @@
         "annee": 2023,
         "date": "2023-05-17",
         "lien": "https://www.deezer.com/album/437049137"
-      },
-      {
-        "titre": "Vinted",
-        "annee": 2022,
-        "date": "2022-12-07",
-        "lien": "https://www.deezer.com/album/380281607"
       },
       {
         "titre": "Dog Day",
@@ -12887,12 +12127,6 @@
         "annee": 2025,
         "date": "2025-01-27",
         "lien": "https://www.deezer.com/album/701453281"
-      },
-      {
-        "titre": "Tiroir Bleu",
-        "annee": 2021,
-        "date": "2021-07-08",
-        "lien": "https://www.deezer.com/album/242100802"
       },
       {
         "titre": "Silence",
@@ -13140,60 +12374,6 @@
         "lien": "https://www.deezer.com/album/1008188611"
       },
       {
-        "titre": "AUTRE TEL, Pt. 2",
-        "annee": 2025,
-        "date": "2025-06-03",
-        "featurings": [
-          "Scott South"
-        ],
-        "lien": "https://www.deezer.com/album/759596271"
-      },
-      {
-        "titre": "RAF, Pt. 2",
-        "annee": 2025,
-        "date": "2025-06-03",
-        "featurings": [
-          "Mitch"
-        ],
-        "lien": "https://www.deezer.com/album/759596771"
-      },
-      {
-        "titre": "JAMAIS ASSEZ",
-        "annee": 2025,
-        "date": "2025-06-03",
-        "featurings": [
-          "Lucci"
-        ],
-        "lien": "https://www.deezer.com/album/762038151"
-      },
-      {
-        "titre": "RIEN",
-        "annee": 2025,
-        "date": "2025-06-03",
-        "featurings": [
-          "elyslime!"
-        ],
-        "lien": "https://www.deezer.com/album/762038441"
-      },
-      {
-        "titre": "COCKTAIL",
-        "annee": 2025,
-        "date": "2025-06-03",
-        "featurings": [
-          "Soleil Noir"
-        ],
-        "lien": "https://www.deezer.com/album/762038591"
-      },
-      {
-        "titre": "PAINKILLA",
-        "annee": 2025,
-        "date": "2025-06-03",
-        "featurings": [
-          "63OG"
-        ],
-        "lien": "https://www.deezer.com/album/762054881"
-      },
-      {
         "titre": "XO",
         "annee": 2025,
         "date": "2025-02-07",
@@ -13207,12 +12387,6 @@
         "annee": 2025,
         "date": "2025-01-17",
         "lien": "https://www.deezer.com/album/696558751"
-      },
-      {
-        "titre": "N.7",
-        "annee": 2024,
-        "date": "2024-12-14",
-        "lien": "https://www.deezer.com/album/416958957"
       },
       {
         "titre": "Par Terre",
@@ -13288,24 +12462,6 @@
       }
     ],
     "singles": [
-      {
-        "titre": "La soeur de la vie",
-        "annee": 2026,
-        "date": "2026-06-03",
-        "featurings": [
-          "Khali"
-        ],
-        "lien": "https://www.deezer.com/album/993096321"
-      },
-      {
-        "titre": "Hier encore",
-        "annee": 2026,
-        "date": "2026-06-03",
-        "featurings": [
-          "Pato"
-        ],
-        "lien": "https://www.deezer.com/album/993096341"
-      },
       {
         "titre": "RAP d’arabe",
         "annee": 2026,
@@ -13576,24 +12732,6 @@
         "lien": "https://www.deezer.com/album/595133382"
       },
       {
-        "titre": "AU REVOIR",
-        "annee": 2024,
-        "date": "2024-03-07",
-        "featurings": [
-          "Sofiane Pamart"
-        ],
-        "lien": "https://www.deezer.com/album/555817782"
-      },
-      {
-        "titre": "DÉCEMBRE",
-        "annee": 2024,
-        "date": "2024-03-07",
-        "featurings": [
-          "Dinos"
-        ],
-        "lien": "https://www.deezer.com/album/555817792"
-      },
-      {
         "titre": "PAS DE SEMBLANT",
         "annee": 2024,
         "date": "2024-02-21",
@@ -13610,15 +12748,6 @@
         "annee": 2023,
         "date": "2023-05-04",
         "lien": "https://www.deezer.com/album/436347427"
-      },
-      {
-        "titre": "BREITLING",
-        "annee": 2022,
-        "date": "2022-06-23",
-        "featurings": [
-          "Ashh"
-        ],
-        "lien": "https://www.deezer.com/album/329168477"
       },
       {
         "titre": "CHARBON",
@@ -13751,69 +12880,6 @@
         "lien": "https://www.deezer.com/album/982050091"
       },
       {
-        "titre": "1 SUR 2",
-        "annee": 2025,
-        "date": "2025-05-22",
-        "featurings": [
-          "NeS"
-        ],
-        "lien": "https://www.deezer.com/album/757366761"
-      },
-      {
-        "titre": "BAGx2",
-        "annee": 2025,
-        "date": "2025-05-22",
-        "featurings": [
-          "Eden Foxx"
-        ],
-        "lien": "https://www.deezer.com/album/757366771"
-      },
-      {
-        "titre": "TDV",
-        "annee": 2025,
-        "date": "2025-05-22",
-        "featurings": [
-          "Green Montana"
-        ],
-        "lien": "https://www.deezer.com/album/757366791"
-      },
-      {
-        "titre": "COMME AVANT",
-        "annee": 2025,
-        "date": "2025-05-22",
-        "featurings": [
-          "Koba LaD"
-        ],
-        "lien": "https://www.deezer.com/album/757366811"
-      },
-      {
-        "titre": "FERME LES YEUX",
-        "annee": 2025,
-        "date": "2025-05-22",
-        "featurings": [
-          "Elle en été"
-        ],
-        "lien": "https://www.deezer.com/album/757366861"
-      },
-      {
-        "titre": "FEPASONNÉ",
-        "annee": 2025,
-        "date": "2025-05-22",
-        "featurings": [
-          "YT"
-        ],
-        "lien": "https://www.deezer.com/album/757366881"
-      },
-      {
-        "titre": "KATY PERRY",
-        "annee": 2025,
-        "date": "2025-05-22",
-        "featurings": [
-          "Suki"
-        ],
-        "lien": "https://www.deezer.com/album/757366901"
-      },
-      {
         "titre": "4AM Freestyle",
         "annee": 2025,
         "date": "2025-05-01",
@@ -13827,24 +12893,6 @@
           "midwxst"
         ],
         "lien": "https://www.deezer.com/album/647070491"
-      },
-      {
-        "titre": "Like Wat?",
-        "annee": 2024,
-        "date": "2024-03-28",
-        "featurings": [
-          "Redda"
-        ],
-        "lien": "https://www.deezer.com/album/565137622"
-      },
-      {
-        "titre": "Le Club",
-        "annee": 2024,
-        "date": "2024-03-28",
-        "featurings": [
-          "Dinos"
-        ],
-        "lien": "https://www.deezer.com/album/565144482"
       },
       {
         "titre": "What We Doing!? / Qu'est-ce qu'on fait!?",
@@ -13926,6 +12974,15 @@
     },
     "projets": [
       {
+        "titre": "La Revanche Des Cafards",
+        "type": "Album",
+        "annee": 2026,
+        "date": "2026-11-13",
+        "titres": 22,
+        "cover": "https://cdn-images.dzcdn.net/images/cover/f1ba0ec66eb6aba8a35d79567e668903/250x250-000000-80-0-0.jpg",
+        "lien": "https://www.deezer.com/album/1121347602"
+      },
+      {
         "titre": "Cognacs & Cigarettes",
         "type": "Album",
         "annee": 2025,
@@ -13962,16 +13019,6 @@
           "Tony Toxik"
         ],
         "lien": "https://www.deezer.com/album/1121216562"
-      },
-      {
-        "titre": "L'ère du Verseau",
-        "annee": 2025,
-        "date": "2025-03-21",
-        "featurings": [
-          "JeanJass",
-          "Caballero"
-        ],
-        "lien": "https://www.deezer.com/album/704572781"
       },
       {
         "titre": "Châteldon",
@@ -14064,53 +13111,6 @@
       }
     ],
     "singles": [
-      {
-        "titre": "NBA",
-        "annee": 2025,
-        "date": "2025-02-21",
-        "featurings": [
-          "Ratu$",
-          "Di-Meh"
-        ],
-        "lien": "https://www.deezer.com/album/705539501"
-      },
-      {
-        "titre": "Ralenti",
-        "annee": 2025,
-        "date": "2025-02-21",
-        "featurings": [
-          "Slimka",
-          "Grand Bazaar"
-        ],
-        "lien": "https://www.deezer.com/album/705542651"
-      },
-      {
-        "titre": "Arachide",
-        "annee": 2025,
-        "date": "2025-02-21",
-        "featurings": [
-          "Zek"
-        ],
-        "lien": "https://www.deezer.com/album/705549661"
-      },
-      {
-        "titre": "Vanessa",
-        "annee": 2025,
-        "date": "2025-02-21",
-        "featurings": [
-          "GrandBazaar"
-        ],
-        "lien": "https://www.deezer.com/album/708321201"
-      },
-      {
-        "titre": "Smic",
-        "annee": 2025,
-        "date": "2025-02-21",
-        "featurings": [
-          "GrandBazaar"
-        ],
-        "lien": "https://www.deezer.com/album/719707651"
-      },
       {
         "titre": "Scorsese / De Palma",
         "annee": 2025,
@@ -14233,26 +13233,6 @@
         "lien": "https://www.deezer.com/album/1004038431"
       },
       {
-        "titre": "Capitaine Price",
-        "annee": 2026,
-        "date": "2026-03-26",
-        "featurings": [
-          "Slimka",
-          "GrandBazaar"
-        ],
-        "lien": "https://www.deezer.com/album/932331521"
-      },
-      {
-        "titre": "Arak & Falafels",
-        "annee": 2026,
-        "date": "2026-03-26",
-        "featurings": [
-          "Zek",
-          "GrandBazaar"
-        ],
-        "lien": "https://www.deezer.com/album/932335091"
-      },
-      {
         "titre": "Strip-Tease",
         "annee": 2026,
         "date": "2026-03-05",
@@ -14277,15 +13257,6 @@
         "lien": "https://www.deezer.com/album/744330101"
       },
       {
-        "titre": "Michel-Ange",
-        "annee": 2025,
-        "date": "2025-01-16",
-        "featurings": [
-          "BEN plg"
-        ],
-        "lien": "https://www.deezer.com/album/687840801"
-      },
-      {
         "titre": "Je Fais !",
         "annee": 2024,
         "date": "2024-11-15",
@@ -14299,33 +13270,6 @@
           "EDGE"
         ],
         "lien": "https://www.deezer.com/album/650023401"
-      },
-      {
-        "titre": "Agatha Christie",
-        "annee": 2024,
-        "date": "2024-03-19",
-        "featurings": [
-          "Beeby"
-        ],
-        "lien": "https://www.deezer.com/album/562689932"
-      },
-      {
-        "titre": "Henny Bag",
-        "annee": 2024,
-        "date": "2024-03-19",
-        "featurings": [
-          "DEELEE S"
-        ],
-        "lien": "https://www.deezer.com/album/562691682"
-      },
-      {
-        "titre": "Laisse Glisser",
-        "annee": 2024,
-        "date": "2024-03-19",
-        "featurings": [
-          "Celestino"
-        ],
-        "lien": "https://www.deezer.com/album/562691702"
       },
       {
         "titre": "Maniac",
@@ -14607,15 +13551,6 @@
     ],
     "singles": [
       {
-        "titre": "Nectar Music",
-        "annee": 2026,
-        "date": "2026-06-19",
-        "featurings": [
-          "NeS"
-        ],
-        "lien": "https://www.deezer.com/album/1007751251"
-      },
-      {
         "titre": "Sully",
         "annee": 2026,
         "date": "2026-06-12",
@@ -14662,12 +13597,6 @@
         "annee": 2024,
         "date": "2024-08-30",
         "lien": "https://www.deezer.com/album/632365011"
-      },
-      {
-        "titre": "novotel",
-        "annee": 2023,
-        "date": "2023-11-29",
-        "lien": "https://www.deezer.com/album/515860362"
       }
     ],
     "planete": {
@@ -14993,28 +13922,6 @@
         "annee": 2018,
         "lien": "https://open.spotify.com/album/6V3fDvpJd0lHOKdz5WtbQQ",
         "date": "2018-11-23"
-      },
-      {
-        "titre": "Snake",
-        "annee": 2018,
-        "date": "2018-09-08",
-        "lien": "https://open.spotify.com/album/7h3w8TBhwLiHvC31qYPAdg"
-      },
-      {
-        "titre": "La Perte (Trapshit)",
-        "annee": 2018,
-        "date": "2018-05-25",
-        "featurings": [
-          "Sirap",
-          "Arsn"
-        ],
-        "lien": "https://open.spotify.com/album/36hI9O9nXewaGWVIVVsncY"
-      },
-      {
-        "titre": "Règlement Freestyle #15",
-        "annee": 2018,
-        "lien": "https://open.spotify.com/album/7n25o8DDGgBBpXYrm7aFu0",
-        "date": "2018-03-01"
       }
     ],
     "liens": {
@@ -15320,26 +14227,6 @@
         "annee": 2021,
         "lien": "https://open.spotify.com/album/4MJBjsSiv83KyBmAgWe4PR",
         "date": "2021-03-25"
-      },
-      {
-        "titre": "BLACK GATE",
-        "annee": 2020,
-        "featurings": [
-          "Goose 28th"
-        ],
-        "lien": "https://open.spotify.com/album/4w6a2NKEPm2jWnXv7Bj56d",
-        "date": "2020-11-16"
-      },
-      {
-        "titre": "Gangster Disciple",
-        "annee": 2020,
-        "lien": "https://open.spotify.com/album/2mPJNSg825atFCIrnO6tSu"
-      },
-      {
-        "titre": "Kill Bill",
-        "annee": 2019,
-        "lien": "https://open.spotify.com/album/5xImDldZ0npkVQ1WJcPms9",
-        "date": "2019-05-26"
       }
     ],
     "liens": {
@@ -15436,60 +14323,6 @@
     ],
     "singles": [
       {
-        "titre": "Anakin le poète",
-        "annee": 2026,
-        "date": "2026-04-09",
-        "featurings": [
-          "Bleu Electrique"
-        ],
-        "lien": "https://www.deezer.com/album/931458421"
-      },
-      {
-        "titre": "La Bible, dans Fury",
-        "annee": 2026,
-        "date": "2026-04-09",
-        "featurings": [
-          "Yamê"
-        ],
-        "lien": "https://www.deezer.com/album/931462811"
-      },
-      {
-        "titre": "Zendaya dans Dune 2",
-        "annee": 2026,
-        "date": "2026-04-09",
-        "featurings": [
-          "Oxmo Puccino"
-        ],
-        "lien": "https://www.deezer.com/album/931467021"
-      },
-      {
-        "titre": "Johnny Mad Dog",
-        "annee": 2026,
-        "date": "2026-04-09",
-        "featurings": [
-          "Jolagreen23"
-        ],
-        "lien": "https://www.deezer.com/album/931484611"
-      },
-      {
-        "titre": "Glenn Close",
-        "annee": 2026,
-        "date": "2026-04-09",
-        "featurings": [
-          "Surkin"
-        ],
-        "lien": "https://www.deezer.com/album/931495271"
-      },
-      {
-        "titre": "Spiderman Venom",
-        "annee": 2026,
-        "date": "2026-04-09",
-        "featurings": [
-          "Freeze Corleone"
-        ],
-        "lien": "https://www.deezer.com/album/931637391"
-      },
-      {
         "titre": "Pi Patel",
         "annee": 2026,
         "date": "2026-04-01",
@@ -15535,96 +14368,6 @@
         "lien": "https://www.deezer.com/album/563638052"
       },
       {
-        "titre": "Inception",
-        "annee": 2022,
-        "date": "2022-07-22",
-        "featurings": [
-          "Freeze Corleone"
-        ],
-        "lien": "https://www.deezer.com/album/332787367"
-      },
-      {
-        "titre": "Je t'aime si je peux (Interlude)",
-        "annee": 2022,
-        "date": "2022-07-22",
-        "featurings": [
-          "Krisy"
-        ],
-        "lien": "https://www.deezer.com/album/332788607"
-      },
-      {
-        "titre": "Constantine",
-        "annee": 2022,
-        "date": "2022-07-22",
-        "featurings": [
-          "Black Jack Obs"
-        ],
-        "lien": "https://www.deezer.com/album/332788617"
-      },
-      {
-        "titre": "Free Solo",
-        "annee": 2022,
-        "date": "2022-07-22",
-        "featurings": [
-          "Vickie Cherie"
-        ],
-        "lien": "https://www.deezer.com/album/332788627"
-      },
-      {
-        "titre": "Docteur Lulu (Lofi remix)",
-        "annee": 2022,
-        "date": "2022-07-22",
-        "featurings": [
-          "Osirus Jack"
-        ],
-        "lien": "https://www.deezer.com/album/332788637"
-      },
-      {
-        "titre": "John Wick 3 N.R.A",
-        "annee": 2022,
-        "date": "2022-07-22",
-        "featurings": [
-          "Roi Heenok"
-        ],
-        "lien": "https://www.deezer.com/album/332788647"
-      },
-      {
-        "titre": "Le Tombeau des lucioles",
-        "annee": 2022,
-        "date": "2022-07-22",
-        "featurings": [
-          "Oklou"
-        ],
-        "lien": "https://www.deezer.com/album/332788657"
-      },
-      {
-        "titre": "Parasite",
-        "annee": 2022,
-        "date": "2022-07-22",
-        "featurings": [
-          "Hijvc kid"
-        ],
-        "lien": "https://www.deezer.com/album/332788667"
-      },
-      {
-        "titre": "Fight Club",
-        "annee": 2022,
-        "date": "2022-07-22",
-        "featurings": [
-          "THEODORT"
-        ],
-        "lien": "https://www.deezer.com/album/332788687"
-      },
-      {
-        "titre": "Enter the Void",
-        "annee": 2022,
-        "date": "2022-07-22",
-        "featurings": [
-          "ELOI"
-        ],
-        "lien": "https://www.deezer.com/album/332788707"
-      },
-      {
         "titre": "Top Boys",
         "annee": 2022,
         "date": "2022-07-22",
@@ -15649,40 +14392,148 @@
         "lien": "https://www.deezer.com/album/237332092"
       },
       {
-        "titre": "Pépé Anglais",
-        "annee": 2021,
-        "date": "2021-06-04",
-        "lien": "https://www.deezer.com/album/233959922"
-      },
-      {
-        "titre": "Skr Skr",
-        "annee": 2021,
-        "date": "2021-06-04",
-        "featurings": [
-          "The Pirouettes"
-        ],
-        "lien": "https://www.deezer.com/album/233960962"
-      },
-      {
-        "titre": "Mundo LDO",
-        "annee": 2021,
-        "date": "2021-06-04",
-        "featurings": [
-          "Wit."
-        ],
-        "lien": "https://www.deezer.com/album/233960972"
-      },
-      {
-        "titre": "Zuukou 2.2",
-        "annee": 2021,
-        "date": "2021-06-04",
-        "lien": "https://www.deezer.com/album/233960992"
-      },
-      {
         "titre": "Haku - A COLORS SHOW",
         "annee": 2021,
         "date": "2021-05-31",
         "lien": "https://www.deezer.com/album/232570882"
+      },
+      {
+        "titre": "Kevin Mitnick",
+        "annee": 2021,
+        "date": "2021-04-09",
+        "featurings": [
+          "Osirus Jack"
+        ],
+        "lien": "https://www.deezer.com/album/218739752"
+      },
+      {
+        "titre": "Pourquoi pas",
+        "annee": 2021,
+        "date": "2021-03-15",
+        "featurings": [
+          "Timothée Joly"
+        ],
+        "lien": "https://www.deezer.com/album/211355932"
+      },
+      {
+        "titre": "Coach Carter",
+        "annee": 2021,
+        "date": "2021-02-12",
+        "lien": "https://www.deezer.com/album/203517942"
+      },
+      {
+        "titre": "Sofie Fatale",
+        "annee": 2021,
+        "date": "2021-01-19",
+        "lien": "https://www.deezer.com/album/197506912"
+      },
+      {
+        "titre": "Victorinox",
+        "annee": 2020,
+        "date": "2020-12-10",
+        "featurings": [
+          "Black Jack Obs"
+        ],
+        "lien": "https://www.deezer.com/album/187567472"
+      },
+      {
+        "titre": "Le Mayz",
+        "annee": 2020,
+        "date": "2020-11-12",
+        "lien": "https://www.deezer.com/album/182785102"
+      },
+      {
+        "titre": "L.o.t.r",
+        "annee": 2020,
+        "date": "2020-10-16",
+        "lien": "https://www.deezer.com/album/176476362"
+      },
+      {
+        "titre": "Spike",
+        "annee": 2020,
+        "date": "2020-09-25",
+        "lien": "https://www.deezer.com/album/173201322"
+      },
+      {
+        "titre": "Survet Bayern Doc",
+        "annee": 2020,
+        "date": "2020-09-04",
+        "featurings": [
+          "Di-Meh"
+        ],
+        "lien": "https://www.deezer.com/album/164064812"
+      },
+      {
+        "titre": "Be Water ;)",
+        "annee": 2020,
+        "date": "2020-04-20",
+        "lien": "https://www.deezer.com/album/140331432"
+      },
+      {
+        "titre": "Adouna Ko None",
+        "annee": 2020,
+        "date": "2020-03-30",
+        "lien": "https://www.deezer.com/album/136706912"
+      },
+      {
+        "titre": "Youssouf et Mamadou",
+        "annee": 2020,
+        "date": "2020-03-05",
+        "featurings": [
+          "Doums"
+        ],
+        "lien": "https://www.deezer.com/album/133622342"
+      },
+      {
+        "titre": "Vincent",
+        "annee": 2020,
+        "date": "2020-02-20",
+        "lien": "https://www.deezer.com/album/130670082"
+      },
+      {
+        "titre": "Cybertruck",
+        "annee": 2020,
+        "date": "2020-01-23",
+        "lien": "https://www.deezer.com/album/126972132"
+      },
+      {
+        "titre": "Paki Stock",
+        "annee": 2019,
+        "date": "2019-12-26",
+        "lien": "https://www.deezer.com/album/123290932"
+      },
+      {
+        "titre": "Docteur Lulu",
+        "annee": 2019,
+        "date": "2019-12-12",
+        "featurings": [
+          "Osirus Jack"
+        ],
+        "lien": "https://www.deezer.com/album/120592692"
+      },
+      {
+        "titre": "Caliente",
+        "annee": 2019,
+        "date": "2019-11-28",
+        "lien": "https://www.deezer.com/album/118790452"
+      },
+      {
+        "titre": "Tarantino",
+        "annee": 2019,
+        "date": "2019-11-14",
+        "lien": "https://www.deezer.com/album/114545862"
+      },
+      {
+        "titre": "Veste Patta",
+        "annee": 2019,
+        "date": "2019-10-31",
+        "lien": "https://www.deezer.com/album/114954362"
+      },
+      {
+        "titre": "Drive",
+        "annee": 2019,
+        "date": "2019-10-17",
+        "lien": "https://www.deezer.com/album/113143132"
       }
     ],
     "planete": {
@@ -15824,15 +14675,6 @@
           "daniel"
         ],
         "lien": "https://www.deezer.com/album/1105790252"
-      },
-      {
-        "titre": "DAMN DOG",
-        "annee": 2026,
-        "date": "2026-06-25",
-        "featurings": [
-          "GAL"
-        ],
-        "lien": "https://www.deezer.com/album/1000302071"
       },
       {
         "titre": "CAMP",
@@ -16000,15 +14842,6 @@
         "annee": 2025,
         "date": "2025-11-19",
         "lien": "https://www.deezer.com/album/853763162"
-      },
-      {
-        "titre": "MOOSE",
-        "annee": 2025,
-        "date": "2025-05-22",
-        "featurings": [
-          "Skino"
-        ],
-        "lien": "https://www.deezer.com/album/756815001"
       },
       {
         "titre": "NEMO",
@@ -16619,16 +15452,6 @@
         "lien": "https://www.deezer.com/album/511250041"
       },
       {
-        "titre": "Pourquoi",
-        "annee": 2023,
-        "date": "2023-06-22",
-        "featurings": [
-          "$enar",
-          "Wallace Cleaver"
-        ],
-        "lien": "https://www.deezer.com/album/452341025"
-      },
-      {
         "titre": "Pas clair",
         "annee": 2023,
         "date": "2023-06-02",
@@ -16722,12 +15545,6 @@
           "Django"
         ],
         "lien": "https://www.deezer.com/album/778246221"
-      },
-      {
-        "titre": "Peso",
-        "annee": 2025,
-        "date": "2025-06-18",
-        "lien": "https://www.deezer.com/album/760454991"
       },
       {
         "titre": "Cinéma",
@@ -16986,24 +15803,6 @@
         "lien": "https://www.deezer.com/album/952887091"
       },
       {
-        "titre": "Moral",
-        "annee": 2025,
-        "date": "2025-07-17",
-        "featurings": [
-          "Zamdane"
-        ],
-        "lien": "https://www.deezer.com/album/785977091"
-      },
-      {
-        "titre": "Rollie",
-        "annee": 2025,
-        "date": "2025-07-17",
-        "featurings": [
-          "So La Lune"
-        ],
-        "lien": "https://www.deezer.com/album/788367081"
-      },
-      {
         "titre": "Le Gain",
         "annee": 2025,
         "date": "2025-06-13",
@@ -17011,24 +15810,6 @@
           "Favé"
         ],
         "lien": "https://www.deezer.com/album/758865411"
-      },
-      {
-        "titre": "Beurre",
-        "annee": 2025,
-        "date": "2025-05-08",
-        "featurings": [
-          "Zed"
-        ],
-        "lien": "https://www.deezer.com/album/750085141"
-      },
-      {
-        "titre": "Lollipop",
-        "annee": 2025,
-        "date": "2025-05-08",
-        "featurings": [
-          "Enima"
-        ],
-        "lien": "https://www.deezer.com/album/750085271"
       },
       {
         "titre": "No Love",
@@ -17410,6 +16191,15 @@
     ],
     "singles": [
       {
+        "titre": "COMMENTCAVA",
+        "annee": 2026,
+        "date": "2026-11-13",
+        "featurings": [
+          "Neophron"
+        ],
+        "lien": "https://www.deezer.com/album/1143380891"
+      },
+      {
         "titre": "TETE 89",
         "annee": 2026,
         "date": "2026-08-20",
@@ -17675,34 +16465,6 @@
           "COLORS"
         ],
         "lien": "https://www.deezer.com/album/561853242"
-      },
-      {
-        "titre": "Incapable",
-        "annee": 2023,
-        "date": "2023-10-26",
-        "featurings": [
-          "BÉESAU",
-          "Hedges"
-        ],
-        "lien": "https://www.deezer.com/album/495681281"
-      },
-      {
-        "titre": "New Slave +",
-        "annee": 2023,
-        "date": "2023-10-26",
-        "featurings": [
-          "Tuerie"
-        ],
-        "lien": "https://www.deezer.com/album/499523851"
-      },
-      {
-        "titre": "Turquoise, par Saintdoss",
-        "annee": 2023,
-        "date": "2023-10-26",
-        "featurings": [
-          "Saintdoss"
-        ],
-        "lien": "https://www.deezer.com/album/503814311"
       },
       {
         "titre": "Eleanor",
@@ -18452,33 +17214,6 @@
         "lien": "https://www.deezer.com/album/1079163682"
       },
       {
-        "titre": "4 GO",
-        "annee": 2025,
-        "date": "2025-10-02",
-        "featurings": [
-          "Le Sid"
-        ],
-        "lien": "https://www.deezer.com/album/829522081"
-      },
-      {
-        "titre": "MCLOVIN",
-        "annee": 2025,
-        "date": "2025-10-02",
-        "featurings": [
-          "Ritual X"
-        ],
-        "lien": "https://www.deezer.com/album/829522131"
-      },
-      {
-        "titre": "BABY LET'S GO",
-        "annee": 2025,
-        "date": "2025-10-02",
-        "featurings": [
-          "La Chat"
-        ],
-        "lien": "https://www.deezer.com/album/829523971"
-      },
-      {
         "titre": "JOYSTICK",
         "annee": 2025,
         "date": "2025-07-16",
@@ -18538,25 +17273,6 @@
         "annee": 2023,
         "date": "2023-01-12",
         "lien": "https://www.deezer.com/album/388925647"
-      },
-      {
-        "titre": "camion de glace",
-        "annee": 2022,
-        "date": "2022-10-13",
-        "featurings": [
-          "Le Sid",
-          "Anna Majidson"
-        ],
-        "lien": "https://www.deezer.com/album/357964107"
-      },
-      {
-        "titre": "elle danse toute seule dans sa chambre",
-        "annee": 2022,
-        "date": "2022-10-13",
-        "featurings": [
-          "Milena Leblanc"
-        ],
-        "lien": "https://www.deezer.com/album/357964457"
       },
       {
         "titre": "i love u",
@@ -18733,12 +17449,6 @@
         "lien": "https://www.deezer.com/album/556251062"
       },
       {
-        "titre": "MEZCLA !",
-        "annee": 2023,
-        "date": "2023-11-15",
-        "lien": "https://www.deezer.com/album/506584931"
-      },
-      {
         "titre": "Boubouboubou",
         "annee": 2023,
         "date": "2023-10-27",
@@ -18894,18 +17604,6 @@
         "lien": "https://www.deezer.com/album/610265122"
       },
       {
-        "titre": "Shadow",
-        "annee": 2024,
-        "date": "2024-05-11",
-        "lien": "https://www.deezer.com/album/582223992"
-      },
-      {
-        "titre": "Cool Kid",
-        "annee": 2024,
-        "date": "2024-05-11",
-        "lien": "https://www.deezer.com/album/550246872"
-      },
-      {
         "titre": "La Vie en Rose / Vision",
         "annee": 2023,
         "date": "2023-11-04",
@@ -19048,12 +17746,6 @@
           "Anyo"
         ],
         "lien": "https://www.deezer.com/album/662130051"
-      },
-      {
-        "titre": "VERONICA MARS",
-        "annee": 2024,
-        "date": "2024-09-14",
-        "lien": "https://www.deezer.com/album/643359491"
       },
       {
         "titre": "All inclusive",
@@ -19388,24 +18080,6 @@
         "lien": "https://www.deezer.com/album/1107281612"
       },
       {
-        "titre": "Tableaux",
-        "annee": 2024,
-        "date": "2024-03-14",
-        "featurings": [
-          "Makala"
-        ],
-        "lien": "https://www.deezer.com/album/558724022"
-      },
-      {
-        "titre": "Get out",
-        "annee": 2024,
-        "date": "2024-03-13",
-        "featurings": [
-          "Zamdane"
-        ],
-        "lien": "https://www.deezer.com/album/554273062"
-      },
-      {
         "titre": "Diabolo Grenadine / Rivalise",
         "annee": 2024,
         "date": "2024-02-08",
@@ -19452,15 +18126,6 @@
         "annee": 2022,
         "date": "2022-02-02",
         "lien": "https://www.deezer.com/album/287401512"
-      },
-      {
-        "titre": "Noir ou blanc",
-        "annee": 2021,
-        "date": "2021-02-11",
-        "featurings": [
-          "Squidji"
-        ],
-        "lien": "https://www.deezer.com/album/207308232"
       },
       {
         "titre": "Bisous",
@@ -19560,12 +18225,6 @@
       }
     ],
     "singles": [
-      {
-        "titre": "LAISSE-MOI DU TEMPS",
-        "annee": 2026,
-        "date": "2026-09-30",
-        "lien": "https://www.deezer.com/album/1078403862"
-      },
       {
         "titre": "ROOM SERVICE",
         "annee": 2026,
@@ -19793,12 +18452,6 @@
         "lien": "https://www.deezer.com/album/988104681"
       },
       {
-        "titre": "#freaky",
-        "annee": 2025,
-        "date": "2025-07-15",
-        "lien": "https://www.deezer.com/album/767464161"
-      },
-      {
         "titre": "#toxic",
         "annee": 2025,
         "date": "2025-07-09",
@@ -19839,12 +18492,6 @@
         "annee": 2024,
         "date": "2024-12-11",
         "lien": "https://www.deezer.com/album/676708201"
-      },
-      {
-        "titre": "Instinct Animal",
-        "annee": 2024,
-        "date": "2024-08-28",
-        "lien": "https://www.deezer.com/album/623819911"
       },
       {
         "titre": "BAD!",
@@ -20015,75 +18662,6 @@
         "lien": "https://www.deezer.com/album/1104855532"
       },
       {
-        "titre": "TOO DEEP",
-        "annee": 2025,
-        "date": "2025-02-28",
-        "featurings": [
-          "Ismayyyel",
-          "Big Twins"
-        ],
-        "lien": "https://www.deezer.com/album/711391401"
-      },
-      {
-        "titre": "MURDER INC",
-        "annee": 2025,
-        "date": "2025-02-28",
-        "featurings": [
-          "Ismayyyel",
-          "ISHA"
-        ],
-        "lien": "https://www.deezer.com/album/711396301"
-      },
-      {
-        "titre": "DOUBLE IMPACT",
-        "annee": 2025,
-        "date": "2025-02-28",
-        "featurings": [
-          "Ismayyyel",
-          "Tookie"
-        ],
-        "lien": "https://www.deezer.com/album/711396331"
-      },
-      {
-        "titre": "MAIN EVENT",
-        "annee": 2025,
-        "date": "2025-02-28",
-        "featurings": [
-          "Ismayyyel",
-          "ROCXNOIR"
-        ],
-        "lien": "https://www.deezer.com/album/711396351"
-      },
-      {
-        "titre": "LUMINEUX",
-        "annee": 2025,
-        "date": "2025-02-28",
-        "featurings": [
-          "Ismayyyel",
-          "Buds"
-        ],
-        "lien": "https://www.deezer.com/album/711396371"
-      },
-      {
-        "titre": "ALBERTO INTERLUDE",
-        "annee": 2025,
-        "date": "2025-02-28",
-        "featurings": [
-          "Ismayyyel"
-        ],
-        "lien": "https://www.deezer.com/album/711396401"
-      },
-      {
-        "titre": "BLACK MAFIOSI",
-        "annee": 2025,
-        "date": "2025-02-28",
-        "featurings": [
-          "Ismayyyel",
-          "Sti"
-        ],
-        "lien": "https://www.deezer.com/album/711396411"
-      },
-      {
         "titre": "CHALKY WHITE",
         "annee": 2024,
         "date": "2024-10-11",
@@ -20110,42 +18688,6 @@
           "GrandBazaar"
         ],
         "lien": "https://www.deezer.com/album/574223231"
-      },
-      {
-        "titre": "L'addition",
-        "annee": 2024,
-        "date": "2024-04-12",
-        "featurings": [
-          "Blaz Pit"
-        ],
-        "lien": "https://www.deezer.com/album/568674011"
-      },
-      {
-        "titre": "Middle Waves",
-        "annee": 2024,
-        "date": "2024-04-12",
-        "featurings": [
-          "Jaspe"
-        ],
-        "lien": "https://www.deezer.com/album/568674031"
-      },
-      {
-        "titre": "Pickel & Kakuta",
-        "annee": 2024,
-        "date": "2024-04-12",
-        "featurings": [
-          "Double Zulu"
-        ],
-        "lien": "https://www.deezer.com/album/568674041"
-      },
-      {
-        "titre": "Eskimo",
-        "annee": 2024,
-        "date": "2024-04-12",
-        "featurings": [
-          "Freshavelli"
-        ],
-        "lien": "https://www.deezer.com/album/568676081"
       },
       {
         "titre": "Dernier prêche",
@@ -20242,6 +18784,24 @@
         "annee": 2020,
         "date": "2020-03-06",
         "lien": "https://www.deezer.com/album/135364402"
+      },
+      {
+        "titre": "Double Binks, Pt. 2",
+        "annee": 2020,
+        "date": "2020-03-06",
+        "lien": "https://www.deezer.com/album/147844752"
+      },
+      {
+        "titre": "Sous stéroïdes",
+        "annee": 2020,
+        "date": "2020-01-31",
+        "lien": "https://www.deezer.com/album/130092832"
+      },
+      {
+        "titre": "Maxaveli",
+        "annee": 2020,
+        "date": "2020-01-14",
+        "lien": "https://www.deezer.com/album/127662202"
       }
     ],
     "liens": {
@@ -20272,6 +18832,15 @@
     ],
     "debut": 2023,
     "projets": [
+      {
+        "titre": "MYSTIC&SIMPLE",
+        "type": "Album",
+        "annee": 2026,
+        "date": "2026-11-12",
+        "titres": 7,
+        "cover": "https://cdn-images.dzcdn.net/images/cover/8754b0c0f5731d2bb108c6d266809d11/250x250-000000-80-0-0.jpg",
+        "lien": "https://www.deezer.com/album/1139840571"
+      },
       {
         "titre": "BABYLONE BRÛLE",
         "type": "Album",
@@ -20375,24 +18944,6 @@
         "annee": 2024,
         "date": "2024-02-26",
         "lien": "https://www.deezer.com/album/550030222"
-      },
-      {
-        "titre": "SOUL",
-        "annee": 2023,
-        "date": "2023-10-20",
-        "lien": "https://www.deezer.com/album/502342721"
-      },
-      {
-        "titre": "LION NOUVELLE VAGUE",
-        "annee": 2023,
-        "date": "2023-10-20",
-        "lien": "https://www.deezer.com/album/502342701"
-      },
-      {
-        "titre": "AC MILAN",
-        "annee": 2023,
-        "date": "2023-10-20",
-        "lien": "https://www.deezer.com/album/502342611"
       },
       {
         "titre": "LION WEST",
@@ -20546,15 +19097,6 @@
         "annee": 2026,
         "date": "2026-02-02",
         "lien": "https://www.deezer.com/album/905356532"
-      },
-      {
-        "titre": "En faite",
-        "annee": 2025,
-        "date": "2025-12-08",
-        "featurings": [
-          "Cheu-B"
-        ],
-        "lien": "https://www.deezer.com/album/868600752"
       },
       {
         "titre": "Pression",
@@ -20726,6 +19268,12 @@
         "annee": 2023,
         "date": "2023-04-10",
         "lien": "https://www.deezer.com/album/426827707"
+      },
+      {
+        "titre": "Mon Sac",
+        "annee": 2023,
+        "date": "2023-03-27",
+        "lien": "https://www.deezer.com/album/421172797"
       }
     ],
     "liens": {
@@ -21055,42 +19603,6 @@
     ],
     "singles": [
       {
-        "titre": "Pacifique",
-        "annee": 2026,
-        "date": "2026-09-25",
-        "featurings": [
-          "Peet"
-        ],
-        "lien": "https://www.deezer.com/album/1080044962"
-      },
-      {
-        "titre": "Vol de nuit",
-        "annee": 2026,
-        "date": "2026-04-24",
-        "featurings": [
-          "Jazzy Bazz"
-        ],
-        "lien": "https://www.deezer.com/album/936572851"
-      },
-      {
-        "titre": "L'école primaire",
-        "annee": 2026,
-        "date": "2026-04-24",
-        "featurings": [
-          "Chilly Gonzales"
-        ],
-        "lien": "https://www.deezer.com/album/936716771"
-      },
-      {
-        "titre": "Cowgirl",
-        "annee": 2026,
-        "date": "2026-04-24",
-        "featurings": [
-          "Tuerie"
-        ],
-        "lien": "https://www.deezer.com/album/936716791"
-      },
-      {
         "titre": "Sidequest",
         "annee": 2026,
         "date": "2026-04-09",
@@ -21124,12 +19636,6 @@
           "Lucci"
         ],
         "lien": "https://www.deezer.com/album/797549961"
-      },
-      {
-        "titre": "Brouillard",
-        "annee": 2023,
-        "date": "2023-04-26",
-        "lien": "https://www.deezer.com/album/797549911"
       },
       {
         "titre": "Mars",
@@ -21267,18 +19773,6 @@
           "Lexsaburo"
         ],
         "lien": "https://www.deezer.com/album/1014296821"
-      },
-      {
-        "titre": "PESTE NOIRE",
-        "annee": 2025,
-        "date": "2025-12-12",
-        "featurings": [
-          "Sheldon",
-          "4low",
-          "Kise",
-          "fadjee!"
-        ],
-        "lien": "https://www.deezer.com/album/864580742"
       },
       {
         "titre": "DON VITO CORLEONE",
@@ -21998,21 +20492,6 @@
         "lien": "https://www.deezer.com/album/772859081"
       },
       {
-        "titre": ".TU DATES.",
-        "annee": 2025,
-        "date": "2025-04-24",
-        "featurings": [
-          "Jaymee"
-        ],
-        "lien": "https://www.deezer.com/album/744131741"
-      },
-      {
-        "titre": ".BULLE.",
-        "annee": 2025,
-        "date": "2025-02-25",
-        "lien": "https://www.deezer.com/album/715038611"
-      },
-      {
         "titre": ".COMME LA BÊTE.",
         "annee": 2025,
         "date": "2025-01-29",
@@ -22037,12 +20516,6 @@
         "lien": "https://www.deezer.com/album/638443251"
       },
       {
-        "titre": ".QLQCHOSE.",
-        "annee": 2024,
-        "date": "2024-05-14",
-        "lien": "https://www.deezer.com/album/585884072"
-      },
-      {
         "titre": ".olala.",
         "annee": 2024,
         "date": "2024-04-19",
@@ -22059,12 +20532,6 @@
         "annee": 2024,
         "date": "2024-04-19",
         "lien": "https://www.deezer.com/album/501790351"
-      },
-      {
-        "titre": ".pk tu pleures?",
-        "annee": 2024,
-        "date": "2024-04-19",
-        "lien": "https://www.deezer.com/album/441017337"
       },
       {
         "titre": ".moins de bruit que ses démons. (single)",
@@ -22357,12 +20824,6 @@
         "lien": "https://www.deezer.com/album/765083051"
       },
       {
-        "titre": "GRANDES CHOSES",
-        "annee": 2024,
-        "date": "2024-11-29",
-        "lien": "https://www.deezer.com/album/676979841"
-      },
-      {
         "titre": "SOLDAT À TERRE",
         "annee": 2024,
         "date": "2024-10-04",
@@ -22521,24 +20982,6 @@
         "lien": "https://www.deezer.com/album/1074649772"
       },
       {
-        "titre": "Feat Cainri",
-        "annee": 2026,
-        "date": "2026-05-28",
-        "featurings": [
-          "R3 DA Chilliman"
-        ],
-        "lien": "https://www.deezer.com/album/980717831"
-      },
-      {
-        "titre": "Bodycount",
-        "annee": 2026,
-        "date": "2026-05-28",
-        "featurings": [
-          "Jaymee"
-        ],
-        "lien": "https://www.deezer.com/album/982225201"
-      },
-      {
         "titre": "La roue",
         "annee": 2026,
         "date": "2026-05-22",
@@ -22567,33 +21010,6 @@
         "annee": 2026,
         "date": "2026-03-06",
         "lien": "https://www.deezer.com/album/920498151"
-      },
-      {
-        "titre": "Mitijao",
-        "annee": 2025,
-        "date": "2025-12-11",
-        "featurings": [
-          "8ruki"
-        ],
-        "lien": "https://www.deezer.com/album/866274782"
-      },
-      {
-        "titre": "CEO",
-        "annee": 2025,
-        "date": "2025-12-11",
-        "featurings": [
-          "2CheeseMilkshake"
-        ],
-        "lien": "https://www.deezer.com/album/866274832"
-      },
-      {
-        "titre": "Le sac",
-        "annee": 2025,
-        "date": "2025-12-11",
-        "featurings": [
-          "2Geeked"
-        ],
-        "lien": "https://www.deezer.com/album/866274892"
       },
       {
         "titre": "Pov",
@@ -22714,6 +21130,39 @@
         "annee": 2023,
         "date": "2023-12-17",
         "lien": "https://www.deezer.com/album/524658412"
+      },
+      {
+        "titre": "C'est ça qu'ils veulent",
+        "annee": 2023,
+        "date": "2023-11-16",
+        "lien": "https://www.deezer.com/album/513513052"
+      },
+      {
+        "titre": "Bellingham",
+        "annee": 2023,
+        "date": "2023-10-24",
+        "lien": "https://www.deezer.com/album/504257441"
+      },
+      {
+        "titre": "Gatsby le Magnifique",
+        "annee": 2023,
+        "date": "2023-10-13",
+        "featurings": [
+          "Soyuz"
+        ],
+        "lien": "https://www.deezer.com/album/498800151"
+      },
+      {
+        "titre": "Le Syndrome Domenech",
+        "annee": 2023,
+        "date": "2023-09-12",
+        "lien": "https://www.deezer.com/album/486770435"
+      },
+      {
+        "titre": "Les Femmes Des Années 80",
+        "annee": 2023,
+        "date": "2023-08-30",
+        "lien": "https://www.deezer.com/album/482279495"
       }
     ],
     "liens": {
@@ -22828,12 +21277,6 @@
         "annee": 2025,
         "date": "2025-10-31",
         "lien": "https://www.deezer.com/album/840215572"
-      },
-      {
-        "titre": "KAD MERAD",
-        "annee": 2025,
-        "date": "2025-01-23",
-        "lien": "https://www.deezer.com/album/701829121"
       }
     ],
     "liens": {
@@ -23477,15 +21920,6 @@
     ],
     "singles": [
       {
-        "titre": "Fantôme",
-        "annee": 2026,
-        "date": "2026-08-14",
-        "featurings": [
-          "Romsii"
-        ],
-        "lien": "https://www.deezer.com/album/1055893042"
-      },
-      {
         "titre": "Mauvaise tête",
         "annee": 2025,
         "date": "2025-12-19",
@@ -23927,12 +22361,6 @@
         "lien": "https://www.deezer.com/album/1053305592"
       },
       {
-        "titre": "BULLETPROOF",
-        "annee": 2026,
-        "date": "2026-02-23",
-        "lien": "https://www.deezer.com/album/910970191"
-      },
-      {
         "titre": "CHAP-CHAP",
         "annee": 2026,
         "date": "2026-01-25",
@@ -24049,15 +22477,6 @@
       }
     ],
     "singles": [
-      {
-        "titre": "Grandir",
-        "annee": 2026,
-        "date": "2026-06-25",
-        "featurings": [
-          "Souffrance"
-        ],
-        "lien": "https://www.deezer.com/album/1018900291"
-      },
       {
         "titre": "Pas si simple",
         "annee": 2026,
@@ -24270,28 +22689,10 @@
         "lien": "https://www.deezer.com/album/840407842"
       },
       {
-        "titre": "a/r à london",
-        "annee": 2025,
-        "date": "2025-06-27",
-        "featurings": [
-          "Till!"
-        ],
-        "lien": "https://www.deezer.com/album/772216431"
-      },
-      {
         "titre": "yomb",
         "annee": 2025,
         "date": "2025-05-30",
         "lien": "https://www.deezer.com/album/756290501"
-      },
-      {
-        "titre": "LET GO",
-        "annee": 2024,
-        "date": "2024-11-28",
-        "featurings": [
-          "Sheng"
-        ],
-        "lien": "https://www.deezer.com/album/676808651"
       },
       {
         "titre": "RADIO",
@@ -25063,12 +23464,6 @@
         "lien": "https://www.deezer.com/album/822409751"
       },
       {
-        "titre": "CONTRAIRE DE MOI (Acoustic Version)",
-        "annee": 2025,
-        "date": "2025-04-22",
-        "lien": "https://www.deezer.com/album/881057852"
-      },
-      {
         "titre": "C'EST MZI",
         "annee": 2024,
         "date": "2024-08-13",
@@ -25385,15 +23780,6 @@
         "lien": "https://www.deezer.com/album/865422192"
       },
       {
-        "titre": "ahhhh (Brodinski Remix)",
-        "annee": 2025,
-        "date": "2025-07-14",
-        "featurings": [
-          "Brodinski"
-        ],
-        "lien": "https://www.deezer.com/album/792907451"
-      },
-      {
         "titre": "J'ai ça (Blasé Remix)",
         "annee": 2025,
         "date": "2025-06-27",
@@ -25416,36 +23802,6 @@
         "annee": 2025,
         "date": "2025-05-29",
         "lien": "https://www.deezer.com/album/760601651"
-      },
-      {
-        "titre": "Remue-Ménage",
-        "annee": 2024,
-        "date": "2024-10-03",
-        "featurings": [
-          "Lil Dude"
-        ],
-        "lien": "https://www.deezer.com/album/645303201"
-      },
-      {
-        "titre": "Ouf",
-        "annee": 2024,
-        "date": "2024-10-03",
-        "featurings": [
-          "Big Yaya",
-          "Four50"
-        ],
-        "lien": "https://www.deezer.com/album/645303301"
-      },
-      {
-        "titre": "DiVincenzo",
-        "annee": 2024,
-        "date": "2024-10-03",
-        "featurings": [
-          "Le Lij",
-          "Four50",
-          "Big Yaya"
-        ],
-        "lien": "https://www.deezer.com/album/645360621"
       },
       {
         "titre": "Mon Bol",
@@ -25582,6 +23938,30 @@
         "annee": 2022,
         "date": "2022-10-12",
         "lien": "https://www.deezer.com/album/363380767"
+      },
+      {
+        "titre": "Marge",
+        "annee": 2022,
+        "date": "2022-09-04",
+        "lien": "https://www.deezer.com/album/812928561"
+      },
+      {
+        "titre": "Tête Basse",
+        "annee": 2022,
+        "date": "2022-06-14",
+        "lien": "https://www.deezer.com/album/325762207"
+      },
+      {
+        "titre": "31",
+        "annee": 2022,
+        "date": "2022-05-31",
+        "lien": "https://www.deezer.com/album/321939977"
+      },
+      {
+        "titre": "À l'envers",
+        "annee": 2022,
+        "date": "2022-05-02",
+        "lien": "https://www.deezer.com/album/315360647"
       }
     ],
     "liens": {
@@ -25741,15 +24121,6 @@
         "lien": "https://www.deezer.com/album/1109412522"
       },
       {
-        "titre": "TOJIFUSHIGURO",
-        "annee": 2025,
-        "date": "2025-06-19",
-        "featurings": [
-          "Jolagreen23"
-        ],
-        "lien": "https://www.deezer.com/album/773226491"
-      },
-      {
         "titre": "BIGLATTO",
         "annee": 2025,
         "date": "2025-06-13",
@@ -25780,25 +24151,10 @@
         "lien": "https://www.deezer.com/album/421030457"
       },
       {
-        "titre": "NGANDA",
-        "annee": 2022,
-        "date": "2022-07-14",
-        "featurings": [
-          "Ria Sean"
-        ],
-        "lien": "https://www.deezer.com/album/333845017"
-      },
-      {
         "titre": "TOCTOC",
         "annee": 2022,
         "date": "2022-07-01",
         "lien": "https://www.deezer.com/album/329191587"
-      },
-      {
-        "titre": "Okito",
-        "annee": 2022,
-        "date": "2022-02-23",
-        "lien": "https://www.deezer.com/album/295734842"
       },
       {
         "titre": "Loco",
@@ -26213,6 +24569,3169 @@
       "Ingmar",
       "Hart í partý",
       "Hey, tú"
+    ]
+  },
+  {
+    "id": "puro",
+    "nom": "PURO",
+    "ajouteLe": "2026-11-17",
+    "description": "Artiste du rap FR émergent, repéré dans la PÉPITE'LIST de Pépite FR avec « OR PUR » (2026).",
+    "tags": [
+      "émergent"
+    ],
+    "liens": {
+      "deezer": "https://www.deezer.com/fr/artist/403123"
+    },
+    "planete": {
+      "type": "continents",
+      "couleurs": [
+        "#3ad5b8",
+        "#aea73a",
+        "#e0a65a"
+      ],
+      "taille": 2.8,
+      "relief": 1.5,
+      "atmosphere": "#e6fff0"
+    },
+    "sortiesIgnorees": [
+      "01 min",
+      "Ana Machi Leyoma",
+      "Bajo el Bajo",
+      "Control Total",
+      "Diablo en Mí",
+      "EL VACÍO",
+      "FURIA",
+      "GHA N7KMO",
+      "Instinto (feat. KIdoro)",
+      "KOULCHI KI FICTE",
+      "La Semilla del Bajo",
+      "Lose Control",
+      "Luz y Sombra",
+      "MAFIOSO",
+      "Metamorfosi",
+      "Motorsport",
+      "Nati Condannati",
+      "New",
+      "Questa te la dedico",
+      "REGISTA",
+      "SAISONS",
+      "SIGAN ORANDO",
+      "Senorita",
+      "Sin Vozal",
+      "Spectral",
+      "Sävelvirtaa"
+    ],
+    "singles": [
+      {
+        "titre": "OR PUR",
+        "annee": 2026,
+        "date": "2026-11-01",
+        "lien": "https://www.deezer.com/album/1132794871"
+      }
+    ]
+  },
+  {
+    "id": "suspectnumero47",
+    "nom": "Suspectnumero47",
+    "ajouteLe": "2026-11-17",
+    "description": "Artiste du rap FR émergent, repéré dans la PÉPITE'LIST de Pépite FR avec « Rue de Sèvres » (2026).",
+    "tags": [
+      "émergent"
+    ],
+    "liens": {
+      "deezer": "https://www.deezer.com/fr/artist/426379611"
+    },
+    "planete": {
+      "type": "toxique",
+      "couleurs": [
+        "#1d6b54",
+        "#2fb367",
+        "#a8ffbb"
+      ],
+      "taille": 2.9,
+      "relief": 1.5,
+      "atmosphere": "#d8ffe1"
+    },
+    "singles": [
+      {
+        "titre": "Rue de Sèvres",
+        "annee": 2026,
+        "date": "2026-11-07",
+        "lien": "https://www.deezer.com/album/1139597581"
+      }
+    ]
+  },
+  {
+    "id": "prince",
+    "nom": "PRINC€",
+    "ajouteLe": "2026-11-17",
+    "description": "Artiste du rap FR émergent, repéré dans la PÉPITE'LIST de Pépite FR avec « Napoli » (2026).",
+    "tags": [
+      "émergent"
+    ],
+    "liens": {
+      "deezer": "https://www.deezer.com/fr/artist/9489342"
+    },
+    "planete": {
+      "type": "asteroide",
+      "couleurs": [
+        "#3a443f",
+        "#626e68",
+        "#9aa8a2"
+      ],
+      "taille": 3.1,
+      "relief": 1.9,
+      "atmosphere": "#d0dcd6"
+    },
+    "singles": [
+      {
+        "titre": "GTA",
+        "annee": 2020,
+        "date": "2020-07-06",
+        "featurings": [
+          "ChristOnTheBeat"
+        ],
+        "lien": "https://www.deezer.com/album/158974502"
+      }
+    ]
+  },
+  {
+    "id": "dave-saint",
+    "nom": "Dave Saint",
+    "ajouteLe": "2026-11-17",
+    "description": "Artiste du rap FR émergent, repéré dans la PÉPITE'LIST de Pépite FR avec « Angelina » (2026).",
+    "tags": [
+      "émergent"
+    ],
+    "liens": {
+      "deezer": "https://www.deezer.com/fr/artist/242936871"
+    },
+    "planete": {
+      "type": "glace",
+      "couleurs": [
+        "#8ad6d0",
+        "#c8f2ee",
+        "#ffffff"
+      ],
+      "taille": 3.1,
+      "relief": 1.4,
+      "atmosphere": "#ffffff"
+    },
+    "projets": [
+      {
+        "titre": "En Vogue",
+        "type": "Album",
+        "annee": 2026,
+        "date": "2026-07-01",
+        "titres": 8,
+        "cover": "https://cdn-images.dzcdn.net/images/cover/9c872b474095266d4a8dd3e8c19400a1/250x250-000000-80-0-0.jpg",
+        "lien": "https://www.deezer.com/album/1008952211"
+      },
+      {
+        "titre": "CAVALIER",
+        "type": "Album",
+        "annee": 2026,
+        "date": "2026-01-28",
+        "titres": 8,
+        "cover": "https://cdn-images.dzcdn.net/images/cover/24d9b0bb2ad4ff0fa942b11d1dfc9df1/250x250-000000-80-0-0.jpg",
+        "lien": "https://www.deezer.com/album/908703612"
+      }
+    ],
+    "singles": [
+      {
+        "titre": "Angelina",
+        "annee": 2026,
+        "date": "2026-11-04",
+        "lien": "https://www.deezer.com/album/1130632591"
+      },
+      {
+        "titre": "Zone",
+        "annee": 2026,
+        "date": "2026-03-31",
+        "lien": "https://www.deezer.com/album/941834141"
+      },
+      {
+        "titre": "COMME UNE LÉGENDE",
+        "annee": 2026,
+        "date": "2026-01-07",
+        "lien": "https://www.deezer.com/album/890832332"
+      },
+      {
+        "titre": "Michelangelo",
+        "annee": 2025,
+        "date": "2025-10-08",
+        "lien": "https://www.deezer.com/album/828383421"
+      },
+      {
+        "titre": "Met Gala",
+        "annee": 2025,
+        "date": "2025-09-09",
+        "lien": "https://www.deezer.com/album/816348691"
+      },
+      {
+        "titre": "Chasseur",
+        "annee": 2025,
+        "date": "2025-08-27",
+        "lien": "https://www.deezer.com/album/809406801"
+      },
+      {
+        "titre": "Mr. Jacob",
+        "annee": 2025,
+        "date": "2025-06-03",
+        "lien": "https://www.deezer.com/album/765402441"
+      },
+      {
+        "titre": "Nouveau Genre",
+        "annee": 2025,
+        "date": "2025-03-05",
+        "lien": "https://www.deezer.com/album/721599621"
+      }
+    ]
+  },
+  {
+    "id": "achim",
+    "nom": "ACHIM",
+    "ajouteLe": "2026-11-17",
+    "description": "Artiste du rap FR émergent, repéré dans la PÉPITE'LIST de Pépite FR avec « à chaque comète » (2026).",
+    "tags": [
+      "émergent"
+    ],
+    "liens": {
+      "deezer": "https://www.deezer.com/fr/artist/87875962"
+    },
+    "planete": {
+      "type": "lave",
+      "couleurs": [
+        "#7a1f64",
+        "#d92b8b",
+        "#ff4a73"
+      ],
+      "taille": 3.8,
+      "relief": 2.0,
+      "atmosphere": "#ff7a80"
+    },
+    "projets": [
+      {
+        "titre": "BUTTERFLY NET",
+        "type": "EP",
+        "annee": 2026,
+        "date": "2026-11-06",
+        "titres": 5,
+        "cover": "https://cdn-images.dzcdn.net/images/cover/7233c75b1eb84434ececddf5c770571d/250x250-000000-80-0-0.jpg",
+        "lien": "https://www.deezer.com/album/1108517772"
+      },
+      {
+        "titre": "POINTBREAK",
+        "type": "Album",
+        "annee": 2025,
+        "date": "2025-11-14",
+        "titres": 8,
+        "cover": "https://cdn-images.dzcdn.net/images/cover/b32a265bda0b9727da4ae9166666ae10/250x250-000000-80-0-0.jpg",
+        "lien": "https://www.deezer.com/album/850120512"
+      },
+      {
+        "titre": "JEUNES N***** SANS CONTOURS",
+        "type": "EP",
+        "annee": 2025,
+        "date": "2025-06-13",
+        "titres": 8,
+        "cover": "https://cdn-images.dzcdn.net/images/cover/a6a5588b87480a91a1a39bb535a2ff4d/250x250-000000-80-0-0.jpg",
+        "lien": "https://www.deezer.com/album/756791401"
+      },
+      {
+        "titre": "APHANTASIA",
+        "type": "EP",
+        "annee": 2024,
+        "date": "2024-06-28",
+        "titres": 8,
+        "cover": "https://cdn-images.dzcdn.net/images/cover/211c80a6342d48b5dbfb201273bb911f/250x250-000000-80-0-0.jpg",
+        "lien": "https://www.deezer.com/album/603450182"
+      },
+      {
+        "titre": "Prométhée",
+        "type": "EP",
+        "annee": 2024,
+        "date": "2024-03-08",
+        "titres": 7,
+        "cover": "https://cdn-images.dzcdn.net/images/cover/e841e280ebb351b35fd5cd65eeed6dbf/250x250-000000-80-0-0.jpg",
+        "lien": "https://www.deezer.com/album/553169902"
+      },
+      {
+        "titre": "Ariane",
+        "type": "EP",
+        "annee": 2023,
+        "date": "2023-11-17",
+        "titres": 9,
+        "cover": "https://cdn-images.dzcdn.net/images/cover/95dc944061ce5a9d3e3073fed1a1b9da/250x250-000000-80-0-0.jpg",
+        "lien": "https://www.deezer.com/album/504720641"
+      },
+      {
+        "titre": "icare.",
+        "type": "EP",
+        "annee": 2023,
+        "date": "2023-08-11",
+        "titres": 5,
+        "cover": "https://cdn-images.dzcdn.net/images/cover/b9b99d47fcf940e0a061409af712bf99/250x250-000000-80-0-0.jpg",
+        "lien": "https://www.deezer.com/album/468568445"
+      },
+      {
+        "titre": "Aquarium (Vol.1)",
+        "type": "EP",
+        "annee": 2023,
+        "date": "2023-02-17",
+        "titres": 4,
+        "cover": "https://cdn-images.dzcdn.net/images/cover/190d1414e8b3b00193985fef6223653c/250x250-000000-80-0-0.jpg",
+        "lien": "https://www.deezer.com/album/404961657"
+      },
+      {
+        "titre": "RGPV",
+        "type": "Album",
+        "annee": 2021,
+        "date": "2021-12-24",
+        "titres": 17,
+        "cover": "https://cdn-images.dzcdn.net/images/cover/bd67d840dc81bdfa1fa57a35e7fa2840/250x250-000000-80-0-0.jpg",
+        "lien": "https://www.deezer.com/album/277993912"
+      },
+      {
+        "titre": "V",
+        "type": "EP",
+        "annee": 2021,
+        "date": "2021-11-05",
+        "titres": 4,
+        "cover": "https://cdn-images.dzcdn.net/images/cover/e0409706eab36a1c433f1dfb3edffc70/250x250-000000-80-0-0.jpg",
+        "lien": "https://www.deezer.com/album/262797982"
+      },
+      {
+        "titre": "Les gamberges du soir",
+        "type": "EP",
+        "annee": 2021,
+        "date": "2021-05-14",
+        "titres": 12,
+        "cover": "https://cdn-images.dzcdn.net/images/cover/cc9ac98f7dfd468e04d98456efe5ea72/250x250-000000-80-0-0.jpg",
+        "lien": "https://www.deezer.com/album/224928642"
+      },
+      {
+        "titre": "P",
+        "type": "EP",
+        "annee": 2020,
+        "date": "2020-12-14",
+        "titres": 4,
+        "cover": "https://cdn-images.dzcdn.net/images/cover/3d698027ca55400bc84e349c8c10b96b/250x250-000000-80-0-0.jpg",
+        "lien": "https://www.deezer.com/album/187797512"
+      },
+      {
+        "titre": "Gamberges du soir, vol. 2",
+        "type": "EP",
+        "annee": 2020,
+        "date": "2020-10-05",
+        "titres": 4,
+        "cover": "https://cdn-images.dzcdn.net/images/cover/3c74002843f292a1e6805252288d862e/250x250-000000-80-0-0.jpg",
+        "lien": "https://www.deezer.com/album/175762352"
+      },
+      {
+        "titre": "G",
+        "type": "EP",
+        "annee": 2020,
+        "date": "2020-07-10",
+        "titres": 4,
+        "cover": "https://cdn-images.dzcdn.net/images/cover/271ac7dd6a1ace8b35b95b38ebcd2822/250x250-000000-80-0-0.jpg",
+        "lien": "https://www.deezer.com/album/153816032"
+      },
+      {
+        "titre": "Gamberges du soir, vol. 1",
+        "type": "EP",
+        "annee": 2020,
+        "date": "2020-06-01",
+        "titres": 4,
+        "cover": "https://cdn-images.dzcdn.net/images/cover/0442e6c35c9e5a63df83445549b9631c/250x250-000000-80-0-0.jpg",
+        "lien": "https://www.deezer.com/album/151161852"
+      },
+      {
+        "titre": "R",
+        "type": "EP",
+        "annee": 2020,
+        "date": "2020-04-17",
+        "titres": 4,
+        "cover": "https://cdn-images.dzcdn.net/images/cover/391d7f2fc8921c7c2daabc1f0d779cfc/250x250-000000-80-0-0.jpg",
+        "lien": "https://www.deezer.com/album/137771762"
+      }
+    ],
+    "singles": [
+      {
+        "titre": "les rouages",
+        "annee": 2026,
+        "date": "2026-10-07",
+        "featurings": [
+          "Briac Severe"
+        ],
+        "lien": "https://www.deezer.com/album/1108483482"
+      },
+      {
+        "titre": "Ceyreste",
+        "annee": 2026,
+        "date": "2026-07-22",
+        "lien": "https://www.deezer.com/album/1029626912"
+      },
+      {
+        "titre": "E25",
+        "annee": 2026,
+        "date": "2026-02-06",
+        "lien": "https://www.deezer.com/album/906139482"
+      },
+      {
+        "titre": "Sagat",
+        "annee": 2025,
+        "date": "2025-12-23",
+        "lien": "https://www.deezer.com/album/875940592"
+      },
+      {
+        "titre": "Hô Chi Minh",
+        "annee": 2025,
+        "date": "2025-11-01",
+        "lien": "https://www.deezer.com/album/847299242"
+      },
+      {
+        "titre": "Avenue Montaigne",
+        "annee": 2025,
+        "date": "2025-10-10",
+        "lien": "https://www.deezer.com/album/831354951"
+      },
+      {
+        "titre": "Airness to Hermes",
+        "annee": 2025,
+        "date": "2025-09-26",
+        "lien": "https://www.deezer.com/album/823440291"
+      },
+      {
+        "titre": "WATCH ME NAE NAE II",
+        "annee": 2025,
+        "date": "2025-09-05",
+        "lien": "https://www.deezer.com/album/812308521"
+      },
+      {
+        "titre": "Calabasas",
+        "annee": 2025,
+        "date": "2025-05-23",
+        "lien": "https://www.deezer.com/album/756835681"
+      },
+      {
+        "titre": "Ghetto Star",
+        "annee": 2025,
+        "date": "2025-04-30",
+        "lien": "https://www.deezer.com/album/746424091"
+      },
+      {
+        "titre": "ALMA",
+        "annee": 2023,
+        "date": "2023-06-09",
+        "lien": "https://www.deezer.com/album/445204645"
+      },
+      {
+        "titre": "feugréjoi",
+        "annee": 2023,
+        "date": "2023-05-26",
+        "lien": "https://www.deezer.com/album/442093257"
+      },
+      {
+        "titre": "SPRING",
+        "annee": 2023,
+        "date": "2023-04-21",
+        "lien": "https://www.deezer.com/album/426048557"
+      },
+      {
+        "titre": "STRATUS JOYEUX",
+        "annee": 2023,
+        "date": "2023-03-17",
+        "lien": "https://www.deezer.com/album/412077607"
+      },
+      {
+        "titre": "Aquarium III",
+        "annee": 2023,
+        "date": "2023-02-06",
+        "lien": "https://www.deezer.com/album/402513017"
+      },
+      {
+        "titre": "Aquarium II",
+        "annee": 2023,
+        "date": "2023-01-30",
+        "lien": "https://www.deezer.com/album/400243617"
+      },
+      {
+        "titre": "Aquarium",
+        "annee": 2023,
+        "date": "2023-01-23",
+        "lien": "https://www.deezer.com/album/396422427"
+      },
+      {
+        "titre": "Vincent Cassel",
+        "annee": 2022,
+        "date": "2022-06-10",
+        "lien": "https://www.deezer.com/album/319128847"
+      },
+      {
+        "titre": "Matin Midi Soir",
+        "annee": 2022,
+        "date": "2022-04-22",
+        "lien": "https://www.deezer.com/album/306942787"
+      },
+      {
+        "titre": "Dans les yeux",
+        "annee": 2022,
+        "date": "2022-02-18",
+        "featurings": [
+          "Ney"
+        ],
+        "lien": "https://www.deezer.com/album/294567192"
+      },
+      {
+        "titre": "Réponses",
+        "annee": 2021,
+        "date": "2021-10-22",
+        "lien": "https://www.deezer.com/album/260985072"
+      },
+      {
+        "titre": "GDS 11",
+        "annee": 2021,
+        "date": "2021-05-03",
+        "lien": "https://www.deezer.com/album/224516442"
+      },
+      {
+        "titre": "GDS 10",
+        "annee": 2021,
+        "date": "2021-04-19",
+        "lien": "https://www.deezer.com/album/218411662"
+      },
+      {
+        "titre": "GDS 9",
+        "annee": 2021,
+        "date": "2021-02-22",
+        "lien": "https://www.deezer.com/album/207845952"
+      },
+      {
+        "titre": "Reverse",
+        "annee": 2020,
+        "date": "2020-11-30",
+        "lien": "https://www.deezer.com/album/183110322"
+      },
+      {
+        "titre": "Quitter la zone",
+        "annee": 2020,
+        "date": "2020-06-26",
+        "lien": "https://www.deezer.com/album/152665112"
+      },
+      {
+        "titre": "Mets dans l'assiette",
+        "annee": 2020,
+        "date": "2020-03-13",
+        "lien": "https://www.deezer.com/album/130709142"
+      }
+    ]
+  },
+  {
+    "id": "briac-severe",
+    "nom": "Briac Severe",
+    "ajouteLe": "2026-11-17",
+    "description": "Artiste du rap FR émergent, repéré dans la PÉPITE'LIST de Pépite FR avec « à chaque comète » (2026).",
+    "tags": [
+      "émergent"
+    ],
+    "liens": {
+      "deezer": "https://www.deezer.com/fr/artist/84459122"
+    },
+    "planete": {
+      "type": "rocheuse",
+      "couleurs": [
+        "#6a3a5a",
+        "#a35a86",
+        "#e09ac0"
+      ],
+      "taille": 3.5,
+      "relief": 1.5,
+      "atmosphere": "#ffd6ec"
+    }
+  },
+  {
+    "id": "seaven",
+    "nom": "Seaven",
+    "ajouteLe": "2026-11-17",
+    "description": "Artiste du rap FR émergent, repéré dans la PÉPITE'LIST de Pépite FR avec « Winterfell » (2026).",
+    "tags": [
+      "émergent"
+    ],
+    "liens": {
+      "deezer": "https://www.deezer.com/fr/artist/407865112"
+    },
+    "planete": {
+      "type": "glace",
+      "couleurs": [
+        "#7aa2d6",
+        "#b8ccf0",
+        "#eef4ff"
+      ],
+      "taille": 3.2,
+      "relief": 1.8,
+      "atmosphere": "#ffffff"
+    },
+    "singles": [
+      {
+        "titre": "Winterfell",
+        "annee": 2026,
+        "date": "2026-11-03",
+        "lien": "https://www.deezer.com/album/1137678591"
+      },
+      {
+        "titre": "Parano",
+        "annee": 2026,
+        "date": "2026-07-20",
+        "lien": "https://www.deezer.com/album/1034227932"
+      }
+    ]
+  },
+  {
+    "id": "jaures",
+    "nom": "Jaures",
+    "ajouteLe": "2026-11-17",
+    "description": "Artiste du rap FR émergent, repéré dans la PÉPITE'LIST de Pépite FR avec « Grazie Mille » (2026).",
+    "tags": [
+      "émergent"
+    ],
+    "liens": {
+      "deezer": "https://www.deezer.com/fr/artist/6777059"
+    },
+    "planete": {
+      "type": "etoile",
+      "couleurs": [
+        "#ff5a1f",
+        "#ffa040",
+        "#fff0c0"
+      ],
+      "taille": 3.9,
+      "relief": 1.7
+    },
+    "projets": [
+      {
+        "titre": "Eau Calme",
+        "type": "Album",
+        "annee": 2026,
+        "date": "2026-11-05",
+        "titres": 10,
+        "cover": "https://cdn-images.dzcdn.net/images/cover/f591d9f108b4dac25972d2d44887d149/250x250-000000-80-0-0.jpg",
+        "lien": "https://www.deezer.com/album/1134966131"
+      },
+      {
+        "titre": "Mr. l’Amour et la Drogue",
+        "type": "Album",
+        "annee": 2025,
+        "date": "2025-07-10",
+        "titres": 8,
+        "cover": "https://cdn-images.dzcdn.net/images/cover/7e33ac94889951719e91ae9d7825d35f/250x250-000000-80-0-0.jpg",
+        "lien": "https://www.deezer.com/album/782602341"
+      },
+      {
+        "titre": "SARAKA",
+        "type": "EP",
+        "annee": 2025,
+        "date": "2025-03-06",
+        "titres": 6,
+        "cover": "https://cdn-images.dzcdn.net/images/cover/8c760b6fbff77b6004be843b31587b72/250x250-000000-80-0-0.jpg",
+        "lien": "https://www.deezer.com/album/720310171"
+      },
+      {
+        "titre": "Orange de Mars",
+        "type": "Album",
+        "annee": 2024,
+        "date": "2024-05-09",
+        "titres": 8,
+        "cover": "https://cdn-images.dzcdn.net/images/cover/d4508bd638d7ee5302e3a0c15efc7130/250x250-000000-80-0-0.jpg",
+        "lien": "https://www.deezer.com/album/581215931"
+      }
+    ],
+    "singles": [
+      {
+        "titre": "Ske J’tai PaDi",
+        "annee": 2026,
+        "date": "2026-10-15",
+        "lien": "https://www.deezer.com/album/1119604222"
+      },
+      {
+        "titre": "Soir Ce",
+        "annee": 2026,
+        "date": "2026-09-10",
+        "lien": "https://www.deezer.com/album/1071065362"
+      },
+      {
+        "titre": "Mal à droite",
+        "annee": 2026,
+        "date": "2026-07-29",
+        "lien": "https://www.deezer.com/album/1037287202"
+      },
+      {
+        "titre": "Manque 2 Lové",
+        "annee": 2026,
+        "date": "2026-06-25",
+        "lien": "https://www.deezer.com/album/1011691411"
+      },
+      {
+        "titre": "As'sigui",
+        "annee": 2026,
+        "date": "2026-02-26",
+        "lien": "https://www.deezer.com/album/925574591"
+      },
+      {
+        "titre": "Dozma",
+        "annee": 2025,
+        "date": "2025-07-02",
+        "lien": "https://www.deezer.com/album/778259721"
+      },
+      {
+        "titre": "Faut que ça aille mieux",
+        "annee": 2025,
+        "date": "2025-02-18",
+        "lien": "https://www.deezer.com/album/712448511"
+      },
+      {
+        "titre": "DAN'CE HALL",
+        "annee": 2025,
+        "date": "2025-01-22",
+        "lien": "https://www.deezer.com/album/698100881"
+      },
+      {
+        "titre": "Les Jolies Fleurs",
+        "annee": 2024,
+        "date": "2024-11-28",
+        "lien": "https://www.deezer.com/album/673591761"
+      },
+      {
+        "titre": "Le cœur de la source",
+        "annee": 2024,
+        "date": "2024-11-08",
+        "lien": "https://www.deezer.com/album/664137961"
+      },
+      {
+        "titre": "La Bruine",
+        "annee": 2024,
+        "date": "2024-04-18",
+        "lien": "https://www.deezer.com/album/572303741"
+      },
+      {
+        "titre": "Mon Frère",
+        "annee": 2024,
+        "date": "2024-03-21",
+        "lien": "https://www.deezer.com/album/560562472"
+      },
+      {
+        "titre": "1Negro Keus",
+        "annee": 2023,
+        "date": "2023-10-09",
+        "lien": "https://www.deezer.com/album/497613101"
+      },
+      {
+        "titre": "Kodak Blue",
+        "annee": 2023,
+        "date": "2023-10-01",
+        "lien": "https://www.deezer.com/album/494961791"
+      },
+      {
+        "titre": "Blue Story",
+        "annee": 2022,
+        "date": "2022-12-16",
+        "lien": "https://www.deezer.com/album/386970197"
+      },
+      {
+        "titre": "Rien de Beau",
+        "annee": 2022,
+        "date": "2022-10-11",
+        "lien": "https://www.deezer.com/album/365101077"
+      },
+      {
+        "titre": "Beaucoup d'Amour/La Couleur d'en Bas",
+        "annee": 2022,
+        "date": "2022-08-06",
+        "lien": "https://www.deezer.com/album/344261327"
+      },
+      {
+        "titre": "Cité rouge",
+        "annee": 2021,
+        "date": "2021-07-10",
+        "lien": "https://www.deezer.com/album/243434282"
+      }
+    ]
+  },
+  {
+    "id": "leust",
+    "nom": "Leust",
+    "ajouteLe": "2026-11-17",
+    "description": "Artiste du rap FR émergent, repéré dans la PÉPITE'LIST de Pépite FR avec « ALLURE MUSIC » (2026).",
+    "tags": [
+      "émergent"
+    ],
+    "liens": {
+      "deezer": "https://www.deezer.com/fr/artist/73661432"
+    },
+    "planete": {
+      "type": "etoile",
+      "couleurs": [
+        "#e0306a",
+        "#ff7aa0",
+        "#ffe0ea"
+      ],
+      "taille": 3.3,
+      "relief": 1.6
+    },
+    "projets": [
+      {
+        "titre": "FLYTALK",
+        "type": "EP",
+        "annee": 2026,
+        "date": "2026-10-23",
+        "titres": 5,
+        "cover": "https://cdn-images.dzcdn.net/images/cover/2a09378eed6d2ca0920c18d5a21e071c/250x250-000000-80-0-0.jpg",
+        "lien": "https://www.deezer.com/album/1128234801"
+      },
+      {
+        "titre": "FRAMELESS",
+        "type": "Album",
+        "annee": 2024,
+        "date": "2024-06-27",
+        "titres": 7,
+        "cover": "https://cdn-images.dzcdn.net/images/cover/92b33d563940f5d618eb7edf72f8b92f/250x250-000000-80-0-0.jpg",
+        "lien": "https://www.deezer.com/album/595911412"
+      },
+      {
+        "titre": "HAUT STANDING",
+        "type": "Album",
+        "annee": 2023,
+        "date": "2023-05-23",
+        "titres": 8,
+        "cover": "https://cdn-images.dzcdn.net/images/cover/5d0e0601c5d11368a3eb14d3f5ef4ccb/250x250-000000-80-0-0.jpg",
+        "lien": "https://www.deezer.com/album/445258985"
+      }
+    ],
+    "singles": [
+      {
+        "titre": "ALLURE MUSIC",
+        "annee": 2026,
+        "date": "2026-11-05",
+        "lien": "https://www.deezer.com/album/1129714241"
+      },
+      {
+        "titre": "PEVENSIE MOOD",
+        "annee": 2026,
+        "date": "2026-04-23",
+        "featurings": [
+          "Artr"
+        ],
+        "lien": "https://www.deezer.com/album/964986651"
+      },
+      {
+        "titre": "FRENETIQUE",
+        "annee": 2025,
+        "date": "2025-10-23",
+        "lien": "https://www.deezer.com/album/837818702"
+      },
+      {
+        "titre": "BARZ THERAPY",
+        "annee": 2025,
+        "date": "2025-09-23",
+        "lien": "https://www.deezer.com/album/822568821"
+      },
+      {
+        "titre": "PAS DE TRAVERS",
+        "annee": 2025,
+        "date": "2025-05-09",
+        "featurings": [
+          "Carter ATN"
+        ],
+        "lien": "https://www.deezer.com/album/749973541"
+      },
+      {
+        "titre": "TROIS POINTS",
+        "annee": 2024,
+        "date": "2024-11-28",
+        "lien": "https://www.deezer.com/album/674173351"
+      },
+      {
+        "titre": "GRAFF PINK",
+        "annee": 2024,
+        "date": "2024-10-04",
+        "lien": "https://www.deezer.com/album/650788271"
+      },
+      {
+        "titre": "EXOTIC",
+        "annee": 2024,
+        "date": "2024-05-30",
+        "lien": "https://www.deezer.com/album/606462062"
+      },
+      {
+        "titre": "3Eme oeil / Soulja",
+        "annee": 2022,
+        "date": "2022-04-30",
+        "lien": "https://www.deezer.com/album/316130277"
+      },
+      {
+        "titre": "Dans le rouge",
+        "annee": 2021,
+        "date": "2021-03-31",
+        "lien": "https://www.deezer.com/album/217001532"
+      },
+      {
+        "titre": "Plug Ballad",
+        "annee": 2020,
+        "date": "2020-12-26",
+        "lien": "https://www.deezer.com/album/192730272"
+      },
+      {
+        "titre": "Remède",
+        "annee": 2020,
+        "date": "2020-09-25",
+        "lien": "https://www.deezer.com/album/172200852"
+      },
+      {
+        "titre": "Cellulaire",
+        "annee": 2020,
+        "date": "2020-08-14",
+        "lien": "https://www.deezer.com/album/162134052"
+      },
+      {
+        "titre": "Banquise",
+        "annee": 2020,
+        "date": "2020-03-06",
+        "lien": "https://www.deezer.com/album/134395722"
+      }
+    ]
+  },
+  {
+    "id": "mea",
+    "nom": "mëa",
+    "ajouteLe": "2026-11-17",
+    "description": "Artiste du rap FR émergent, repéré dans la PÉPITE'LIST de Pépite FR avec « sourdine » (2026).",
+    "tags": [
+      "émergent"
+    ],
+    "liens": {
+      "deezer": "https://www.deezer.com/fr/artist/386095261"
+    },
+    "planete": {
+      "type": "etoile",
+      "couleurs": [
+        "#ff5a1f",
+        "#ffa040",
+        "#fff0c0"
+      ],
+      "taille": 3.4,
+      "relief": 2.0
+    },
+    "singles": [
+      {
+        "titre": "sourdine",
+        "annee": 2026,
+        "date": "2026-11-06",
+        "lien": "https://www.deezer.com/album/1123997372"
+      },
+      {
+        "titre": "elle sourit",
+        "annee": 2026,
+        "date": "2026-06-26",
+        "lien": "https://www.deezer.com/album/1004049961"
+      },
+      {
+        "titre": "pilote",
+        "annee": 2026,
+        "date": "2026-04-17",
+        "lien": "https://www.deezer.com/album/953437981"
+      }
+    ]
+  },
+  {
+    "id": "luzyqv",
+    "nom": "LuzyQV",
+    "ajouteLe": "2026-11-17",
+    "description": "Artiste du rap FR émergent, repéré dans la PÉPITE'LIST de Pépite FR avec « Diva » (2026).",
+    "tags": [
+      "émergent"
+    ],
+    "liens": {
+      "deezer": "https://www.deezer.com/fr/artist/202793867"
+    },
+    "planete": {
+      "type": "continents",
+      "couleurs": [
+        "#2a8aa0",
+        "#e07ab0",
+        "#ffc8e4"
+      ],
+      "taille": 3.2,
+      "relief": 1.9,
+      "atmosphere": "#e6fbff"
+    },
+    "singles": [
+      {
+        "titre": "DANS LA PARTY",
+        "annee": 2026,
+        "date": "2026-08-03",
+        "lien": "https://www.deezer.com/album/1070085952"
+      },
+      {
+        "titre": "BREATH",
+        "annee": 2026,
+        "date": "2026-07-04",
+        "lien": "https://www.deezer.com/album/1070085962"
+      },
+      {
+        "titre": "MAKELELE",
+        "annee": 2026,
+        "date": "2026-03-07",
+        "lien": "https://www.deezer.com/album/1070085692"
+      },
+      {
+        "titre": "MUSALA",
+        "annee": 2025,
+        "date": "2025-10-29",
+        "lien": "https://www.deezer.com/album/1070085682"
+      },
+      {
+        "titre": "C'EST QUI QUI T'A SAUCÉ ?",
+        "annee": 2025,
+        "date": "2025-08-10",
+        "lien": "https://www.deezer.com/album/1070100082"
+      },
+      {
+        "titre": "DOUCEMENT",
+        "annee": 2025,
+        "date": "2025-07-26",
+        "lien": "https://www.deezer.com/album/1070100122"
+      },
+      {
+        "titre": "MAQILA",
+        "annee": 2025,
+        "date": "2025-05-29",
+        "lien": "https://www.deezer.com/album/1070100132"
+      },
+      {
+        "titre": "PIKABOI",
+        "annee": 2025,
+        "date": "2025-04-22",
+        "lien": "https://www.deezer.com/album/1070100032"
+      },
+      {
+        "titre": "SHOW ME",
+        "annee": 2025,
+        "date": "2025-02-27",
+        "lien": "https://www.deezer.com/album/1070111552"
+      }
+    ]
+  },
+  {
+    "id": "haades",
+    "nom": "Haade$!",
+    "ajouteLe": "2026-11-17",
+    "description": "Artiste du rap FR émergent, repéré dans la PÉPITE'LIST de Pépite FR avec « MARIA » (2026).",
+    "tags": [
+      "émergent"
+    ],
+    "liens": {
+      "deezer": "https://www.deezer.com/fr/artist/180970297"
+    },
+    "planete": {
+      "type": "etoile",
+      "couleurs": [
+        "#ff8a00",
+        "#ffc23d",
+        "#fff1a8"
+      ],
+      "taille": 3.6,
+      "relief": 1.7
+    },
+    "projets": [
+      {
+        "titre": "CAPO",
+        "type": "Album",
+        "annee": 2026,
+        "date": "2026-11-06",
+        "titres": 9,
+        "cover": "https://cdn-images.dzcdn.net/images/cover/2dc1e4fe4727c5a12064480d01b212c7/250x250-000000-80-0-0.jpg",
+        "lien": "https://www.deezer.com/album/1138569701"
+      },
+      {
+        "titre": "ALT TRAPPERS",
+        "type": "EP",
+        "annee": 2024,
+        "date": "2024-12-10",
+        "titres": 8,
+        "cover": "https://cdn-images.dzcdn.net/images/cover/f6b52519fc3ef346d0d9574f339eeaec/250x250-000000-80-0-0.jpg",
+        "lien": "https://www.deezer.com/album/682005141"
+      },
+      {
+        "titre": "Haade$ Meet Demons",
+        "type": "Album",
+        "annee": 2023,
+        "date": "2023-08-19",
+        "titres": 8,
+        "cover": "https://cdn-images.dzcdn.net/images/cover/d4425acd178c6c01643e2e04fb3a360f/250x250-000000-80-0-0.jpg",
+        "lien": "https://www.deezer.com/album/475524535"
+      }
+    ],
+    "singles": [
+      {
+        "titre": "CARLOS",
+        "annee": 2026,
+        "date": "2026-06-12",
+        "lien": "https://www.deezer.com/album/1001817741"
+      },
+      {
+        "titre": "RIOT",
+        "annee": 2026,
+        "date": "2026-05-15",
+        "lien": "https://www.deezer.com/album/981756311"
+      },
+      {
+        "titre": "QATARI",
+        "annee": 2026,
+        "date": "2026-04-10",
+        "lien": "https://www.deezer.com/album/956792421"
+      },
+      {
+        "titre": "SHAYO",
+        "annee": 2025,
+        "date": "2025-10-24",
+        "lien": "https://www.deezer.com/album/839826982"
+      },
+      {
+        "titre": "BENIBLA Freestyle - Bloqué dans la street",
+        "annee": 2025,
+        "date": "2025-08-22",
+        "lien": "https://www.deezer.com/album/807219101"
+      },
+      {
+        "titre": "MAPESSA",
+        "annee": 2025,
+        "date": "2025-07-11",
+        "lien": "https://www.deezer.com/album/780899971"
+      },
+      {
+        "titre": "DÉJÀ FAIT",
+        "annee": 2025,
+        "date": "2025-05-30",
+        "lien": "https://www.deezer.com/album/762135721"
+      },
+      {
+        "titre": "PAS DANS MON ÉTAT",
+        "annee": 2025,
+        "date": "2025-04-16",
+        "lien": "https://www.deezer.com/album/741148931"
+      },
+      {
+        "titre": "VENIN",
+        "annee": 2025,
+        "date": "2025-03-21",
+        "lien": "https://www.deezer.com/album/730116251"
+      },
+      {
+        "titre": "FRANCE",
+        "annee": 2025,
+        "date": "2025-01-16",
+        "featurings": [
+          "Walee"
+        ],
+        "lien": "https://www.deezer.com/album/698306581"
+      },
+      {
+        "titre": "SHEGUEY FREESTYLE",
+        "annee": 2024,
+        "date": "2024-11-08",
+        "featurings": [
+          "chtdecember"
+        ],
+        "lien": "https://www.deezer.com/album/667441651"
+      },
+      {
+        "titre": "ALLER RETOUR",
+        "annee": 2024,
+        "date": "2024-11-05",
+        "featurings": [
+          "Vn7o"
+        ],
+        "lien": "https://www.deezer.com/album/661647011"
+      },
+      {
+        "titre": "hell nah",
+        "annee": 2024,
+        "date": "2024-11-04",
+        "lien": "https://www.deezer.com/album/665545241"
+      },
+      {
+        "titre": "PREF",
+        "annee": 2024,
+        "date": "2024-11-02",
+        "featurings": [
+          "Vn7o",
+          "STABNEE"
+        ],
+        "lien": "https://www.deezer.com/album/656321011"
+      },
+      {
+        "titre": "MIND",
+        "annee": 2024,
+        "date": "2024-09-22",
+        "lien": "https://www.deezer.com/album/646776171"
+      },
+      {
+        "titre": "PICASSO",
+        "annee": 2024,
+        "date": "2024-09-11",
+        "featurings": [
+          "OTSBOY"
+        ],
+        "lien": "https://www.deezer.com/album/641990231"
+      },
+      {
+        "titre": "2024 no autotune freestyle + Miss </3",
+        "annee": 2024,
+        "date": "2024-03-28",
+        "lien": "https://www.deezer.com/album/566308311"
+      },
+      {
+        "titre": "Les Enclaves du Chaos",
+        "annee": 2024,
+        "date": "2024-01-25",
+        "lien": "https://www.deezer.com/album/539680122"
+      },
+      {
+        "titre": "Rêve + Heartbeat",
+        "annee": 2023,
+        "date": "2023-05-19",
+        "lien": "https://www.deezer.com/album/443867645"
+      },
+      {
+        "titre": "ENFANT SAGE",
+        "annee": 2023,
+        "date": "2023-03-09",
+        "lien": "https://www.deezer.com/album/415909437"
+      },
+      {
+        "titre": "I KNOW",
+        "annee": 2022,
+        "date": "2022-08-25",
+        "lien": "https://www.deezer.com/album/349660337"
+      }
+    ]
+  },
+  {
+    "id": "tingafaye",
+    "nom": "Tingafaye",
+    "ajouteLe": "2026-11-17",
+    "description": "Artiste du rap FR émergent, repéré dans la PÉPITE'LIST de Pépite FR avec « Africaine » (2026).",
+    "tags": [
+      "émergent"
+    ],
+    "liens": {
+      "deezer": "https://www.deezer.com/fr/artist/173436087"
+    },
+    "planete": {
+      "type": "asteroide",
+      "couleurs": [
+        "#5e2a4e",
+        "#8f4273",
+        "#b95c91"
+      ],
+      "taille": 2.7,
+      "relief": 1.9,
+      "atmosphere": "#e68abc"
+    },
+    "singles": [
+      {
+        "titre": "Africaine",
+        "annee": 2026,
+        "date": "2026-11-06",
+        "lien": "https://www.deezer.com/album/1134371691"
+      },
+      {
+        "titre": "ZOO",
+        "annee": 2026,
+        "date": "2026-09-18",
+        "lien": "https://www.deezer.com/album/1081887832"
+      },
+      {
+        "titre": "Vrai N",
+        "annee": 2026,
+        "date": "2026-06-12",
+        "lien": "https://www.deezer.com/album/1000831851"
+      },
+      {
+        "titre": "Papier",
+        "annee": 2026,
+        "date": "2026-05-01",
+        "lien": "https://www.deezer.com/album/973575621"
+      },
+      {
+        "titre": "Saint Patrick",
+        "annee": 2026,
+        "date": "2026-03-21",
+        "lien": "https://www.deezer.com/album/940404181"
+      },
+      {
+        "titre": "En Moi",
+        "annee": 2025,
+        "date": "2025-11-02",
+        "lien": "https://www.deezer.com/album/848098532"
+      },
+      {
+        "titre": "Scarface d'Afrique",
+        "annee": 2025,
+        "date": "2025-09-20",
+        "lien": "https://www.deezer.com/album/823306421"
+      },
+      {
+        "titre": "Réveil",
+        "annee": 2025,
+        "date": "2025-07-18",
+        "featurings": [
+          "Roddy Key"
+        ],
+        "lien": "https://www.deezer.com/album/790157191"
+      },
+      {
+        "titre": "Mauvais Garçon",
+        "annee": 2025,
+        "date": "2025-06-13",
+        "featurings": [
+          "SAKI225"
+        ],
+        "lien": "https://www.deezer.com/album/771840701"
+      }
+    ]
+  },
+  {
+    "id": "gry",
+    "nom": "Gry",
+    "ajouteLe": "2026-11-17",
+    "description": "Artiste du rap FR émergent, repéré dans la PÉPITE'LIST de Pépite FR avec « JAMAIS MOI » (2026).",
+    "tags": [
+      "émergent"
+    ],
+    "liens": {
+      "deezer": "https://www.deezer.com/fr/artist/1491715"
+    },
+    "planete": {
+      "type": "rocheuse",
+      "couleurs": [
+        "#6a3a5a",
+        "#a35a86",
+        "#e09ac0"
+      ],
+      "taille": 3.6,
+      "relief": 1.5,
+      "atmosphere": "#ffd6ec"
+    },
+    "sortiesIgnorees": [
+      "A Place In The Dark",
+      "A Place In The Dark (Extended Mix)",
+      "BRIBES",
+      "Back To Me",
+      "Back To Me (Extended Mix)",
+      "Bella Luna",
+      "C'EST PAS ÇA",
+      "CABARET",
+      "Close Your Eyes",
+      "Coconut",
+      "Coconut (Extended Mix)",
+      "DEMAIN",
+      "Det er for sent at sige nej",
+      "Era",
+      "FUCK!",
+      "Faster Faster",
+      "Feeling Down",
+      "Find The Stars",
+      "For Me",
+      "From The Archives",
+      "Have A Gry Christmas",
+      "In Your Sleep",
+      "In Your Sleep (Extended Mix)",
+      "JSP, C'EST QUOI L'AMOUR",
+      "Keep Me Around (feat. RIELL)",
+      "Keep Me Around (feat. RIELL) (Extended Mix)",
+      "Limanlar Şahit",
+      "MG³",
+      "Matilda",
+      "Now Or Never (with Thomas Gold)",
+      "Pain Helps",
+      "Run",
+      "Run (Extended Mix)",
+      "Say Something",
+      "Think of You",
+      "Work Hard",
+      "you"
+    ],
+    "singles": [
+      {
+        "titre": "JAMAIS MOI",
+        "annee": 2026,
+        "date": "2026-11-06",
+        "featurings": [
+          "Kanni"
+        ],
+        "lien": "https://www.deezer.com/album/1112927852"
+      }
+    ]
+  },
+  {
+    "id": "kanni",
+    "nom": "Kanni",
+    "ajouteLe": "2026-11-17",
+    "description": "Artiste du rap FR émergent, repéré dans la PÉPITE'LIST de Pépite FR avec « JAMAIS MOI » (2026).",
+    "tags": [
+      "émergent"
+    ],
+    "liens": {
+      "deezer": "https://www.deezer.com/fr/artist/1345275"
+    },
+    "planete": {
+      "type": "etoile",
+      "couleurs": [
+        "#ff1f75",
+        "#ff405c",
+        "#ffc7c0"
+      ],
+      "taille": 3.8,
+      "relief": 1.7
+    },
+    "projets": [
+      {
+        "titre": "12 ÉTAGES",
+        "type": "EP",
+        "annee": 2026,
+        "date": "2026-06-25",
+        "titres": 4,
+        "cover": "https://cdn-images.dzcdn.net/images/cover/65454921be5ed1df7a3ca1a23866f5c1/250x250-000000-80-0-0.jpg",
+        "lien": "https://www.deezer.com/album/1006783461"
+      },
+      {
+        "titre": "AUSPICE",
+        "type": "EP",
+        "annee": 2025,
+        "date": "2025-06-19",
+        "titres": 4,
+        "cover": "https://cdn-images.dzcdn.net/images/cover/83f023c45351c1566198073ff4b1d316/250x250-000000-80-0-0.jpg",
+        "lien": "https://www.deezer.com/album/769395511"
+      }
+    ],
+    "singles": [
+      {
+        "titre": "BESOIN DE PERDRE",
+        "annee": 2026,
+        "date": "2026-06-18",
+        "lien": "https://www.deezer.com/album/996193601"
+      },
+      {
+        "titre": "FAIRE SANS",
+        "annee": 2025,
+        "date": "2025-11-13",
+        "featurings": [
+          "Ghost de Riv"
+        ],
+        "lien": "https://www.deezer.com/album/841495302"
+      },
+      {
+        "titre": "ANALYSE",
+        "annee": 2025,
+        "date": "2025-09-11",
+        "lien": "https://www.deezer.com/album/817194411"
+      },
+      {
+        "titre": "ELS PEIXOS",
+        "annee": 2025,
+        "date": "2025-01-01",
+        "lien": "https://www.deezer.com/album/690910311"
+      }
+    ]
+  },
+  {
+    "id": "unisature",
+    "nom": "unisature",
+    "ajouteLe": "2026-11-17",
+    "description": "Artiste du rap FR émergent, repéré dans la PÉPITE'LIST de Pépite FR avec « ELEMENTAIRE » (2026).",
+    "tags": [
+      "émergent"
+    ],
+    "liens": {
+      "deezer": "https://www.deezer.com/fr/artist/142971522"
+    },
+    "planete": {
+      "type": "asteroide",
+      "couleurs": [
+        "#3a443f",
+        "#626e68",
+        "#9aa8a2"
+      ],
+      "taille": 2.9,
+      "relief": 1.6,
+      "atmosphere": "#d0dcd6"
+    },
+    "projets": [
+      {
+        "titre": "PIANO TRIBUTO",
+        "type": "Album",
+        "annee": 2026,
+        "date": "2026-11-09",
+        "titres": 10,
+        "cover": "https://cdn-images.dzcdn.net/images/cover/7adf52e8f5bb314f4c78b21e2f5eb664/250x250-000000-80-0-0.jpg",
+        "lien": "https://www.deezer.com/album/1127742051"
+      },
+      {
+        "titre": "uni",
+        "type": "Album",
+        "annee": 2025,
+        "date": "2025-10-17",
+        "titres": 10,
+        "cover": "https://cdn-images.dzcdn.net/images/cover/1110b09d100f61cda93718360b52ca4b/250x250-000000-80-0-0.jpg",
+        "lien": "https://www.deezer.com/album/831305371"
+      },
+      {
+        "titre": "PHANTASMA",
+        "type": "Album",
+        "annee": 2025,
+        "date": "2025-02-10",
+        "titres": 7,
+        "cover": "https://cdn-images.dzcdn.net/images/cover/e0fce825c51e1edeb205832611b2e29b/250x250-000000-80-0-0.jpg",
+        "lien": "https://www.deezer.com/album/701041821"
+      },
+      {
+        "titre": "OBSESSION",
+        "type": "EP",
+        "annee": 2024,
+        "date": "2024-05-24",
+        "titres": 5,
+        "cover": "https://cdn-images.dzcdn.net/images/cover/fca3ff0243b189ccc0648336d83f29cd/250x250-000000-80-0-0.jpg",
+        "lien": "https://www.deezer.com/album/571706341"
+      },
+      {
+        "titre": "INSTABLE",
+        "type": "EP",
+        "annee": 2024,
+        "date": "2024-01-19",
+        "titres": 5,
+        "cover": "https://cdn-images.dzcdn.net/images/cover/f0bfac0250f4ec78c80f8e677d8a240a/250x250-000000-80-0-0.jpg",
+        "lien": "https://www.deezer.com/album/532333392"
+      },
+      {
+        "titre": "Daphné",
+        "type": "EP",
+        "annee": 2023,
+        "date": "2023-03-24",
+        "titres": 4,
+        "cover": "https://cdn-images.dzcdn.net/images/cover/b03d56b75de85146d93d9b72a874131e/250x250-000000-80-0-0.jpg",
+        "lien": "https://www.deezer.com/album/805881241"
+      },
+      {
+        "titre": "Cassandre",
+        "type": "EP",
+        "annee": 2022,
+        "date": "2022-09-23",
+        "titres": 4,
+        "cover": "https://cdn-images.dzcdn.net/images/cover/60addb085b039654bb222b76f33db9fa/250x250-000000-80-0-0.jpg",
+        "lien": "https://www.deezer.com/album/805895691"
+      }
+    ],
+    "singles": [
+      {
+        "titre": "PAS +",
+        "annee": 2026,
+        "date": "2026-07-07",
+        "featurings": [
+          "William"
+        ],
+        "lien": "https://www.deezer.com/album/1019009781"
+      },
+      {
+        "titre": "IGNORE MOI",
+        "annee": 2026,
+        "date": "2026-05-29",
+        "lien": "https://www.deezer.com/album/986575931"
+      },
+      {
+        "titre": "VIDE HARDCORE",
+        "annee": 2026,
+        "date": "2026-04-03",
+        "lien": "https://www.deezer.com/album/945526881"
+      },
+      {
+        "titre": "ENCORE UN SOIR",
+        "annee": 2025,
+        "date": "2025-10-10",
+        "lien": "https://www.deezer.com/album/826249361"
+      },
+      {
+        "titre": "ALLO",
+        "annee": 2025,
+        "date": "2025-01-30",
+        "lien": "https://www.deezer.com/album/696292671"
+      },
+      {
+        "titre": "ELLE VOULAIT PLEURER",
+        "annee": 2024,
+        "date": "2024-05-03",
+        "lien": "https://www.deezer.com/album/569633301"
+      },
+      {
+        "titre": "TEMPERAMENT",
+        "annee": 2024,
+        "date": "2024-01-12",
+        "lien": "https://www.deezer.com/album/528498002"
+      },
+      {
+        "titre": "Mood",
+        "annee": 2023,
+        "date": "2023-04-28",
+        "lien": "https://www.deezer.com/album/805895641"
+      }
+    ]
+  },
+  {
+    "id": "gwaman",
+    "nom": "Gwaman",
+    "ajouteLe": "2026-11-17",
+    "description": "Artiste du rap FR émergent, repéré dans la PÉPITE'LIST de Pépite FR avec « TALK OF THE TOWN » (2026).",
+    "tags": [
+      "émergent"
+    ],
+    "liens": {
+      "deezer": "https://www.deezer.com/fr/artist/121312532"
+    },
+    "planete": {
+      "type": "glace",
+      "couleurs": [
+        "#8ad6d0",
+        "#c8f2ee",
+        "#ffffff"
+      ],
+      "taille": 3.1,
+      "relief": 1.6,
+      "atmosphere": "#ffffff"
+    },
+    "projets": [
+      {
+        "titre": "MR TRAVAIL",
+        "type": "Album",
+        "annee": 2026,
+        "date": "2026-11-09",
+        "titres": 7,
+        "cover": "https://cdn-images.dzcdn.net/images/cover/b878715db1b4d7440a3abc373d343ad5/250x250-000000-80-0-0.jpg",
+        "lien": "https://www.deezer.com/album/1139895041"
+      },
+      {
+        "titre": "LA CHUTE DE BERNARD HAYOT",
+        "type": "EP",
+        "annee": 2026,
+        "date": "2026-01-30",
+        "titres": 6,
+        "cover": "https://cdn-images.dzcdn.net/images/cover/b22c1f59a8c8c042bff861adc7c903a2/250x250-000000-80-0-0.jpg",
+        "lien": "https://www.deezer.com/album/905718832"
+      },
+      {
+        "titre": "DONT BLAME THE PILL",
+        "type": "EP",
+        "annee": 2025,
+        "date": "2025-09-05",
+        "titres": 5,
+        "cover": "https://cdn-images.dzcdn.net/images/cover/a6db1daee81c64961d5645482d5eb4a6/250x250-000000-80-0-0.jpg",
+        "lien": "https://www.deezer.com/album/815634521"
+      },
+      {
+        "titre": "226",
+        "type": "EP",
+        "annee": 2024,
+        "date": "2024-12-26",
+        "titres": 5,
+        "cover": "https://cdn-images.dzcdn.net/images/cover/b0df5252ab44d79470aff8c41f33174e/250x250-000000-80-0-0.jpg",
+        "lien": "https://www.deezer.com/album/689144791"
+      },
+      {
+        "titre": "5 Tunes, Vol. 2",
+        "type": "EP",
+        "annee": 2023,
+        "date": "2023-11-03",
+        "titres": 5,
+        "cover": "https://cdn-images.dzcdn.net/images/cover/4ec65cd249f839884cbf5cb5eff23562/250x250-000000-80-0-0.jpg",
+        "lien": "https://www.deezer.com/album/458911995"
+      },
+      {
+        "titre": "G Vs. W",
+        "type": "Album",
+        "annee": 2023,
+        "date": "2023-03-06",
+        "titres": 10,
+        "cover": "https://cdn-images.dzcdn.net/images/cover/21ccd75b474df9637b52e58b05b4e833/250x250-000000-80-0-0.jpg",
+        "lien": "https://www.deezer.com/album/392339687"
+      }
+    ],
+    "singles": [
+      {
+        "titre": "P.U.M",
+        "annee": 2024,
+        "date": "2024-08-28",
+        "lien": "https://www.deezer.com/album/635633511"
+      },
+      {
+        "titre": "Mr. Leterier",
+        "annee": 2024,
+        "date": "2024-07-01",
+        "lien": "https://www.deezer.com/album/607325422"
+      },
+      {
+        "titre": "NIARCHIVES JOINT",
+        "annee": 2024,
+        "date": "2024-03-29",
+        "lien": "https://www.deezer.com/album/566360511"
+      },
+      {
+        "titre": "Amélie",
+        "annee": 2023,
+        "date": "2023-06-29",
+        "lien": "https://www.deezer.com/album/459096305"
+      },
+      {
+        "titre": "GW",
+        "annee": 2022,
+        "date": "2022-09-29",
+        "lien": "https://www.deezer.com/album/361444347"
+      }
+    ]
+  },
+  {
+    "id": "piero",
+    "nom": "Piero",
+    "ajouteLe": "2026-11-17",
+    "description": "Artiste du rap FR émergent, repéré dans la PÉPITE'LIST de Pépite FR avec « Cayenne » (2026).",
+    "tags": [
+      "émergent"
+    ],
+    "liens": {
+      "deezer": "https://www.deezer.com/fr/artist/118515192"
+    },
+    "planete": {
+      "type": "lave",
+      "couleurs": [
+        "#2a2030",
+        "#5a3a3a",
+        "#ffb03a"
+      ],
+      "taille": 2.9,
+      "relief": 1.7,
+      "atmosphere": "#ffe0a0"
+    },
+    "projets": [
+      {
+        "titre": "Mégots sur le trottoir",
+        "type": "Album",
+        "annee": 2026,
+        "date": "2026-09-09",
+        "titres": 8,
+        "cover": "https://cdn-images.dzcdn.net/images/cover/db5e2922dca46057ef02caf90358231f/250x250-000000-80-0-0.jpg",
+        "lien": "https://www.deezer.com/album/1063564031"
+      },
+      {
+        "titre": "Mégots",
+        "type": "EP",
+        "annee": 2026,
+        "date": "2026-06-19",
+        "titres": 6,
+        "cover": "https://cdn-images.dzcdn.net/images/cover/db5e2922dca46057ef02caf90358231f/250x250-000000-80-0-0.jpg",
+        "lien": "https://www.deezer.com/album/992478961"
+      },
+      {
+        "titre": "LA FLAMME",
+        "type": "EP",
+        "annee": 2025,
+        "date": "2025-07-04",
+        "titres": 4,
+        "cover": "https://cdn-images.dzcdn.net/images/cover/f905d2d52863bab85a1a24f84b930e02/250x250-000000-80-0-0.jpg",
+        "lien": "https://www.deezer.com/album/776215031"
+      },
+      {
+        "titre": "P2L se defoule, vol. 3",
+        "type": "Album",
+        "annee": 2024,
+        "date": "2024-11-02",
+        "titres": 7,
+        "cover": "https://cdn-images.dzcdn.net/images/cover/161125a66f9b017381ba5c65f830ac53/250x250-000000-80-0-0.jpg",
+        "lien": "https://www.deezer.com/album/664644081"
+      },
+      {
+        "titre": "P2L se defoule, vol. 2",
+        "type": "EP",
+        "annee": 2023,
+        "date": "2023-10-12",
+        "titres": 6,
+        "cover": "https://cdn-images.dzcdn.net/images/cover/91a3118ff460805814cf82bad2adbedd/250x250-000000-80-0-0.jpg",
+        "lien": "https://www.deezer.com/album/499404831"
+      },
+      {
+        "titre": "TZ aux machines",
+        "type": "EP",
+        "annee": 2022,
+        "date": "2022-06-21",
+        "titres": 6,
+        "cover": "https://cdn-images.dzcdn.net/images/cover/c645f3a7758c5206e513d0d0d8274595/250x250-000000-80-0-0.jpg",
+        "lien": "https://www.deezer.com/album/329633717"
+      }
+    ],
+    "singles": [
+      {
+        "titre": "Cayenne",
+        "annee": 2026,
+        "date": "2026-11-13",
+        "lien": "https://www.deezer.com/album/1136852581"
+      },
+      {
+        "titre": "DTG",
+        "annee": 2026,
+        "date": "2026-10-09",
+        "lien": "https://www.deezer.com/album/1110379282"
+      },
+      {
+        "titre": "Loyer",
+        "annee": 2026,
+        "date": "2026-04-24",
+        "lien": "https://www.deezer.com/album/953764911"
+      },
+      {
+        "titre": "TRUMAN",
+        "annee": 2025,
+        "date": "2025-03-26",
+        "lien": "https://www.deezer.com/album/728848461"
+      },
+      {
+        "titre": "NUIT COMPLÈTE",
+        "annee": 2025,
+        "date": "2025-01-10",
+        "lien": "https://www.deezer.com/album/689222241"
+      },
+      {
+        "titre": "ROOFTOP/COCKTAIL",
+        "annee": 2024,
+        "date": "2024-08-09",
+        "lien": "https://www.deezer.com/album/618497921"
+      },
+      {
+        "titre": "Solo",
+        "annee": 2024,
+        "date": "2024-06-21",
+        "lien": "https://www.deezer.com/album/600691002"
+      },
+      {
+        "titre": "P2L se defoule",
+        "annee": 2022,
+        "date": "2022-08-12",
+        "lien": "https://www.deezer.com/album/344997867"
+      },
+      {
+        "titre": "Tout en white",
+        "annee": 2022,
+        "date": "2022-08-06",
+        "lien": "https://www.deezer.com/album/343406057"
+      },
+      {
+        "titre": "Comment ça",
+        "annee": 2022,
+        "date": "2022-04-25",
+        "featurings": [
+          "Titoubz"
+        ],
+        "lien": "https://www.deezer.com/album/313409377"
+      },
+      {
+        "titre": "Millions de mails",
+        "annee": 2022,
+        "date": "2022-03-23",
+        "featurings": [
+          "Titoubz"
+        ],
+        "lien": "https://www.deezer.com/album/304634827"
+      }
+    ]
+  },
+  {
+    "id": "shav",
+    "nom": "$hav",
+    "ajouteLe": "2026-11-17",
+    "description": "Artiste du rap FR émergent, repéré dans la PÉPITE'LIST de Pépite FR avec « écart » (2026).",
+    "tags": [
+      "émergent"
+    ],
+    "liens": {
+      "deezer": "https://www.deezer.com/fr/artist/253592302"
+    },
+    "planete": {
+      "type": "gazeuse",
+      "couleurs": [
+        "#2f6fb5",
+        "#5aa6e6",
+        "#bfe6ff"
+      ],
+      "taille": 3.9,
+      "relief": 1.4,
+      "atmosphere": "#e0f6ff"
+    },
+    "projets": [
+      {
+        "titre": "VOL 34",
+        "type": "Album",
+        "annee": 2026,
+        "date": "2026-07-08",
+        "titres": 10,
+        "cover": "https://cdn-images.dzcdn.net/images/cover/65b1388523e35112a8f44d7b65e46967/250x250-000000-80-0-0.jpg",
+        "lien": "https://www.deezer.com/album/1019957771"
+      }
+    ],
+    "singles": [
+      {
+        "titre": "écart",
+        "annee": 2026,
+        "date": "2026-11-13",
+        "lien": "https://www.deezer.com/album/1142505861"
+      },
+      {
+        "titre": "new era",
+        "annee": 2026,
+        "date": "2026-10-12",
+        "lien": "https://www.deezer.com/album/1117278702"
+      }
+    ]
+  },
+  {
+    "id": "lacam19",
+    "nom": "Lacam19",
+    "ajouteLe": "2026-11-17",
+    "description": "Artiste du rap FR émergent, repéré dans la PÉPITE'LIST de Pépite FR avec « Heavy Weather » (2026).",
+    "tags": [
+      "émergent"
+    ],
+    "liens": {
+      "deezer": "https://www.deezer.com/fr/artist/392625951"
+    },
+    "planete": {
+      "type": "glace",
+      "couleurs": [
+        "#8fc6ec",
+        "#c9e8fb",
+        "#ffffff"
+      ],
+      "taille": 3.2,
+      "relief": 1.5,
+      "atmosphere": "#ffffff"
+    },
+    "projets": [
+      {
+        "titre": "Made In Heaven",
+        "type": "EP",
+        "annee": 2026,
+        "date": "2026-07-13",
+        "titres": 5,
+        "cover": "https://cdn-images.dzcdn.net/images/cover/d28fbf7207e47ae84f26a8ab092e2819/250x250-000000-80-0-0.jpg",
+        "lien": "https://www.deezer.com/album/1070009652"
+      }
+    ],
+    "singles": [
+      {
+        "titre": "Heavy Weather",
+        "annee": 2026,
+        "date": "2026-11-13",
+        "lien": "https://www.deezer.com/album/1125591332"
+      },
+      {
+        "titre": "Sapphire",
+        "annee": 2026,
+        "date": "2026-10-09",
+        "featurings": [
+          "Davomedov"
+        ],
+        "lien": "https://www.deezer.com/album/1103479852"
+      },
+      {
+        "titre": "Diavolo",
+        "annee": 2026,
+        "date": "2026-08-29",
+        "featurings": [
+          "Davomedov"
+        ],
+        "lien": "https://www.deezer.com/album/1070007752"
+      },
+      {
+        "titre": "SteelBallRun",
+        "annee": 2026,
+        "date": "2026-05-29",
+        "featurings": [
+          "Davomedov"
+        ],
+        "lien": "https://www.deezer.com/album/1070009222"
+      }
+    ]
+  },
+  {
+    "id": "tony-toxik",
+    "nom": "Tony Toxik",
+    "ajouteLe": "2026-11-17",
+    "description": "Artiste du rap FR émergent, repéré dans la PÉPITE'LIST de Pépite FR avec « Grands Travaux » (2026).",
+    "tags": [
+      "émergent"
+    ],
+    "liens": {
+      "deezer": "https://www.deezer.com/fr/artist/5514915"
+    },
+    "planete": {
+      "type": "asteroide",
+      "couleurs": [
+        "#5e2a4e",
+        "#8f4273",
+        "#b95c91"
+      ],
+      "taille": 3.5,
+      "relief": 1.5,
+      "atmosphere": "#e68abc"
+    },
+    "projets": [
+      {
+        "titre": "Les Z'instrus, Vol. 2",
+        "type": "Album",
+        "annee": 2025,
+        "date": "2025-05-10",
+        "titres": 17,
+        "cover": "https://cdn-images.dzcdn.net/images/cover/dbc5553a2332633d1b2c2e523133f00d/250x250-000000-80-0-0.jpg",
+        "lien": "https://www.deezer.com/album/749384941"
+      }
+    ]
+  },
+  {
+    "id": "rond0o550",
+    "nom": "Rond0o550",
+    "ajouteLe": "2026-11-17",
+    "description": "Artiste du rap FR émergent, repéré dans la PÉPITE'LIST de Pépite FR avec « Pigalle » (2026).",
+    "tags": [
+      "émergent"
+    ],
+    "liens": {
+      "deezer": "https://www.deezer.com/fr/artist/424639631"
+    },
+    "planete": {
+      "type": "gazeuse",
+      "couleurs": [
+        "#6d2a8a",
+        "#c15ad6",
+        "#f7c2ff"
+      ],
+      "taille": 4.0,
+      "relief": 1.7,
+      "atmosphere": "#fbe0ff",
+      "anneaux": "#f7c2ff"
+    },
+    "singles": [
+      {
+        "titre": "Pigalle",
+        "annee": 2026,
+        "date": "2026-11-13",
+        "lien": "https://www.deezer.com/album/1132235431"
+      }
+    ]
+  },
+  {
+    "id": "angelo",
+    "nom": "Angelo",
+    "ajouteLe": "2026-11-17",
+    "description": "Artiste du rap FR émergent, repéré dans la PÉPITE'LIST de Pépite FR avec « JE T'AI OUBLIÉ » (2026).",
+    "tags": [
+      "émergent"
+    ],
+    "liens": {
+      "deezer": "https://www.deezer.com/fr/artist/96289732"
+    },
+    "planete": {
+      "type": "toxique",
+      "couleurs": [
+        "#7a2a6e",
+        "#c04fb0",
+        "#ffa8ef"
+      ],
+      "taille": 2.9,
+      "relief": 1.5,
+      "atmosphere": "#ffe0fa"
+    },
+    "projets": [
+      {
+        "titre": "FVCK LE BLUES (vol.2)",
+        "type": "EP",
+        "annee": 2026,
+        "date": "2026-04-02",
+        "titres": 6,
+        "cover": "https://cdn-images.dzcdn.net/images/cover/1b13fbba5b784dae5eaa75561e082820/250x250-000000-80-0-0.jpg",
+        "lien": "https://www.deezer.com/album/952687961"
+      },
+      {
+        "titre": "JOLIES BLESSURES",
+        "type": "Album",
+        "annee": 2025,
+        "date": "2025-02-06",
+        "titres": 8,
+        "cover": "https://cdn-images.dzcdn.net/images/cover/5c9b01c6322216e60af4994e9163f466/250x250-000000-80-0-0.jpg",
+        "lien": "https://www.deezer.com/album/697544221"
+      },
+      {
+        "titre": "LES OISEAUX VOLENT BAS",
+        "type": "EP",
+        "annee": 2024,
+        "date": "2024-03-07",
+        "titres": 5,
+        "cover": "https://cdn-images.dzcdn.net/images/cover/c35c845fec56e9a68e2f5127764ebf57/250x250-000000-80-0-0.jpg",
+        "lien": "https://www.deezer.com/album/545220892"
+      }
+    ],
+    "singles": [
+      {
+        "titre": "JE T'AI OUBLIÉ",
+        "annee": 2026,
+        "date": "2026-11-12",
+        "featurings": [
+          "oma"
+        ],
+        "lien": "https://www.deezer.com/album/1142725761"
+      },
+      {
+        "titre": "SCHÉMA (OMA REMIX)",
+        "annee": 2026,
+        "date": "2026-10-13",
+        "featurings": [
+          "oma"
+        ],
+        "lien": "https://www.deezer.com/album/1120524382"
+      },
+      {
+        "titre": "T'AIMER ÇA SERT À QUOI ?",
+        "annee": 2026,
+        "date": "2026-06-25",
+        "featurings": [
+          "oma"
+        ],
+        "lien": "https://www.deezer.com/album/1012016481"
+      },
+      {
+        "titre": "BLUE VELVET",
+        "annee": 2026,
+        "date": "2026-05-28",
+        "featurings": [
+          "oma"
+        ],
+        "lien": "https://www.deezer.com/album/989709591"
+      },
+      {
+        "titre": "EGO",
+        "annee": 2026,
+        "date": "2026-03-05",
+        "featurings": [
+          "Ily"
+        ],
+        "lien": "https://www.deezer.com/album/932774241"
+      },
+      {
+        "titre": "NUAGES GRIS",
+        "annee": 2026,
+        "date": "2026-01-26",
+        "featurings": [
+          "ver2gris"
+        ],
+        "lien": "https://www.deezer.com/album/894340082"
+      },
+      {
+        "titre": "KIVABRILLÉ !?",
+        "annee": 2026,
+        "date": "2026-01-01",
+        "lien": "https://www.deezer.com/album/886889222"
+      },
+      {
+        "titre": "DMQP",
+        "annee": 2025,
+        "date": "2025-12-18",
+        "featurings": [
+          "Sir Reda "
+        ],
+        "lien": "https://www.deezer.com/album/879003702"
+      },
+      {
+        "titre": "VRAIES CONNEXIONS (VERSION HOUSE)",
+        "annee": 2025,
+        "date": "2025-11-30",
+        "featurings": [
+          "Laprod"
+        ],
+        "lien": "https://www.deezer.com/album/854770002"
+      },
+      {
+        "titre": "SCHÉMA",
+        "annee": 2025,
+        "date": "2025-10-11",
+        "lien": "https://www.deezer.com/album/835396592"
+      },
+      {
+        "titre": "TOKYO DRIFT",
+        "annee": 2025,
+        "date": "2025-09-18",
+        "lien": "https://www.deezer.com/album/820728571"
+      },
+      {
+        "titre": "AMAZING",
+        "annee": 2025,
+        "date": "2025-07-03",
+        "lien": "https://www.deezer.com/album/774604271"
+      },
+      {
+        "titre": "ON MET PAS DE SELLE À UN MUSTANG",
+        "annee": 2025,
+        "date": "2025-06-05",
+        "lien": "https://www.deezer.com/album/760321261"
+      },
+      {
+        "titre": "JAMAIS",
+        "annee": 2025,
+        "date": "2025-05-15",
+        "featurings": [
+          "Tkkf",
+          "oma"
+        ],
+        "lien": "https://www.deezer.com/album/747435071"
+      },
+      {
+        "titre": "LE RAP M'A TUER",
+        "annee": 2025,
+        "date": "2025-04-03",
+        "lien": "https://www.deezer.com/album/729787561"
+      },
+      {
+        "titre": "BATMAN",
+        "annee": 2025,
+        "date": "2025-01-03",
+        "lien": "https://www.deezer.com/album/685422131"
+      },
+      {
+        "titre": "ADN",
+        "annee": 2024,
+        "date": "2024-11-21",
+        "lien": "https://www.deezer.com/album/667466861"
+      },
+      {
+        "titre": "EN PLUS FORT",
+        "annee": 2024,
+        "date": "2024-06-27",
+        "lien": "https://www.deezer.com/album/596917062"
+      },
+      {
+        "titre": "KAVINSKY",
+        "annee": 2024,
+        "date": "2024-03-30",
+        "lien": "https://www.deezer.com/album/425768307"
+      },
+      {
+        "titre": "Blindé",
+        "annee": 2024,
+        "date": "2024-03-30",
+        "featurings": [
+          "Aisan"
+        ],
+        "lien": "https://www.deezer.com/album/266277972"
+      },
+      {
+        "titre": "VRAIES CONNEXIONS",
+        "annee": 2024,
+        "date": "2024-02-15",
+        "lien": "https://www.deezer.com/album/534973092"
+      }
+    ]
+  },
+  {
+    "id": "oma",
+    "nom": "oma",
+    "ajouteLe": "2026-11-17",
+    "description": "Artiste du rap FR émergent, repéré dans la PÉPITE'LIST de Pépite FR avec « JE T'AI OUBLIÉ » (2026).",
+    "tags": [
+      "émergent"
+    ],
+    "liens": {
+      "deezer": "https://www.deezer.com/fr/artist/401111911"
+    },
+    "planete": {
+      "type": "toxique",
+      "couleurs": [
+        "#1d5c6b",
+        "#2fb3a8",
+        "#a8ffe6"
+      ],
+      "taille": 3.5,
+      "relief": 1.6,
+      "atmosphere": "#d8fff4"
+    },
+    "projets": [
+      {
+        "titre": "404 paradi**",
+        "type": "EP",
+        "annee": 2025,
+        "date": "2025-11-11",
+        "titres": 4,
+        "cover": "https://cdn-images.dzcdn.net/images/cover/4757478c3d5464001baeb4b04eb8274b/250x250-000000-80-0-0.jpg",
+        "lien": "https://www.deezer.com/album/850342652"
+      }
+    ],
+    "singles": [
+      {
+        "titre": "pk tu pars??",
+        "annee": 2026,
+        "date": "2026-04-23",
+        "lien": "https://www.deezer.com/album/967841821"
+      },
+      {
+        "titre": "les vagues",
+        "annee": 2026,
+        "date": "2026-03-03",
+        "lien": "https://www.deezer.com/album/931493361"
+      },
+      {
+        "titre": "le temps et puis c tt",
+        "annee": 2025,
+        "date": "2025-10-12",
+        "lien": "https://www.deezer.com/album/836719002"
+      },
+      {
+        "titre": "LUNETTE&B0B",
+        "annee": 2025,
+        "date": "2025-08-10",
+        "lien": "https://www.deezer.com/album/802731951"
+      }
+    ]
+  },
+  {
+    "id": "kaeles",
+    "nom": "Kaeles",
+    "ajouteLe": "2026-11-17",
+    "description": "Artiste du rap FR émergent, repéré dans la PÉPITE'LIST de Pépite FR avec « BRIIBRII » (2026).",
+    "tags": [
+      "émergent"
+    ],
+    "liens": {
+      "deezer": "https://www.deezer.com/fr/artist/131549292"
+    },
+    "planete": {
+      "type": "continents",
+      "couleurs": [
+        "#3a7bd5",
+        "#5cae3a",
+        "#b4e05a"
+      ],
+      "taille": 3.3,
+      "relief": 1.7,
+      "atmosphere": "#e6fbff"
+    },
+    "projets": [
+      {
+        "titre": "VIBE2MOJOMUZIK",
+        "type": "Album",
+        "annee": 2026,
+        "date": "2026-06-26",
+        "titres": 12,
+        "cover": "https://cdn-images.dzcdn.net/images/cover/58f3e1e2d9c4f5b60bb90e1e10393fe1/250x250-000000-80-0-0.jpg",
+        "lien": "https://www.deezer.com/album/1008996421"
+      },
+      {
+        "titre": "RUN2MOJOMUZIK",
+        "type": "EP",
+        "annee": 2025,
+        "date": "2025-10-10",
+        "titres": 7,
+        "cover": "https://cdn-images.dzcdn.net/images/cover/ded4c1acb47814ca9deda2b9f4f3ccc1/250x250-000000-80-0-0.jpg",
+        "lien": "https://www.deezer.com/album/830835141"
+      },
+      {
+        "titre": "CLOUD NINE",
+        "type": "EP",
+        "annee": 2024,
+        "date": "2024-07-06",
+        "titres": 7,
+        "cover": "https://cdn-images.dzcdn.net/images/cover/48937768b00071ebadcd6beb9b7f7d38/250x250-000000-80-0-0.jpg",
+        "lien": "https://www.deezer.com/album/611704602"
+      },
+      {
+        "titre": "NEVERMORE",
+        "type": "EP",
+        "annee": 2024,
+        "date": "2024-03-02",
+        "titres": 6,
+        "cover": "https://cdn-images.dzcdn.net/images/cover/f19d3d6d315f574d0af9217ce0aa78fc/250x250-000000-80-0-0.jpg",
+        "lien": "https://www.deezer.com/album/555202182"
+      },
+      {
+        "titre": "KAELUM",
+        "type": "EP",
+        "annee": 2022,
+        "date": "2022-12-02",
+        "titres": 6,
+        "cover": "https://cdn-images.dzcdn.net/images/cover/3bfe968432e7a8b47b96ae468d9535ff/250x250-000000-80-0-0.jpg",
+        "lien": "https://www.deezer.com/album/382680827"
+      }
+    ],
+    "singles": [
+      {
+        "titre": "BRIIBRII",
+        "annee": 2026,
+        "date": "2026-11-13",
+        "lien": "https://www.deezer.com/album/1139624081"
+      },
+      {
+        "titre": "YALE",
+        "annee": 2026,
+        "date": "2026-06-12",
+        "lien": "https://www.deezer.com/album/999305901"
+      },
+      {
+        "titre": "STARLETS",
+        "annee": 2026,
+        "date": "2026-05-13",
+        "lien": "https://www.deezer.com/album/979761601"
+      },
+      {
+        "titre": "BRRR",
+        "annee": 2026,
+        "date": "2026-04-10",
+        "lien": "https://www.deezer.com/album/957796251"
+      },
+      {
+        "titre": "ABYMÉ",
+        "annee": 2026,
+        "date": "2026-02-20",
+        "lien": "https://www.deezer.com/album/920388241"
+      },
+      {
+        "titre": "BETTER",
+        "annee": 2025,
+        "date": "2025-08-08",
+        "lien": "https://www.deezer.com/album/799814861"
+      },
+      {
+        "titre": "MOJO",
+        "annee": 2025,
+        "date": "2025-06-27",
+        "lien": "https://www.deezer.com/album/776997381"
+      },
+      {
+        "titre": "BOMB",
+        "annee": 2025,
+        "date": "2025-05-16",
+        "lien": "https://www.deezer.com/album/755518401"
+      },
+      {
+        "titre": "OMIE",
+        "annee": 2025,
+        "date": "2025-02-02",
+        "lien": "https://www.deezer.com/album/706885481"
+      },
+      {
+        "titre": "M.O.B",
+        "annee": 2024,
+        "date": "2024-12-16",
+        "lien": "https://www.deezer.com/album/684470621"
+      },
+      {
+        "titre": "METAL COOLER FREESTYLE",
+        "annee": 2024,
+        "date": "2024-11-03",
+        "lien": "https://www.deezer.com/album/665098811"
+      },
+      {
+        "titre": "CHROME",
+        "annee": 2024,
+        "date": "2024-09-24",
+        "lien": "https://www.deezer.com/album/647364551"
+      },
+      {
+        "titre": "Late Night Drink",
+        "annee": 2023,
+        "date": "2023-09-11",
+        "lien": "https://www.deezer.com/album/486535025"
+      },
+      {
+        "titre": "OPPS",
+        "annee": 2023,
+        "date": "2023-06-16",
+        "lien": "https://www.deezer.com/album/454213375"
+      },
+      {
+        "titre": "CASH OUT",
+        "annee": 2023,
+        "date": "2023-05-26",
+        "lien": "https://www.deezer.com/album/446442735"
+      },
+      {
+        "titre": "VIBRATIONS",
+        "annee": 2023,
+        "date": "2023-02-02",
+        "lien": "https://www.deezer.com/album/403348257"
+      },
+      {
+        "titre": "LDLF/CRAZY GIRLS",
+        "annee": 2023,
+        "date": "2023-01-19",
+        "lien": "https://www.deezer.com/album/398395397"
+      },
+      {
+        "titre": "VOLE!/STRA$$",
+        "annee": 2022,
+        "date": "2022-12-01",
+        "lien": "https://www.deezer.com/album/382319697"
+      },
+      {
+        "titre": "PALM SPRINGS",
+        "annee": 2022,
+        "date": "2022-12-01",
+        "lien": "https://www.deezer.com/album/382290197"
+      },
+      {
+        "titre": "BALLERZ",
+        "annee": 2022,
+        "date": "2022-12-01",
+        "lien": "https://www.deezer.com/album/382269377"
+      },
+      {
+        "titre": "Questions",
+        "annee": 2022,
+        "date": "2022-01-14",
+        "lien": "https://www.deezer.com/album/286495862"
+      },
+      {
+        "titre": "Foreign",
+        "annee": 2021,
+        "date": "2021-07-28",
+        "lien": "https://www.deezer.com/album/246641502"
+      },
+      {
+        "titre": "TocToc",
+        "annee": 2021,
+        "date": "2021-06-09",
+        "lien": "https://www.deezer.com/album/234961852"
+      },
+      {
+        "titre": "Trou Noir",
+        "annee": 2021,
+        "date": "2021-05-07",
+        "lien": "https://www.deezer.com/album/226933622"
+      }
+    ]
+  },
+  {
+    "id": "maylie",
+    "nom": "MAYLIE",
+    "ajouteLe": "2026-11-17",
+    "description": "Artiste du rap FR émergent, repéré dans la PÉPITE'LIST de Pépite FR avec « Beugueu médicinale » (2026).",
+    "tags": [
+      "émergent"
+    ],
+    "liens": {
+      "deezer": "https://www.deezer.com/fr/artist/366770172"
+    },
+    "planete": {
+      "type": "toxique",
+      "couleurs": [
+        "#1f7a3a",
+        "#45c25a",
+        "#c6ff6a"
+      ],
+      "taille": 3.0,
+      "relief": 1.9,
+      "atmosphere": "#eaffb0"
+    },
+    "singles": [
+      {
+        "titre": "Beugueu médicinale",
+        "annee": 2026,
+        "date": "2026-11-10",
+        "lien": "https://www.deezer.com/album/1139423671"
+      },
+      {
+        "titre": "TASSER LE PASSÉ ET TAILLER",
+        "annee": 2026,
+        "date": "2026-08-12",
+        "lien": "https://www.deezer.com/album/1050001982"
+      },
+      {
+        "titre": "CONNAIS PAS",
+        "annee": 2026,
+        "date": "2026-07-08",
+        "lien": "https://www.deezer.com/album/1019963561"
+      },
+      {
+        "titre": "ATTITUDE",
+        "annee": 2026,
+        "date": "2026-03-04",
+        "lien": "https://www.deezer.com/album/928556371"
+      },
+      {
+        "titre": "BIJOU BIJOU",
+        "annee": 2025,
+        "date": "2025-09-05",
+        "lien": "https://www.deezer.com/album/810866431"
+      }
+    ]
+  },
+  {
+    "id": "kime",
+    "nom": "Kimé",
+    "ajouteLe": "2026-11-17",
+    "description": "Artiste du rap FR émergent, repéré dans la PÉPITE'LIST de Pépite FR avec « bailleur » (2026).",
+    "tags": [
+      "émergent"
+    ],
+    "liens": {
+      "deezer": "https://www.deezer.com/fr/artist/6388800"
+    },
+    "planete": {
+      "type": "gazeuse",
+      "couleurs": [
+        "#a82a2e",
+        "#e05b4a",
+        "#ffc0a8"
+      ],
+      "taille": 4.0,
+      "relief": 1.9,
+      "atmosphere": "#ffdccc"
+    },
+    "sortiesIgnorees": [
+      "6000",
+      "ANJALASS",
+      "Bebas",
+      "Bella Serata",
+      "Bendita Tierra",
+      "Black",
+      "Boot Naar Amsterdam",
+      "ChezMoiLeCielEstSombre",
+      "Cipota Morena",
+      "Fahrenheit (451)",
+      "GWALA",
+      "He Querido Decirte",
+      "Hotel (feat. Audio Monk)",
+      "KALINAGOS",
+      "Kakal Mupus Diya",
+      "LEOLULU FREESTYLE",
+      "La boucle",
+      "Luce",
+      "Monaxiá",
+      "Novelo de Lã",
+      "Paria",
+      "Poder Decidir",
+      "SC-MOI",
+      "She's not mine",
+      "Soldato",
+      "Specific",
+      "Strangers",
+      "Sưởi Ấm Mặt Trời",
+      "Tan Vỡ",
+      "Tessuto Urbano",
+      "The Journey Of Your Beauty",
+      "Vino Pezzotto (Act.I)",
+      "XL",
+      "ballon noir",
+      "empathy + resine (feat. Resine)",
+      "gris béton",
+      "juste aime moi (feat. s33k)",
+      "keraku",
+      "kulture",
+      "mal du pays",
+      "sous ma paire",
+      "sweet music (feat. Skye)"
+    ],
+    "projets": [
+      {
+        "titre": "P-a-P Paris",
+        "type": "Album",
+        "annee": 2026,
+        "date": "2026-11-13",
+        "titres": 7,
+        "cover": "https://cdn-images.dzcdn.net/images/cover/5d500c72a480ba6c9fb53d330275c31f/250x250-000000-80-0-0.jpg",
+        "lien": "https://www.deezer.com/album/1135721841"
+      }
+    ]
+  },
+  {
+    "id": "finessedaakid",
+    "nom": "FinesseDaaKid",
+    "ajouteLe": "2026-11-17",
+    "description": "Artiste du rap FR émergent, repéré dans la PÉPITE'LIST de Pépite FR avec « pcj-600 » (2026).",
+    "tags": [
+      "émergent"
+    ],
+    "liens": {
+      "deezer": "https://www.deezer.com/fr/artist/61541052"
+    },
+    "planete": {
+      "type": "toxique",
+      "couleurs": [
+        "#1f7a3a",
+        "#45c25a",
+        "#c6ff6a"
+      ],
+      "taille": 2.9,
+      "relief": 1.4,
+      "atmosphere": "#eaffb0"
+    },
+    "projets": [
+      {
+        "titre": "Dumb Forever",
+        "type": "Album",
+        "annee": 2025,
+        "date": "2025-10-18",
+        "titres": 11,
+        "cover": "https://cdn-images.dzcdn.net/images/cover/8df4b9a3bace1658435d6eddc497215d/250x250-000000-80-0-0.jpg",
+        "lien": "https://www.deezer.com/album/823878831"
+      },
+      {
+        "titre": "THE GETAWAY",
+        "type": "Album",
+        "annee": 2024,
+        "date": "2024-01-29",
+        "titres": 7,
+        "cover": "https://cdn-images.dzcdn.net/images/cover/4f5cd3f4054c8a6d02b6ad42544f758f/250x250-000000-80-0-0.jpg",
+        "lien": "https://www.deezer.com/album/531971102"
+      }
+    ],
+    "singles": [
+      {
+        "titre": "pcj-600",
+        "annee": 2026,
+        "date": "2026-11-15",
+        "lien": "https://www.deezer.com/album/1145935001"
+      },
+      {
+        "titre": "mage 2",
+        "annee": 2026,
+        "date": "2026-10-31",
+        "lien": "https://www.deezer.com/album/1131893721"
+      },
+      {
+        "titre": "Prof De Philo",
+        "annee": 2026,
+        "date": "2026-09-27",
+        "featurings": [
+          "Sosaaski"
+        ],
+        "lien": "https://www.deezer.com/album/1079029942"
+      },
+      {
+        "titre": "GRAN TURISMO",
+        "annee": 2026,
+        "date": "2026-08-09",
+        "lien": "https://www.deezer.com/album/1047320742"
+      },
+      {
+        "titre": "low chakra",
+        "annee": 2026,
+        "date": "2026-07-26",
+        "lien": "https://www.deezer.com/album/1036418892"
+      },
+      {
+        "titre": "nokia (fi)",
+        "annee": 2026,
+        "date": "2026-07-12",
+        "lien": "https://www.deezer.com/album/1025218592"
+      },
+      {
+        "titre": "glitch",
+        "annee": 2026,
+        "date": "2026-05-31",
+        "lien": "https://www.deezer.com/album/991933561"
+      },
+      {
+        "titre": "dodot (fi)",
+        "annee": 2026,
+        "date": "2026-03-15",
+        "lien": "https://www.deezer.com/album/939951651"
+      },
+      {
+        "titre": "humble",
+        "annee": 2026,
+        "date": "2026-02-13",
+        "lien": "https://www.deezer.com/album/932644191"
+      },
+      {
+        "titre": "uchiwa (fi)",
+        "annee": 2026,
+        "date": "2026-02-08",
+        "lien": "https://www.deezer.com/album/914781871"
+      },
+      {
+        "titre": "one piece (fi)",
+        "annee": 2025,
+        "date": "2025-12-28",
+        "lien": "https://www.deezer.com/album/885551612"
+      },
+      {
+        "titre": "mage",
+        "annee": 2025,
+        "date": "2025-12-05",
+        "lien": "https://www.deezer.com/album/871573432"
+      },
+      {
+        "titre": "back in the days",
+        "annee": 2025,
+        "date": "2025-10-10",
+        "lien": "https://www.deezer.com/album/834841022"
+      },
+      {
+        "titre": "no motion",
+        "annee": 2025,
+        "date": "2025-08-22",
+        "lien": "https://www.deezer.com/album/808615231"
+      },
+      {
+        "titre": "hautain",
+        "annee": 2025,
+        "date": "2025-08-22",
+        "lien": "https://www.deezer.com/album/808616851"
+      },
+      {
+        "titre": "ion know",
+        "annee": 2025,
+        "date": "2025-07-11",
+        "lien": "https://www.deezer.com/album/785524721"
+      },
+      {
+        "titre": "faith",
+        "annee": 2025,
+        "date": "2025-06-15",
+        "lien": "https://www.deezer.com/album/772574791"
+      },
+      {
+        "titre": "far!",
+        "annee": 2025,
+        "date": "2025-06-15",
+        "lien": "https://www.deezer.com/album/772593071"
+      },
+      {
+        "titre": "LEFTOVERS",
+        "annee": 2025,
+        "date": "2025-01-03",
+        "lien": "https://www.deezer.com/album/692496831"
+      },
+      {
+        "titre": "Pas D'ici (THE GETAWAY Bonus)",
+        "annee": 2024,
+        "date": "2024-01-10",
+        "lien": "https://www.deezer.com/album/533118632"
+      }
+    ]
+  },
+  {
+    "id": "7zaazi",
+    "nom": "7zaazi",
+    "ajouteLe": "2026-11-17",
+    "description": "Artiste du rap FR émergent, repéré dans la PÉPITE'LIST de Pépite FR avec « Vert » (2026).",
+    "tags": [
+      "émergent"
+    ],
+    "liens": {
+      "deezer": "https://www.deezer.com/fr/artist/341001021"
+    },
+    "planete": {
+      "type": "asteroide",
+      "couleurs": [
+        "#3a3a44",
+        "#62626e",
+        "#9a9aa8"
+      ],
+      "taille": 3.1,
+      "relief": 2.0,
+      "atmosphere": "#d0d0dc"
+    },
+    "singles": [
+      {
+        "titre": "Vert",
+        "annee": 2026,
+        "date": "2026-11-14",
+        "lien": "https://www.deezer.com/album/1146536221"
+      },
+      {
+        "titre": "Zombie",
+        "annee": 2026,
+        "date": "2026-08-29",
+        "lien": "https://www.deezer.com/album/1065593921"
+      },
+      {
+        "titre": "C'est Tout",
+        "annee": 2026,
+        "date": "2026-01-30",
+        "lien": "https://www.deezer.com/album/906483852"
+      },
+      {
+        "titre": "Sorry",
+        "annee": 2025,
+        "date": "2025-12-05",
+        "lien": "https://www.deezer.com/album/858479542"
+      },
+      {
+        "titre": "ye!",
+        "annee": 2025,
+        "date": "2025-08-15",
+        "lien": "https://www.deezer.com/album/804341111"
+      }
+    ]
+  },
+  {
+    "id": "killer-ochoa",
+    "nom": "Killer Ochoa",
+    "ajouteLe": "2026-11-17",
+    "description": "Artiste du rap FR émergent, repéré dans la PÉPITE'LIST de Pépite FR avec « MEDIAPART » (2026).",
+    "tags": [
+      "émergent"
+    ],
+    "liens": {
+      "deezer": "https://www.deezer.com/fr/artist/83205962"
+    },
+    "planete": {
+      "type": "rocheuse",
+      "couleurs": [
+        "#8a4a2a",
+        "#c07a4a",
+        "#f0b888"
+      ],
+      "taille": 3.8,
+      "relief": 1.9,
+      "atmosphere": "#ffe0c0"
+    },
+    "projets": [
+      {
+        "titre": "PARASOUNDS",
+        "type": "Album",
+        "annee": 2026,
+        "date": "2026-04-19",
+        "titres": 12,
+        "cover": "https://cdn-images.dzcdn.net/images/cover/459ef1fbf05a6e43145970dfcf0b6313/250x250-000000-80-0-0.jpg",
+        "lien": "https://www.deezer.com/album/967878091"
+      },
+      {
+        "titre": "AFRICAN MAJOR",
+        "type": "EP",
+        "annee": 2025,
+        "date": "2025-10-30",
+        "titres": 6,
+        "cover": "https://cdn-images.dzcdn.net/images/cover/8f2caace36eadd2727ac790752ac50d2/250x250-000000-80-0-0.jpg",
+        "lien": "https://www.deezer.com/album/846125912"
+      },
+      {
+        "titre": "Expensive Pain (Deluxe)",
+        "type": "Album",
+        "annee": 2025,
+        "date": "2025-04-24",
+        "titres": 12,
+        "cover": "https://cdn-images.dzcdn.net/images/cover/832b1e1cd6fda5edeeddf4d60a106eb5/250x250-000000-80-0-0.jpg",
+        "lien": "https://www.deezer.com/album/753401001"
+      },
+      {
+        "titre": "Expensive Pain",
+        "type": "EP",
+        "annee": 2025,
+        "date": "2025-01-19",
+        "titres": 6,
+        "cover": "https://cdn-images.dzcdn.net/images/cover/4958cfc35a0e8d9ff4fb09273bc69661/250x250-000000-80-0-0.jpg",
+        "lien": "https://www.deezer.com/album/700027141"
+      },
+      {
+        "titre": "FLOWER TAPE",
+        "type": "Album",
+        "annee": 2024,
+        "date": "2024-03-13",
+        "titres": 13,
+        "cover": "https://cdn-images.dzcdn.net/images/cover/4ea9ef9bf182b4aad99552131262a0fd/250x250-000000-80-0-0.jpg",
+        "lien": "https://www.deezer.com/album/536202022"
+      }
+    ],
+    "singles": [
+      {
+        "titre": "MEDIAPART",
+        "annee": 2026,
+        "date": "2026-11-13",
+        "lien": "https://www.deezer.com/album/1146839711"
+      },
+      {
+        "titre": "SI ELLE VEUT",
+        "annee": 2026,
+        "date": "2026-10-27",
+        "featurings": [
+          "fromlamine"
+        ],
+        "lien": "https://www.deezer.com/album/1131737251"
+      },
+      {
+        "titre": "La copine",
+        "annee": 2026,
+        "date": "2026-10-04",
+        "lien": "https://www.deezer.com/album/1080277052"
+      },
+      {
+        "titre": "KEBAB",
+        "annee": 2026,
+        "date": "2026-08-29",
+        "featurings": [
+          "fromlamine"
+        ],
+        "lien": "https://www.deezer.com/album/1078353192"
+      },
+      {
+        "titre": "SKYOMIEL",
+        "annee": 2026,
+        "date": "2026-08-14",
+        "lien": "https://www.deezer.com/album/1054944502"
+      },
+      {
+        "titre": "PAS LE TEMPS",
+        "annee": 2026,
+        "date": "2026-06-16",
+        "featurings": [
+          "LM Binks"
+        ],
+        "lien": "https://www.deezer.com/album/1007893791"
+      },
+      {
+        "titre": "TOO MUCH DRUGZ",
+        "annee": 2025,
+        "date": "2025-05-29",
+        "featurings": [
+          "fromlamine"
+        ],
+        "lien": "https://www.deezer.com/album/790474741"
+      },
+      {
+        "titre": "GO2DALUNE",
+        "annee": 2024,
+        "date": "2024-12-15",
+        "lien": "https://www.deezer.com/album/684294951"
+      },
+      {
+        "titre": "OUT OF THE WORLD",
+        "annee": 2024,
+        "date": "2024-02-21",
+        "lien": "https://www.deezer.com/album/550853252"
+      },
+      {
+        "titre": "Back + YLN",
+        "annee": 2023,
+        "date": "2023-04-12",
+        "lien": "https://www.deezer.com/album/426839717"
+      }
+    ]
+  },
+  {
+    "id": "ozaleji",
+    "nom": "Ozaleji",
+    "ajouteLe": "2026-11-17",
+    "description": "Artiste du rap FR émergent, repéré dans la PÉPITE'LIST de Pépite FR avec « FAUT SHOOT BURNS COMME MAGGIE » (2026).",
+    "tags": [
+      "émergent"
+    ],
+    "liens": {
+      "deezer": "https://www.deezer.com/fr/artist/303125711"
+    },
+    "planete": {
+      "type": "rocheuse",
+      "couleurs": [
+        "#4a4a5a",
+        "#7a7a8e",
+        "#b8b8cc"
+      ],
+      "taille": 3.2,
+      "relief": 1.8,
+      "atmosphere": "#e6e6f6"
+    },
+    "projets": [
+      {
+        "titre": "BARZ SPARRERS",
+        "type": "Album",
+        "annee": 2026,
+        "date": "2026-11-13",
+        "titres": 6,
+        "cover": "https://cdn-images.dzcdn.net/images/cover/5b8881c76acf4e3a3ec1ade7dc52d52a/250x250-000000-80-0-0.jpg",
+        "lien": "https://www.deezer.com/album/1143547551"
+      },
+      {
+        "titre": "LE VRAI DÉBARQUEMENT",
+        "type": "Album",
+        "annee": 2025,
+        "date": "2025-11-14",
+        "titres": 9,
+        "cover": "https://cdn-images.dzcdn.net/images/cover/ee51c955d3dd91500065e64f8cc697f1/250x250-000000-80-0-0.jpg",
+        "lien": "https://www.deezer.com/album/854884542"
+      },
+      {
+        "titre": "BUREAU DES PLAINTES",
+        "type": "Album",
+        "annee": 2025,
+        "date": "2025-05-23",
+        "titres": 8,
+        "cover": "https://cdn-images.dzcdn.net/images/cover/a448a5f6b2f95090dffc7409758e9f38/250x250-000000-80-0-0.jpg",
+        "lien": "https://www.deezer.com/album/758734581"
+      },
+      {
+        "titre": "FREE FOR ALL",
+        "type": "EP",
+        "annee": 2025,
+        "date": "2025-02-28",
+        "titres": 4,
+        "cover": "https://cdn-images.dzcdn.net/images/cover/d9fc0fa9f3f3c30e87ab9cd43f9b55d3/250x250-000000-80-0-0.jpg",
+        "lien": "https://www.deezer.com/album/715612261"
+      }
+    ],
+    "singles": [
+      {
+        "titre": "FIREWATCH",
+        "annee": 2025,
+        "date": "2025-02-19",
+        "lien": "https://www.deezer.com/album/713451651"
+      }
+    ]
+  },
+  {
+    "id": "jeunedoomer",
+    "nom": "Jeunedoomer",
+    "ajouteLe": "2026-11-17",
+    "description": "Artiste du rap FR émergent, repéré dans la PÉPITE'LIST de Pépite FR avec « FAUT SHOOT BURNS COMME MAGGIE » (2026).",
+    "tags": [
+      "émergent"
+    ],
+    "liens": {
+      "deezer": "https://www.deezer.com/fr/artist/247842722"
+    },
+    "planete": {
+      "type": "gazeuse",
+      "couleurs": [
+        "#2a7a6a",
+        "#4ac2a0",
+        "#c8ffe8"
+      ],
+      "taille": 3.2,
+      "relief": 1.7,
+      "atmosphere": "#e6fff6"
+    },
+    "projets": [
+      {
+        "titre": "R4",
+        "type": "EP",
+        "annee": 2025,
+        "date": "2025-11-29",
+        "titres": 4,
+        "cover": "https://cdn-images.dzcdn.net/images/cover/f7ad622d009d5dee2ba1d3fb0fb06547/250x250-000000-80-0-0.jpg",
+        "lien": "https://www.deezer.com/album/842795772"
+      }
+    ],
+    "singles": [
+      {
+        "titre": "Rwina",
+        "annee": 2024,
+        "date": "2024-08-11",
+        "featurings": [
+          "Badboyriri"
+        ],
+        "lien": "https://www.deezer.com/album/627773261"
+      }
     ]
   }
 ]

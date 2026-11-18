@@ -16,7 +16,7 @@ const norm = (s) =>
 
 export const byId = new Map(rappeurs.map((r) => [r.id, r]));
 const idByName = new Map(rappeurs.map((r) => [norm(r.nom), r.id]));
-const idByDeezer = new Map(Object.entries(liens).map(([rid, l]) => [l.deezerId, rid]));
+export const idByDeezer = new Map(Object.entries(liens).map(([rid, l]) => [l.deezerId, rid]));
 
 // adj : id -> Map(id -> [{ type, titre?, annee? }])
 const adj = new Map(rappeurs.map((r) => [r.id, new Map()]));
