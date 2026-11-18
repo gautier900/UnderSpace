@@ -140,7 +140,7 @@ Technologies : [Vite](https://vitejs.dev), [Three.js](https://threejs.org), Java
 
 ## 🌍 Publication
 
-Le site est publié automatiquement sur **GitHub Pages** à chaque `git push` sur la branche `main`, grâce à `.github/workflows/deploy.yml`.
+Le site est publié automatiquement sur **GitHub Pages** à chaque `git push` sur la branche `master`, grâce à `.github/workflows/deploy.yml`.
 
 **Mise à jour automatique :** chaque vendredi vers 6 h (heure de Paris), juste après les sorties de la nuit de jeudi à vendredi, GitHub récupère aussi les nouvelles sorties (`scripts/update-sorties.py`) et les featurings des nouveaux albums (`scripts/build-feats.py`), puis republie le site. Seule la version en ligne est mise à jour : pour mettre à jour ton fichier `rappeurs.json` en local, lance `npm run maj`.
 

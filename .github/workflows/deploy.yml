@@ -1,11 +1,11 @@
-# Publie UnderSpace sur GitHub Pages à chaque envoi (push) sur la branche main,
+# Publie UnderSpace sur GitHub Pages à chaque envoi (push) sur la branche master,
 # et chaque vendredi matin avec les nouvelles sorties des artistes (les sorties tombent dans la nuit de jeudi à vendredi).
 # Activation (une seule fois) : GitHub → Settings → Pages → Source : « GitHub Actions ».
 name: Publier sur GitHub Pages
 
 on:
   push:
-    branches: [main]
+    branches: [master]
   schedule:
     - cron: '0 5 * * 5' # chaque vendredi à 5 h UTC = 6 h à Paris en hiver (7 h en été) : nouvelles sorties puis republication
   workflow_dispatch: # permet aussi de lancer la publication à la main (onglet Actions)
